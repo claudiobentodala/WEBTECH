@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UM SONHO UMA REALIDADE</title>
+    <link rel="stylesheet" href="styles/estilo.css">
+    <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 709px)">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div id="logo">logo</div>
+        <span id="imenu" class="material-symbols-outlined" translate="no" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <nav>
+                <ul>
+                    <li><a href="#">pagina inicial</a>
+                    <li><a href="#">perguntas frequentes</a>
+                    <li><a href="#">sobre o evento</a>
+                    <li><a href="#">patrocinadores</a>
+                    <li><a href="#" id="inscreva">inscreva-se</a>
+                </ul>
+            </nav>
+        </menu>
+    </header>
+    <main>
+        <section id="intro"></section>
+        <section id="time"></section>
+        <section id="status"></section>
+        <section id="get"></section>
+        <section id="ora"></section>
+        <section id="patro"></section>
+    </main>
+    <footer></footer>
+    <script>
+        function mudouTamanho(){
+            if(window.innerWidth >= 699 ){
+                itens.style.display = 'flex'
+            } 
+            else{
+                itens.style.display = 'flex'
+            }
+        }
+        function clickMenu() {
+             if (itens.style.display == 'none') {
+                 itens.style.display = 'flex'
+            } 
+            else{
+                itens.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
