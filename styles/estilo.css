@@ -9,6 +9,7 @@
     --main_color: gray;
     --color1: white;
     --color2: black;
+    --color3: darkblue;
 }
 
 body{
@@ -29,7 +30,7 @@ header{
     padding: 5px;
 }
 /*NAV*/
-header > a > div#logo{
+header > a {
     align-self: flex-start;
     width: 65px;
     height: 50px;
@@ -70,7 +71,12 @@ header > menu > nav  a:hover{
 }
 /*CONTEUDO*/
 main{
-    padding: 0px 100px;
+    min-width: 300px;
+    max-width: 1080px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 0px 10px;
 }
 main > section#intro{
     display: grid;
