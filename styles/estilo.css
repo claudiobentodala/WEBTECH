@@ -75,4 +75,7 @@ main{
 main > section#intro{
     display: grid;
 }
+main > section#intro > div#img{
+    background-color: skyblue;
+}
 
