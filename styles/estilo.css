@@ -29,7 +29,7 @@ header{
     padding: 5px;
 }
 /*NAV*/
-header > div#logo{
+header > a > div#logo{
     align-self: flex-start;
     width: 65px;
     height: 50px;
@@ -54,7 +54,7 @@ header > menu > nav  a{
 
     border: 1px solid black ;
     color: var(--color2);
-
+    text-transform: capitalize;
     text-decoration: none;
     text-align: center;
 }
@@ -68,3 +68,11 @@ header > menu > nav  a:hover{
     transform:  translate(3%);
     transition: .4s ;
 }
+/*CONTEUDO*/
+main{
+    padding: 0px 100px;
+}
+main > section#intro{
+    display: grid;
+}
+

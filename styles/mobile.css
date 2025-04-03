@@ -5,11 +5,11 @@
 header, header > menu > nav{
     flex-flow: column nowrap;
 }
-header > div#logo{
+header > a > div#logo{
     width: 50px;
     height: 35px;
 }
-header > span#imenu{
+header >  span#imenu{
     display: flex;
     justify-content: center;
     align-content: center;
