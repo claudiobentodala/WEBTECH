@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root{}
+
+header, header > menu > nav{
+    flex-flow: column nowrap;
+}
+header > div#logo{
+    width: 50px;
+    height: 35px;
+}
+header > span#imenu{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    height: 30px;
+    width: 50vw;
+    border: 2px dotted black;
+}
+header > menu {
+    display: none;
+}
+header > menu > nav a{
+    width: 95vw;
+}
+header > menu > nav  a:hover{
+    background-color: none;
+    color: none;
+    transform:  none;
+    transition: none ;
+}
+

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main_color: gray;
+    --color1: white;
+    --color2: black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+    background-color: var(--main_color);
+    padding: 5px;
+}
+/*NAV*/
+header > div#logo{
+    align-self: flex-start;
+    width: 65px;
+    height: 50px;
+    color: white;/*POR ENQUANTO*/
+    border: 2px dotted black;
+}
+header > menu > nav{
+    display: flex;
+    flex-flow: row wrap ;
+    align-items: center;
+}
+header > span#imenu{
+    display: none;
+}
+header > menu > nav  li{
+    display: inline-flex;
+}
+header > menu > nav  a{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+
+    border: 1px solid black ;
+    color: var(--color2);
+
+    text-decoration: none;
+    text-align: center;
+}
+header > menu > nav  a#inscreva{
+    background-color: var(--color2);
+    color: var(--color1);
+}
+header > menu > nav  a:hover{
+    background-color: var(--color2);
+    color: var(--color1);
+    transform:  translate(3%);
+    transition: .4s ;
+}
