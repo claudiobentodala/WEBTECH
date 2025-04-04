@@ -30,4 +30,14 @@ header > menu > nav  a:hover{
     transform:  none;
     transition: none ;
 }
-
+/* CONTAINER FLEX*/
+main > section#intro{
+    flex-flow: column nowrap;
+    height: 500px;
+}
+main > section#intro div#img{
+    flex-basis: 57%;
+}
+main > section#intro #o{
+    flex-basis: 43%;
+}

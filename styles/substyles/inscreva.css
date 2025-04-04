@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    width: 100vw;
+    background-image: url(../../image/increva-back.jpg);
+}
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 40vw;
+    background-color: #80808056;
+    border-radius: 25px 0px;
+    padding: 20px;
+    margin: auto;
+}
+main > section {
+}
+main  article{
+    margin: auto;
+    margin: 15px;
+}
