@@ -36,8 +36,33 @@ main > section#intro{
     height: 500px;
 }
 main > section#intro div#img{
-    flex-basis: 57%;
+    flex-basis: 70%;
 }
-main > section#intro #o{
-    flex-basis: 43%;
+main > section#intro #text{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    flex-basis: 30%;
+    padding: 25px;
+}
+main > section#intro #text > h1{
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+main > section#get > h2 {
+    font-size: 20px;
+}
+main > section#ora > article {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+main > section#ora article{
+    gap: 20px;
+}
+main > section#ora div {
+    width: 50%;
+}main > section#ora img {
+    width: 100%;
 }

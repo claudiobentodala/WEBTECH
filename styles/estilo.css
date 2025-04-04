@@ -79,18 +79,110 @@ main{
     padding: 0px 10px;
 }
 /* CONTAINER FLEX*/
+/*INTRODUCION*/
 main > section#intro{
     display: flex;
     flex-flow: row wrap;
     height: 400px;
     justify-content: space-evenly;
-    background-color: blue;
 }
 main > section#intro div#img{
     flex: 1 1 400px;
-    background-color: purple;
+    border: 1px dotted black;
 }
-main > section#intro #o{
+main > section#intro #text{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     flex:1 1 400px;
+    padding: 50px;
+    border: 1px dotted black;
+}
+
+/*TIME*/
+main > section#time > h2{
+    text-align: center;
+    padding: 15px 0px;
+}
+main > section#time > article{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+main > section#time > article > div{
+    flex-basis: 200px;
+    text-align: center;
+    height: 200px;
+    background-color: #3e3edd;
+}
+main > section#time > article > div > p{
+    font-size: 7.5em;
+}
+/*STATUS*/
+main > section#status,section#time {
     background-color: yellow;
+    margin: 20px 0px;
+}
+main > section#status > h2{
+    text-align: center;
+    padding: 15px 0px;
+}
+main > section#status > article{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+main > section#status > article > div{
+    flex-basis: 200px;
+    text-align: center;
+    font-weight: bolder;
+    height: 200px;
+    background-color: #3e3edd;
+}
+main > section#status > article > div > p{
+    font-size: 7.5em;
+}
+/*SE INSCREVA*/
+main > section#get {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: yellow;
+    margin: 10px 0px;
+    padding: 20px 15px;
+}
+main > section#get h2 {
+    margin-bottom: 10px;
+
+}
+/*ORADORES*/
+main > section#ora{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: yellow;
+}
+main > section#ora h2{
+    padding: 10px 5px;
+    text-align: center;
+}
+main > section#ora article{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background-color: red;
+}
+main > section#ora div {
+    background-color: purple;
+    padding: 20px;
+    flex: 0 1 auto;
+}
+main > section#ora img {
+    width: 250px;
+    border-radius: 50%;
+}
+main > section#ora p {
+    text-align: center;
 }
