@@ -110,7 +110,7 @@ main > section#time > article{
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
+    gap: 15px 0px; 
 }
 main > section#time > article > div{
     flex-basis: 200px;
@@ -135,7 +135,7 @@ main > section#status > article{
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 15px 0px;
 }
 main > section#status > article > div{
     flex-basis: 200px;
@@ -185,7 +185,7 @@ main > section#ora article{
     align-items: center;
     justify-content: space-evenly;
     background-color: red;
-    gap: 15px;
+    gap: 15px 0px;
 }
 main > section#ora div {
     background-color: purple;
@@ -214,10 +214,14 @@ main > section#patro > article{
     align-items: center;
     justify-content: space-evenly;
     background-color: purple;
-    gap: 15px;
+    gap: 15px 0px;
 }
 main > section#patro > a{
     text-align: center;
+    background-color: red;
+    width: 70px;
+    /*TODOS LINKS FLEX DESTA FORMA*/
+    align-self: center;
 }
 
 /*FOOTER*/

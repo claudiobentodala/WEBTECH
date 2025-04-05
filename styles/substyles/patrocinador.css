@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+main{
+    text-align: center;
+    width: 80vw;
+    background-color: red;
+    padding: 20px 0px;
+}
+main > h1{
+    font-size: 17px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+main > section#patrocinador {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+main > section#patrocinador > article {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 20px 0px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+main > section#patrocinador > article > a{
+    align-self: center;
+    background-color: green;
+    padding: 10px 0px;
+    width: 100px;
+    text-align: center;
+}
