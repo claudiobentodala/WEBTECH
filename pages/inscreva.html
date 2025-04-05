@@ -33,63 +33,82 @@
             </nav>
         </menu>
     </header>
-    <h1>cadastro</h1>
     <main>
         <section>
             <form action="#" method="get">
-                    <fieldset>
-                        <legend>dados pessoais/projecto</legend>
-                        <article>
-                            <label for="iname_main"><span id="iconc" translate="no">user</span></label>
-                            <input type="text" name="name_main" id="iname_main">
-                        </article>
-                        <article>
-                            <label for="iemail"><span id="iconc" translate="no">mail</span></label>
-                            <input type="email" name="email" id="iemail">
-                        </article>
-                        <article>
-                            <div>
-                                <label for="iclasse"><span id="iconc" translate="no">classe</span></label>
-                                <select name="classe" id="iclasse">
-                                    <option value="10" selected>10ª</option>
-                                    <option value="11">11ª</option>
-                                    <option value="12">12ª</option>
-                                    <option value="13">13ª</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label for="iturma"><span id="iconc" translate="no">turma</span></label>
-                                <select name="turma" id="iturma">
-                                    <option value="a">A</option>
-                                    <option value="b">B</option>
-                                    <option value="c">C</option>
-                                    <option value="d">D</option>
-                                    <option value="e">E</option>
-                                </select>
-                            </div>
-                        </article>
-                        <article>
-                            <label for="icurso"><span id="iconc" translate="no">curso</span></label>
-                            <select name="curso" id="icurso">
-                                <option value="inf">informática</option>
-                                <option value="cons">construção civil</option>
-                                <option value="contgest">contabílidade e gestão</option>
+                <div id="head">
+                    <h1>cadastra-se</h1>
+                    <p>estás preparado!</p>
+                </div>
+                    <article class="box">
+                        <label for="iname_main"><span id="iconc" translate="no">user</span></label>
+                        <input type="text" name="name_main" id="iname_main">
+                    </article>
+                    <article class="box">
+                        <label for="iemail"><span id="iconc" translate="no">mail</span></label>
+                        <input type="email" name="email" id="iemail">
+                    </article>
+                        <article class="box">
+                            <label for="iclasse"><span id="iconc" translate="no">classe</span></label>
+                            <select name="classe" id="iclasse">
+                                <option value="10" selected>10ª</option>
+                                <option value="11">11ª</option>
+                                <option value="12">12ª</option>
+                                <option value="13">13ª</option>
+                            </select>
+                            <label for="iturma"><span id="iconc" translate="no">turma</span></label>
+                            <select name="turma" id="iturma">
+                                <option value="a">A</option>
+                                <option value="b">B</option>
+                                <option value="c">C</option>
+                                <option value="d">D</option>
+                                <option value="e">E</option>
                             </select>
                         </article>
-                    </fieldset>
+                    <article class="box">
+                        <label for="icurso"><span id="iconc" translate="no">curso</span></label>
+                        <select name="curso" id="icurso">
+                            <option value="inf">informática</option>
+                            <option value="cons">construção civil</option>
+                            <option value="contgest">contabílidade e gestão</option>
+                        </select>
+                    </article>
                     <article>
                         <fieldset>
                             <legend>tipo de participante</legend>
                             <input type="radio" name="tipo" id="iexpo" value="expositor">
-                            <label for="iexpo">expositor</label>
+                            <label for="iexpo" onclick="clickExpo()">expositor</label>
                             <input type="radio" name="tipo" id="itur" value="turista">
                             <label for="itur">turista</label>
+                        </fieldset>
+                    </article>
+                    <article id="add">
+                        <fieldset>
+                            <legend>projecto</legend>
+                            <article class="box" >
+                                <label for="icurso"><span id="iconc" translate="no">tipo</span></label>
+                                <select name="curso" id="icurso">
+                                    <option value="inf">empresa</option>
+                                    <option value="cons">solução</option>
+                                    <option value="contgest">site</option>
+                                </select>
+                                <textarea name="desc" id="idesc" placeholder="desxreve o seu projecto aqui" cols="30" rows="10"></textarea>
+                            </article>
                         </fieldset>
                     </article>
                     <input type="submit" value="Enviar" id="enviar">
                 </form>
             </section>
         </main>
-    <script src="../scripts/script.js"></script>
+    <script src="../scripts/script.js">
+        function clickExpo() {
+     if (add.style.display == 'none') {
+         add.style.display = 'block'
+    } 
+    else{
+        itens.style.display = 'none'
+    }
+}
+    </script>
 </body>
 </html>

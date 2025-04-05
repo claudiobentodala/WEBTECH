@@ -2,22 +2,59 @@
 
 body{
     width: 100vw;
-    background-image: url(../../image/increva-back.jpg);
+    height: 100vh;
 }
-main {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 40vw;
-    background-color: #80808056;
-    border-radius: 25px 0px;
-    padding: 20px;
+main{
+    width: 50vw;
+    height: 100vh;
+    background-color: skyblue;
+}
+main > section{
+    display: block;
+    margin: auto;
+    background-color: #80808071;
+    width: 500px;
+}
+main > section > form{
+    padding: 15px 50px;
+}
+main > section > form h1,p{
+    text-align: center;
+}
+main > section > form > article{
+    padding: 10px;
+    background-color: #5454e4;
+    margin: 10px auto;
+    max-width: 280px;
+    min-width: 100px;
+}
+main > section > form  input#iemail,input#iname_main,select#icurso{
+    max-width: 100%;
+    min-width: 40%;
+}
+main > section > form  input#iemail,input#iname_main{
+    outline: 1px solid black;
+}
+main  textarea#idesc{
+    max-width: 150px;
+    min-width: 150px;
+    max-height: 115px;
+    min-height: 115px;
+    display: block;
+    margin: 10px auto;
+}
+main article#add{
+    display: block;
+}
+main > section > form > input#enviar{
+    padding: 5px;
+    display: block;
     margin: auto;
 }
-main > section {
-}
-main  article{
-    margin: auto;
-    margin: 15px;
+
+@media screen  and (max-width: 675px) {
+    main > section{
+        width: 85vw;
+    }
+    
 }

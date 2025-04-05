@@ -219,3 +219,12 @@ main > section#patro > article{
 main > section#patro > a{
     text-align: center;
 }
+
+/*FOOTER*/
+footer{
+    background-color: var(--main_color);
+    padding: 10px;
+}
+footer > p{
+    text-align: center;
+}
