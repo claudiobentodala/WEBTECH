@@ -108,7 +108,8 @@ main > section#time > h2{
 main > section#time > article{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     gap: 10px;
 }
 main > section#time > article > div{
@@ -132,7 +133,8 @@ main > section#status > h2{
 main > section#status > article{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
     gap: 10px;
 }
 main > section#status > article > div{
@@ -156,7 +158,7 @@ main > section#get {
 }
 main > section#get h2 {
     margin-bottom: 10px;
-
+    
 }
 /*ORADORES*/
 main > section#ora{
@@ -168,21 +170,52 @@ main > section#ora h2{
     padding: 10px 5px;
     text-align: center;
 }
+/*main > section#patro > article{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: purple;
+    gap: 15px;
+    align-items: center;
+    }*/
 main > section#ora article{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    align-items: center;
     justify-content: space-evenly;
     background-color: red;
+    gap: 15px;
 }
 main > section#ora div {
     background-color: purple;
     padding: 20px;
-    flex: 0 1 auto;
 }
 main > section#ora img {
     width: 250px;
     border-radius: 50%;
 }
 main > section#ora p {
+    text-align: center;
+}
+/*PATROCINADORES*/
+main > section#patro{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 15px;
+    background-color: yellow;
+}
+main > section#patro > h2{
+    text-align: center;
+}
+main > section#patro > article{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: purple;
+    gap: 15px;
+}
+main > section#patro > a{
     text-align: center;
 }

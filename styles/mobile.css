@@ -2,6 +2,7 @@
 
 :root{}
 
+/*HEADER*/
 header, header > menu > nav{
     flex-flow: column nowrap;
 }
@@ -30,7 +31,7 @@ header > menu > nav  a:hover{
     transform:  none;
     transition: none ;
 }
-/* CONTAINER FLEX*/
+/*INTRODUÇÃO*/
 main > section#intro{
     flex-flow: column nowrap;
     height: 500px;
@@ -50,9 +51,12 @@ main > section#intro #text > h1{
     font-weight: bolder;
 }
 
+/*INSCREVA-SE*/
 main > section#get > h2 {
     font-size: 20px;
 }
+
+/*ORADORES*/
 main > section#ora > article {
     display: flex;
     flex-flow: column wrap;
@@ -65,4 +69,8 @@ main > section#ora div {
     width: 50%;
 }main > section#ora img {
     width: 100%;
+}
+/*PATROCINADORES*/
+main > section#patro > article{
+    gap: 30px;
 }
