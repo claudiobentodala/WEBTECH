@@ -15,7 +15,7 @@ main > section.sobre div.img_left{
     float: left;
 }
 main > section.sobre div.img_rigth{
-    background-color: skyblue;
+    background-color: rgb(40, 87, 105);
     float: right;
 }
 /*TITULO E DESCRIÇÃO*/
