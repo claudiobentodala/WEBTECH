@@ -85,3 +85,6 @@ main > section#ora img {
 main > section#patro > article{
     gap: 30px;
 }
+main > h1#patrocinador{ /*PAGINA*/
+    font-size: 17px;
+}

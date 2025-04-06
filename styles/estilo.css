@@ -19,6 +19,7 @@ body{
     width: 98.9vw;
 }
 
+/*HEADER*/
 header{
     display: flex;
     flex-flow: row wrap;
@@ -28,6 +29,11 @@ header{
     color: white;
     background-color: var(--main_color);
     padding: 5px;
+}
+
+header > a {
+    height: 100%;
+    background-image: linear-gradient(  to top ,lightblue , skyblue, blue, darkblue);
 }
 /*NAV*/
 header > a {

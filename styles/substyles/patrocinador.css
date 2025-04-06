@@ -5,9 +5,11 @@ main{
     width: 80vw;
     background-color: red;
     padding: 20px 0px;
+    border-radius: 30px;
 }
 main > h1{
-    font-size: 17px;
+    padding-top: 30px;
+    font-size: 25px;
     font-weight: bolder;
     margin-bottom: 20px;
 }
@@ -17,14 +19,15 @@ main > section#patrocinador {
     align-items: center;
     align-content: center;
     justify-content: space-evenly;
-    gap: 15px;
+    column-gap: 15px;
 }
 main > section#patrocinador > article {
     display: flex;
     flex-flow: column nowrap;
     padding: 20px 0px;
-    background-color: aqua;
     border-radius: 20px;
+    margin: 25px 0px;
+    background-color: aqua;
 }
 main > section#patrocinador > article > a{
     align-self: center;

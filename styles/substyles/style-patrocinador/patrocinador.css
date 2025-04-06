@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+main > section.patrocinador_content > img{
+    display: block;
+    margin: auto;
+    padding: 30px 0px;
+}
+main > section.patrocinador_content > article{
+    background-color: skyblue;
+    padding: 30px;
+    border-radius: 30px;
+}
