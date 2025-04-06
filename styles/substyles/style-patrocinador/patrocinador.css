@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+header > a > span{
+    font-size: 28px;
+}
 main > section.patrocinador_content > img{
     display: block;
     margin: auto;

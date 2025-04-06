@@ -6,10 +6,10 @@
 }
 
 :root{
-    --main_color: gray;
-    --color1: white;
-    --color2: black;
-    --color3: darkblue;
+    --main_color: #512dbb;
+    --color1: #bb8bd8;
+    --color2: #020235;
+    --color3: #0324a1;
 }
 
 body{

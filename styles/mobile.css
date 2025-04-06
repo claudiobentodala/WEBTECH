@@ -1,8 +1,17 @@
 @charset "UTF-8";
 
-:root{}
+:root{
+    --main_color: gray;
+    --color1: white;
+    --color2: black;
+    --color3: darkblue;
+}
+
 
 /*HEADER*/
+header{
+    width: 80vh;
+}
 header, header > menu > nav{
     flex-flow: column nowrap;
 }
@@ -14,7 +23,7 @@ header >  span#imenu{
     display: flex;
     justify-content: center;
     align-content: center;
-
+    
     height: 30px;
     width: 50vw;
     border: 2px dotted black;
@@ -32,9 +41,6 @@ header > menu > nav  a:hover{
     transition: none ;
 }
 /*INTRODUÇÃO*/
-main > section#intro{
-
-}
 main > section#intro div#img{
     float: top;
     width: 100%;
@@ -65,6 +71,11 @@ main.increva_main{ /*PAGINA*/
     height: 100vh;
     background-color: green;
 }
+main.increva_main{
+    padding-top: 20px;
+    height: 100vh;
+    background-image: url(../../image/banner-1.jpg);
+}
 
 /*ORADORES*/
 main > section#ora > article {
@@ -87,4 +98,9 @@ main > section#patro > article{
 }
 main > h1#patrocinador{ /*PAGINA*/
     font-size: 17px;
+}
+
+/*FOOTER*/
+footer{
+    width: 80vh;
 }
