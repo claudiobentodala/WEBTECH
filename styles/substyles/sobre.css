@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+main > section{
+    height: 450px;
+    margin-bottom: 30px;
+    background-color: red;
+}
+/*IMAGEM*/
+main > section.sobre div{   
+    width: 55%;
+    height: 100%;
+}
+main > section.sobre div.img_left{
+    background-color: blue;
+    float: left;
+}
+main > section.sobre div.img_rigth{
+    background-color: skyblue;
+    float: right;
+}
+/*TITULO E DESCRIÇÃO*/
+main > section.sobre article{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    width: 45%;
+    height: 100%;
+}
+main > section.sobre article.content_rigth{
+    background-color: green;
+    float: right;
+}
+main > section.sobre article.content_left{
+    background-color: rgb(73, 151, 73);
+    float: left;
+}

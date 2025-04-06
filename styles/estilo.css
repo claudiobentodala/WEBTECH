@@ -78,26 +78,29 @@ main.principal{
     margin-bottom: 25px;
     padding: 0px 10px;
 }
-/* CONTAINER FLEX*/
 /*INTRODUCION*/
 main > section#intro{
-    display: flex;
-    flex-flow: row wrap;
-    height: 400px;
-    justify-content: space-evenly;
+    height: 450px;
+    margin-bottom: 30px;
+    background-color: red;
+
 }
 main > section#intro div#img{
-    flex: 1 1 400px;
-    border: 1px dotted black;
+    background-color: blue;
+    float: left;
+    width: 55%;
+    height: 100%;
+
 }
-main > section#intro #text{
+main > section#intro article#text{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    align-items: center;
-    flex:1 1 400px;
-    padding: 50px;
-    border: 1px dotted black;
+    height: 100%;
+    background-color: green;
+}
+main > section#intro article#text h1,p,a{
+    text-align: center;
 }
 
 /*TIME*/
