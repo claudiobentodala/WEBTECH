@@ -70,7 +70,7 @@ header > menu > nav  a:hover{
     transition: .4s ;
 }
 /*CONTEUDO*/
-main{
+main.principal{
     min-width: 300px;
     max-width: 1080px;
     margin: auto;

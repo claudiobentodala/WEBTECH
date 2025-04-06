@@ -3,8 +3,10 @@
 body{
     width: 100vw;
     height: 100vh;
+    background-color: red;
 }
-main{
+main.increva_main{
+    background-color: green;
 }
 main > section >form {
     display: block;

@@ -55,6 +55,10 @@ main > section#intro #text > h1{
 main > section#get > h2 {
     font-size: 20px;
 }
+main.increva_main{ /*PAGINA*/
+    height: 100vh;
+    background-color: green;
+}
 
 /*ORADORES*/
 main > section#ora > article {
