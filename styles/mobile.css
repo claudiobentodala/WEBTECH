@@ -1,13 +1,5 @@
 @charset "UTF-8";
 
-:root{
-    --main_color: gray;
-    --color1: white;
-    --color2: black;
-    --color3: darkblue;
-}
-
-
 /*HEADER*/
 header, header > menu > nav{
     flex-flow: column nowrap;
@@ -96,6 +88,10 @@ main > section#ora div {
 main > section#ora img {
     width: 100%;
 }
+main > section#ora p {
+    font-size: 13px;
+}
+
 /*PATROCINADORES*/
 main > section#patro > article{
     gap: 30px;

@@ -6,8 +6,9 @@
 }
 
 :root{
-    --main_color: #512dbb;
-    --color1: #bb8bd8;
+    --main_color: #3e3edd;
+    --second_color: skyblue;
+    --color1: #ffffff;
     --color2: #020235;
     --color3: #0324a1;
     --font-main: monospace;
@@ -60,9 +61,10 @@ header > menu > nav  a{
     padding: 10px;
     margin: 5px;
     border-radius: 8px;
-    
     border: 1px solid black ;
-    color: var(--color2);
+    color: var(--main_color);
+    font-weight: bold;
+    background-color: var(--color2);
     text-transform: capitalize;
     text-decoration: none;
     text-align: center;
@@ -115,6 +117,7 @@ main > section#intro article#text{
 main > section#intro article#text h1{
     font-size: 33px;
     font-weight: bolder;
+    text-transform: uppercase;
     margin-bottom: 5px;
     font-family: var(--font-main);
 }
@@ -130,16 +133,19 @@ main > section#intro article#text a{
     text-transform: capitalize;
     color: var(--color2);
     width: 120px;
-    background-color: skyblue;
+    background-color: var(--second_color);
 }
 main > section#intro article#text a:hover{
     transform: translate(4%);
     transition: .3s;
 }
 
-main > section#intro p,h1,a{
+main > section#intro h1,a{
     text-align: center;
-    color: skyblue;
+    color: var(--second_color);
+}
+main > section#intro {
+    text-align: center;
 }
 
 /*TIME*/
@@ -149,6 +155,7 @@ main > section#time > h2{
     text-align: center;
     text-transform: capitalize;
     padding: 15px 0px;
+    color: var(--second_color);
 }
 main > section#time > article{
     display: flex;
@@ -177,6 +184,9 @@ main > section#status,section#time {
 }
 /*STATUS*/
 main > section#status > h2{
+    font-size: 26px;
+    color: var(--second_color);
+    font-family: var(--font-main);
     text-transform: capitalize;
     text-align: center;
     padding: 15px 0px;
@@ -189,6 +199,7 @@ main > section#status > article{
     gap: 15px 0px;
 }
 main > section#status > article > div{
+    font-family: var(--font-main);
     text-transform: capitalize;
     border: 6px solid #020242;
     flex-basis: 200px;
@@ -196,59 +207,89 @@ main > section#status > article > div{
     font-weight: bolder;
     border-radius: 35px;
     height: 200px;
+    font-size: 18px;
 }
 main > section#status > article > div > p{
-    font-size: 7.5em;
+    font-size: 6.5em;
 }
 /*SE INSCREVA*/
 main > section#get {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    background-color: yellow;
+    background-color: var(--main_color);
+    border-radius: 35px;
     margin: 10px 0px;
-    padding: 20px 15px;
+    padding: 35px 25px;
 }
 main > section#get h2 {
     margin-bottom: 10px;
-    
+    font-family: var(--font-main);
+    font-size: 2em;
+    text-transform: uppercase;
+    color: var(--second_color);
 }
+main > section#get p{
+    margin: auto;
+    padding: 10px 5px;
+    width: 90%;
+}
+main > section#get a{
+    align-self: center;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: var(--font-main);
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--color2);
+    width: 120px;
+    background-color: var(--second_color);
+}
+main > section#get a:hover{
+    transform: translate(4%);
+    transition: .3s;
+}
+
 /*ORADORES*/
 main > section#ora{
     display: flex;
     flex-flow: column nowrap;
-    background-color: yellow;
+    border-radius: 35px;
+    background-color: var(--main_color);
 }
 main > section#ora h2{
+    font-family: var(--font-main);
+    color: var(--second_color);
     padding: 10px 5px;
     text-align: center;
+    font-size: 27px;
+    text-transform: capitalize;
 }
-/*main > section#patro > article{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: purple;
-    gap: 15px;
-    align-items: center;
-    }*/
 main > section#ora article{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-evenly;
-    background-color: red;
     gap: 15px 0px;
 }
 main > section#ora div {
-    background-color: purple;
+    background-color: var(--second_color);
+    border-radius: 35px;
     padding: 20px;
+    margin-bottom: 20px;
 }
 main > section#ora img {
     width: 250px;
     border-radius: 50%;
 }
 main > section#ora p {
+    font-family: var(--font-main);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
     text-align: center;
 }
 /*PATROCINADORES*/
@@ -256,25 +297,42 @@ main > section#patro{
     display: flex;
     flex-flow: column wrap;
     margin-top: 15px;
-    background-color: yellow;
+    background-color: var(--main_color);
+    padding: 15px 30px 30px 30px;
+    border-radius: 35px;
 }
 main > section#patro > h2{
+    font-family: var(--font-main);
+    font-size: 27px;
     text-align: center;
+    text-transform: capitalize;
+    color: var(--second_color);
 }
 main > section#patro > article{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-evenly;
-    background-color: purple;
     gap: 15px 0px;
 }
 main > section#patro > a{
     text-align: center;
-    background-color: red;
-    width: 70px;
-    /*TODOS LINKS FLEX DESTA FORMA*/
     align-self: center;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: var(--font-main);
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--color2);
+    width: 120px;
+    background-color: var(--second_color);
+}
+main > section#patro > a:hover{
+    transform: translate(4%);
+    transition: .3s;
 }
 
 /*FOOTER*/
