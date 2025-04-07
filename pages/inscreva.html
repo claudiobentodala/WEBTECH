@@ -29,22 +29,22 @@
             <form action="#" method="post">
                     <article class="box">
                         <label for="iname_main"><span id="iconc" translate="no">user</span></label>
-                        <input type="text" name="name_main" id="iname_main">
+                        <input type="text" name="name_main" id="iname_main" required>
                     </article>
                     <article class="box">
                         <label for="iemail"><span id="iconc" translate="no">mail</span></label>
-                        <input type="email" name="email" id="iemail">
+                        <input type="email" name="email" id="iemail" required>
                     </article>
                         <article class="box">
                             <label for="iclasse"><span id="iconc" translate="no">classe</span></label>
-                            <select name="classe" id="iclasse">
+                            <select name="classe" id="iclasse" required>
                                 <option value="10" selected>10ª</option>
                                 <option value="11">11ª</option>
                                 <option value="12">12ª</option>
                                 <option value="13">13ª</option>
                             </select>
                             <label for="iturma"><span id="iconc" translate="no">turma</span></label>
-                            <select name="turma" id="iturma">
+                            <select name="turma" id="iturma" required>
                                 <option value="a">A</option>
                                 <option value="b">B</option>
                                 <option value="c">C</option>
@@ -63,7 +63,7 @@
                     <article class="other">
                         <fieldset>
                             <legend class="apenas">tipo de participante</legend>
-                            <label for="iexpo" class="apenas" onclick="clickExpo()">expositor</label>
+                            <label for="iexpo" class="apenas">expositor</label>
                             <input type="radio" name="tipo" id="iexpo" value="expositor">
                             <label for="itur" class="apenas">turista</label>
                             <input type="radio" name="tipo" id="itur" value="turista">
@@ -79,7 +79,7 @@
                                     <option value="cons">Solução</option>
                                     <option value="contgest">Site</option>
                                 </select>
-                                <textarea name="desc" id="idesc" placeholder="descreve seu projecto" cols="30" rows="10"></textarea>
+                                <textarea name="desc" id="idesc" placeholder="descreve seu projecto" cols="30" rows="10" minlength="50" maxlength="220" required></textarea>
                             </article>
                         </fieldset>
                     </article>
@@ -87,15 +87,6 @@
                 </form>
             </section>
         </main>
-    <script src="../scripts/script.js">
-        function clickExpo() {
-     if (add.style.display == 'none') {
-         add.style.display = 'block'
-    } 
-    else{
-        itens.style.display = 'none'
-    }
-}
-    </script>
+    <script src="../scripts/script.js"></script>
 </body>
 </html>

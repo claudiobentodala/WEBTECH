@@ -26,8 +26,9 @@ main > section.sobre article{
     height: 100%;
 }
 main > section.sobre article > h2{
+    text-transform: uppercase;
     font-family: var(--font-main);
-    font-size: 30px;
+    font-size: 23px;
     color: var(--second_color);
     text-align: center;
     margin-bottom: 15px;

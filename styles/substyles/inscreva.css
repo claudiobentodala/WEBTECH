@@ -83,7 +83,9 @@ main  textarea#idesc{
     min-height: 148px;
     display: block;
     margin: 10px auto;
-    font-size: 17px;
+    font-size: 15px;
+    padding: 0px 3px;
+    background-color: var(--color1);
 }
 
 article.other  legend,label{
