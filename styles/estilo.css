@@ -17,8 +17,15 @@
     --radius: 35px;
 }
 
+header > a{/* AREA do logo depis apagar quandometer background-image */
+    font-size: 20px;
+    color: white;
+    border: 2.5px dotted black;
+    background-color: #020235;
+}
+
 body{
-    background-color: skyblue;
+    background-color: #b1d9ff;
     height: 100vh;
     width: 98.9vw;
 }
@@ -36,17 +43,12 @@ header{
     width: 100%;
 }
 
-header > a {
-    height: 100%;
-    background-image: linear-gradient(  to top ,lightblue , skyblue, blue, darkblue);
-}
 /*NAV*/
 header > a {
+    height: 100%;
     align-self: flex-start;
-    width: 65px;
-    height: 50px;
-    color: white;/*POR ENQUANTO*/
-    border: 2px dotted black;
+    width: 75px;
+    height: 60px;
 }
 header > menu > nav{
     display: flex;
@@ -55,6 +57,12 @@ header > menu > nav{
 }
 header > span#imenu{
     display: none;
+    justify-content: center;
+    align-content: center;
+    
+    height: 30px;
+    width: 50vw;
+    color: var(--second_color);
 }
 header > menu > nav  li{
     display: inline-flex;
@@ -63,18 +71,22 @@ header > menu > nav  a{
     padding: 10px;
     margin: 5px;
     border-radius: 8px;
-    border: 1px solid black ;
     color: var(--main_color);
-    font-weight: bold;
+    font-size: 16px;
     font-family: var(--font-second);
     background-color: var(--color2);
     text-transform: capitalize;
     text-decoration: none;
     text-align: center;
 }
+header > menu > nav  a#activo{
+    background-color: var(--color3);
+    color: var(--color2);
+    border: 2.5px solid var(--color2);
+}
 header > menu > nav  a#inscreva{
-    background-color: var(--color2);
-    color: var(--color1);
+    background-color: var(--second_color);
+    color: var(--color2);
 }
 header > menu > nav  a:hover{
     background-color: var(--color2);

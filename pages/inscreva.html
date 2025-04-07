@@ -9,15 +9,9 @@
     <link rel="stylesheet" href="../styles/mobile.css" media="screen and (max-width: 709px)">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
 </head>
-<style>
-    header > menu > nav  a#inscreva{
-        background-color: var(--color3);
-        color: var(--color1);
-    }
-</style>
-<body onresize="mudouTamanho()">
+<body onresize="mudouTamanho()" id="ins">
     <header>
-        <a href="../index.html"><div id="logo"></div></a>
+        <a href="../index.html"><div id="logo">logo</div></a>
         <span id="imenu" class="material-symbols-outlined" translate="no" onclick="clickMenu()">menu</span>
         <menu id="itens">
             <nav>
@@ -61,35 +55,35 @@
                     <article class="box">
                         <label for="icurso"><span id="iconc" translate="no">curso</span></label>
                         <select name="curso" id="icurso">
-                            <option value="cons">construção civil</option>
-                            <option value="contgest">contabílidade e gestão</option>
-                            <option value="inf">informática</option>
+                            <option value="cons">Construção Civil</option>
+                            <option value="contgest">Contabílidade e Gestão</option>
+                            <option value="inf">Informática</option>
                         </select>
                     </article>
                     <article class="other">
                         <fieldset>
-                            <legend>tipo de participante</legend>
+                            <legend class="apenas">tipo de participante</legend>
+                            <label for="iexpo" class="apenas" onclick="clickExpo()">expositor</label>
                             <input type="radio" name="tipo" id="iexpo" value="expositor">
-                            <label for="iexpo" onclick="clickExpo()">expositor</label>
+                            <label for="itur" class="apenas">turista</label>
                             <input type="radio" name="tipo" id="itur" value="turista">
-                            <label for="itur">turista</label>
-                        </fieldset>
+                        </fieldset> 
                     </article>
                     <article class="other" id="add">
                         <fieldset>
-                            <legend>projecto</legend>
+                            <legend class="apenas">projecto</legend>
                             <article class="box" >
                                 <label for="itipo"><span id="iconc" translate="no">tipo</span></label>
                                 <select name="tipo" id="itipo">
-                                    <option value="inf">empresa</option>
-                                    <option value="cons">solução</option>
-                                    <option value="contgest">site</option>
+                                    <option value="inf">Empresa</option>
+                                    <option value="cons">Solução</option>
+                                    <option value="contgest">Site</option>
                                 </select>
                                 <textarea name="desc" id="idesc" placeholder="descreve seu projecto" cols="30" rows="10"></textarea>
                             </article>
                         </fieldset>
                     </article>
-                    <input type="submit" value="Enviar" id="ienviar">
+                    <input type="submit" value="enviar" id="ienviar">
                 </form>
             </section>
         </main>

@@ -22,12 +22,6 @@ header > a > div#logo{
 }
 header >  span#imenu{
     display: flex;
-    justify-content: center;
-    align-content: center;
-    
-    height: 30px;
-    width: 50vw;
-    border: 2px dotted black;
 }
 header > menu {
     display: none;
@@ -93,6 +87,11 @@ main > section.sobre article > p{
 }
 
 /*INSCREVA-SE*/
+body#ins{
+    background-image: url(../../image/banner-1-mobile.jpg);
+    background-position: left bottom;
+}
+
 main > section#get > h2 {
     font-size: 20px;
 }

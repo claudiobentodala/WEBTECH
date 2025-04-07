@@ -1,9 +1,23 @@
 @charset "UTF-8";
 
+:root{
+    --main_color: #3e3edd;
+    --second_color: skyblue;
+    --color1: #ffffff;
+    --color2: #020235;
+    --color3: #0324a1;
+    --font-main: monospace;
+    --font-second: Arial, Helvetica, sans-serif;
+    --espaço: 25px;
+    --radius: 35px;
+}
+
 body{
     width: 100vw;
     height: 100vh;
     background-image: url(../../image/banner-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 main.increva_main{
     padding: 20px 0px;
@@ -14,21 +28,21 @@ main > section >form {
     margin: auto;
     width: 450px;
     background-color: #80808088;
-    border-radius: 30px;
-    padding: 20px 0px; /*causa rolagem lateral*/
+    border-radius: var(--radius);
+    padding: 20px 0px;
 }
 span#iconc{
-    color: skyblue;
+    color: var(--second_color);
     margin: 0px 5px;
 }
 /*CAIXA ENBUTIDA*/
 main > section > form > article{
     padding: 15px;
     margin: 10px auto;
-    border-radius: 10px;
+    border-radius: 15px;
     max-width: 280px;
     min-width: 100px;
-    background-color: darkblue;
+    background-color: var(--color2);
     box-shadow: 2px 3px 1px #00000061;
 }
 main > section > form  input#iemail,input#iname_main,select#icurso{
@@ -37,7 +51,7 @@ main > section > form  input#iemail,input#iname_main,select#icurso{
 }
 main > section > form  input#iemail,input#iname_main,select#icurso,select#iturma,select#iclasse,select#itipo{
     border-radius: 8px;
-    outline: 3px solid skyblue;
+    outline: 3px solid var(--second_color);
     color: white;
     border: transparent;
     font-weight: bolder;
@@ -49,9 +63,14 @@ main > section > form  input#iemail,input#iname_main,select#icurso{
 main > section > form select#iturma,select#iclasse,select#itipo{
     padding: 5px;
 }
-main > section > form   option{
-    background-color: black;
+section#iturma {
+    text-transform: uppercase;
 }
+main > section > form   option{
+    font-family: var(--font-main);
+    background-color: var(--color2);
+}
+/*PROJECTO*/
 main article#add{
     display: block;/*Quando o tipo é expositor*/
     padding: 20px;
@@ -68,19 +87,28 @@ main  textarea#idesc{
 }
 
 article.other  legend,label{
-    color: skyblue;
+    font-size: 16px;
+    padding-bottom: 10px;
 }
 article.other > fieldset{
     padding: 5px 5px;
+}
+.apenas{
+    color: var(--second_color);
+    font-family: var(--font-main);
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
 }
 main > section > form > input#ienviar{
     display: block;
     margin: auto;
     border-radius: 10px;
     padding: 12px 22px;
-    background-color: blue;
+    background-color: var(--color2);
     color: #b4e4f7;
     font-weight: bold;
+    text-transform: capitalize;
 }
 @media screen  and (max-width: 487px) {
     main > section >form {
