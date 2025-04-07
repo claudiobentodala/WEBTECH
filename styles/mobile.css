@@ -13,12 +13,11 @@
 }
 
 /*HEADER*/
+header > a > div{
+    display: none;
+}
 header, header > menu > nav{
     flex-flow: column nowrap;
-}
-header > a > div#logo{
-    width: 50px;
-    height: 35px;
 }
 header >  span#imenu{
     display: flex;
@@ -30,10 +29,10 @@ header > menu > nav a{
     width: 95vw;
 }
 header > menu > nav  a:hover{
-    background-color: none;
-    color: none;
     transform:  none;
     transition: none ;
+    color: none;
+    background-color: none;
 }
 /*INTRODUÇÃO*/
 main > section#intro div#img{
@@ -51,10 +50,17 @@ main > section#intro article#text{
     border-radius: 0px 0px 35px 35px;
 }
 main > section#intro article#text h1{
-    font-size: 22px;
     padding: 0px 5px;
     margin-bottom: 5px;
+    font-size: 22px;
 }
+header > menu > nav  a:hover{
+    background-color: none;
+    color: none;
+    transform:  none;
+    transition: none ;
+}
+
 /*SOBRE O EVENTO*/
 main > section.sobre div{   
     width: 100%;
@@ -108,19 +114,23 @@ main > section.sobre div#img-1{
 
 /*INSCREVA-SE*/
 body#ins{
-    background-image: url(../image/banner-3.jpg);
     background-position: left bottom;
+    background-image: url(../image/banner-3.jpg);
 }
 
 main > section#get > h2 {
     font-size: 20px;
 }
+main > section#get a:hover{
+    transform: none;
+    transition: none;
+}
 main.increva_main{ /*PAGINA*/
     height: 100vh;
 }
 main.increva_main{
-    padding-top: 20px;
     height: 100vh;
+    padding-top: 20px;
     background-image: url(../../image/banner-1.jpg);
 }
 
@@ -142,6 +152,10 @@ main > section#ora img {
 main > section#ora p {
     font-size: 13px;
 }
+main > section#patro > a:hover{
+    transform: none;
+    transition: none;
+}
 
 /*PATROCINADORES*/
 main > section#patro > article{
@@ -149,6 +163,10 @@ main > section#patro > article{
 }
 main > h1#patrocinador{ /*PAGINA*/
     font-size: 17px;
+}
+main > section#patrocinador > article > a:hover{
+    transform: none;
+    transition: none;
 }
 
 /*FOOTER*/

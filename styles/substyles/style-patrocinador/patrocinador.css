@@ -12,8 +12,14 @@
     --radius: 35px;
 }
 
+header > a {
+    height: 100%;
+    margin-left: 20px;
+    background-image: transparent;
+}
 header > a > span{
-    margin: auto;
+    color: var(--color2);
+    font-size: 2em;
 }
 main > section.patrocinador_content > img{
     display: block;
