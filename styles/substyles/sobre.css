@@ -57,14 +57,12 @@ main > section.sobre div.img_left{
     float: left;
     border-radius: var(--radius) 0px 0px var(--radius);
     background-color: var(--main_color);
-    background-image: url(../../image/banner-2.jpg);/*imagens temporarias*/
     background-size: cover;
     background-position: right center;
     background-attachment: fixed;
 }
 main > section.sobre div.img_rigth{
     border-radius:0px var(--radius) var(--radius) 0px;
-    background-image: url(../../image/banner-2.jpg);/*imagens temporarias*/
     background-color: var(--main_color);
     background-size: cover;
     background-position: right center;
@@ -72,17 +70,20 @@ main > section.sobre div.img_rigth{
     float: right;
 }
 main > section.sobre div#img-1{
-    background-color: red;
+    background-image: url(../../image/banner-2.jpg);
 }
 main > section.sobre div#img-2{
-    background-color: red;
+    background-image: url(../../image/banner-8.jpg);
 }
 main > section.sobre div#img-3{
-    background-color: red;
+    background-image: url(../../image/banner-11.jpg);
 }
 main > section.sobre div#img-4{
-    background-color: red;
+    background-image: url(../../image/banner-5.jpg);
 }
 main > section.sobre div#img-5{
-    background-color: red;
+    background-image: url(../../image/banner-12.jpg);
+}
+main > section.sobre div#img-6{
+    background-image: url(../../image/banner-13.jpg);
 }

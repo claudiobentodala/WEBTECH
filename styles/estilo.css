@@ -116,7 +116,7 @@ main > section#intro div#img{
     width: 55%;
     height: 100%;
     border-radius: var(--radius) 0px 0px var(--radius);
-    background-image: url(../image/banner-2.jpg);
+    background-image: url(../image/back.jpg);
     background-color: var(--color2);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -140,7 +140,6 @@ main > section#intro article#text h1{
     color: var(--second_color);
 }
 main > section#intro p{
-    text-align: justify;
     margin: 0px 20px;
     color: var(--color2);
     font-family: var(--font-second);

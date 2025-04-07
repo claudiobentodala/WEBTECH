@@ -42,7 +42,7 @@ main > section#intro div#img{
     height: 60%;
     border-radius: 35px 35px 0px 0px;
     background-position: center bottom;
-    background-image: url(../image/banner-2-mobile.jpg);
+    background-image: url(../image/banner-1-mobile.jpg);
 }
 main > section#intro article#text{
     float: bottom;
@@ -85,10 +85,30 @@ main > section.sobre article > p{
     font-size: 12px;
     font-weight: bold;
 }
+main > section.sobre div#img-1{
+    background-image: url(../image/banner-2-mobile.jpg);
+}
+main > section.sobre div#img-2{
+    background-position: center center;
+}
+main > section.sobre div#img-3{
+    background-position: left center;
+}
+main > section.sobre div#img-5{
+    background-position: left bottom;
+}
+main > section.sobre div#img-6{
+    background-position: center top;
+}
+
+/*SOBRE PAGINA*/
+main > section.sobre div#img-1{
+    background-position: center bottom;
+}
 
 /*INSCREVA-SE*/
 body#ins{
-    background-image: url(../../image/banner-1-mobile.jpg);
+    background-image: url(../image/banner-3.jpg);
     background-position: left bottom;
 }
 
