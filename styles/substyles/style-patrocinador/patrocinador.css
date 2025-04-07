@@ -13,7 +13,7 @@
 }
 
 header > a > span{
-    font-size: 28px;
+    margin: auto;
 }
 main > section.patrocinador_content > img{
     display: block;
