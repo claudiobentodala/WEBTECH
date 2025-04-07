@@ -86,19 +86,19 @@ main > section.sobre article > p{
     font-weight: bold;
 }
 main > section.sobre div#img-1{
-    background-image: url(../image/banner-2-mobile.jpg);
+    background-position: right center;
 }
 main > section.sobre div#img-2{
     background-position: center center;
 }
 main > section.sobre div#img-3{
-    background-position: left center;
+    background-position: calc(50%) top;
 }
 main > section.sobre div#img-5{
-    background-position: left bottom;
+    background-position: calc(18%) bottom;
 }
 main > section.sobre div#img-6{
-    background-position: center top;
+    background-position: calc(70%) bottom;
 }
 
 /*SOBRE PAGINA*/
@@ -117,7 +117,6 @@ main > section#get > h2 {
 }
 main.increva_main{ /*PAGINA*/
     height: 100vh;
-    background-color: green;
 }
 main.increva_main{
     padding-top: 20px;
