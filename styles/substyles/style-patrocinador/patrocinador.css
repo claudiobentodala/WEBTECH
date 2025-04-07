@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+:root{
+    --main_color: #3e3edd;
+    --second_color: skyblue;
+    --color1: #ffffff;
+    --color2: #020235;
+    --color3: #0324a1;
+    --font-main: monospace;
+    --font-second: Arial, Helvetica, sans-serif;
+    --espaço: 25px;
+    --radius: 35px;
+}
+
 header > a > span{
     font-size: 28px;
 }
@@ -8,8 +20,21 @@ main > section.patrocinador_content > img{
     margin: auto;
     padding: 30px 0px;
 }
+main > section.patrocinador_content > article > h2,span{
+    text-align: center;
+    font-family: var(--font-main);
+    color: var(--second_color);
+    margin-bottom: 15px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+main > section.patrocinador_content > article > p{
+    font-family: var(--font-second);
+    line-height: 25px;
+    text-indent: 45px;
+}
 main > section.patrocinador_content > article{
-    background-color: skyblue;
+    background-color: var(--main_color);
     padding: 30px;
     border-radius: 30px;
 }

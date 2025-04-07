@@ -12,10 +12,12 @@
     --color2: #020235;
     --color3: #0324a1;
     --font-main: monospace;
+    --font-second: Arial, Helvetica, sans-serif;
+    --espaço: 25px;
+    --radius: 35px;
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
     background-color: skyblue;
     height: 100vh;
     width: 98.9vw;
@@ -64,6 +66,7 @@ header > menu > nav  a{
     border: 1px solid black ;
     color: var(--main_color);
     font-weight: bold;
+    font-family: var(--font-second);
     background-color: var(--color2);
     text-transform: capitalize;
     text-decoration: none;
@@ -79,40 +82,42 @@ header > menu > nav  a:hover{
     transform:  translate(3%);
     transition: .4s ;
 }
+
 /*CONTEUDO*/
 main.principal{
     min-width: 300px;
     max-width: 1080px;
     margin: auto;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: var(--espaço);
     padding: 0px 10px;
 }
+
 /*INTRODUCION*/
 main > section#intro{
     height: 450px;
-    margin-bottom: 30px;
-
+    margin-bottom: var(--espaço);
 }
+
 main > section#intro div#img{
     float: left;
     width: 55%;
     height: 100%;
-    border-radius: 35px 0px 0px 35px;
-    background-image: url(../image/banner-3.jpg);
-    background-color: darkblue;
+    border-radius: var(--radius) 0px 0px var(--radius);
+    background-image: url(../image/banner-2.jpg);
+    background-color: var(--color2);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom center;
+    background-position: left bottom;
 }
 main > section#intro article#text{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     height: 100%;
-    border-radius: 0px 35px 35px 0px;
-    background-color: #3e3edd;
+    border-radius: 0px var(--radius) var(--radius) 0px;
+    background-color: var(--main_color);
 }
 main > section#intro article#text h1{
     font-size: 33px;
@@ -120,6 +125,13 @@ main > section#intro article#text h1{
     text-transform: uppercase;
     margin-bottom: 5px;
     font-family: var(--font-main);
+    color: var(--second_color);
+}
+main > section#intro p{
+    text-align: justify;
+    margin: 0px 20px;
+    color: var(--color2);
+    font-family: var(--font-second);
 }
 main > section#intro article#text a{
     align-self: center;
@@ -140,10 +152,6 @@ main > section#intro article#text a:hover{
     transition: .3s;
 }
 
-main > section#intro h1,a{
-    text-align: center;
-    color: var(--second_color);
-}
 main > section#intro {
     text-align: center;
 }
@@ -169,18 +177,20 @@ main > section#time > article > div{
     flex-basis: 200px;
     text-align: center;
     height: 200px;
+    font-family: var(--font-main);
     background-color: #3e3edd;
-    font-size: 20px;
+    font-size: 21px;
 }
 main > section#time > article > div > p{
+    font-family: var(--font-second);
     font-size: 6.5em;
 }
 /*TIME E STATUS*/
 main > section#status,section#time {
     background-color: #3e3edd;
-    margin: 20px 0px;
+    margin: var(--espaço) 0px;
     padding-bottom: 40px;
-    border-radius: 35px;
+    border-radius: var(--radius);
 }
 /*STATUS*/
 main > section#status > h2{
@@ -199,27 +209,30 @@ main > section#status > article{
     gap: 15px 0px;
 }
 main > section#status > article > div{
+    padding-top: 13px;
     font-family: var(--font-main);
     text-transform: capitalize;
-    border: 6px solid #020242;
+    border: 6px solid var(--color2);
     flex-basis: 200px;
     text-align: center;
     font-weight: bolder;
-    border-radius: 35px;
+    border-radius: var(--radius);
     height: 200px;
     font-size: 18px;
 }
 main > section#status > article > div > p{
+    font-family: var(--font-second);
     font-size: 6.5em;
 }
+
 /*SE INSCREVA*/
 main > section#get {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     background-color: var(--main_color);
-    border-radius: 35px;
-    margin: 10px 0px;
+    border-radius: var(--radius);
+    margin: var(--espaço) 0px;
     padding: 35px 25px;
 }
 main > section#get h2 {
@@ -233,6 +246,8 @@ main > section#get p{
     margin: auto;
     padding: 10px 5px;
     width: 90%;
+    color: var(--color2);
+    font-family: var(--font-second);
 }
 main > section#get a{
     align-self: center;
@@ -257,7 +272,7 @@ main > section#get a:hover{
 main > section#ora{
     display: flex;
     flex-flow: column nowrap;
-    border-radius: 35px;
+    border-radius: var(--radius);
     background-color: var(--main_color);
 }
 main > section#ora h2{
@@ -277,9 +292,9 @@ main > section#ora article{
 }
 main > section#ora div {
     background-color: var(--second_color);
-    border-radius: 35px;
+    border-radius: var(--radius);
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: var(--espaço);
 }
 main > section#ora img {
     width: 250px;
@@ -296,10 +311,10 @@ main > section#ora p {
 main > section#patro{
     display: flex;
     flex-flow: column wrap;
-    margin-top: 15px;
+    margin-top: var(--espaço);
     background-color: var(--main_color);
     padding: 15px 30px 30px 30px;
-    border-radius: 35px;
+    border-radius: var(--radius);
 }
 main > section#patro > h2{
     font-family: var(--font-main);
@@ -341,5 +356,9 @@ footer{
     padding: 10px;
 }
 footer > p{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: var(--font-main);
     text-align: center;
 }

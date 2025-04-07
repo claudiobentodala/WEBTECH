@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+:root{
+    --main_color: #3e3edd;
+    --second_color: skyblue;
+    --color1: #ffffff;
+    --color2: #020235;
+    --color3: #0324a1;
+    --font-main: monospace;
+    --font-second: Arial, Helvetica, sans-serif;
+    --espaço: 25px;
+    --radius: 35px;
+}
+
 /*HEADER*/
 header, header > menu > nav{
     flex-flow: column nowrap;
@@ -35,6 +47,8 @@ main > section#intro div#img{
     width: 100%;
     height: 60%;
     border-radius: 35px 35px 0px 0px;
+    background-position: center bottom;
+    background-image: url(../image/banner-2-mobile.jpg);
 }
 main > section#intro article#text{
     float: bottom;
@@ -57,6 +71,25 @@ main > section.sobre article{
     width: 100%;
     height: 38%;
     float: bottom;
+}
+main > section.sobre article.content_rigth,article.content_left{
+    border-radius:0px 0px var(--radius) var(--radius);
+}
+main > section.sobre article.content_left{
+    border-radius:0px 0px var(--radius) var(--radius);
+}
+main > section.sobre div.img_left{
+    border-radius: var(--radius) var(--radius) 0px 0px;
+}
+main > section.sobre div.img_rigth{
+    border-radius: var(--radius) var(--radius) 0px 0px;
+}
+main > section.sobre article > h2{
+    font-size: 19px;
+}
+main > section.sobre article > p{
+    font-size: 12px;
+    font-weight: bold;
 }
 
 /*INSCREVA-SE*/

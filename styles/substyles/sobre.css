@@ -1,37 +1,74 @@
 @charset "UTF-8";
 
+:root{
+    --main_color: #3e3edd;
+    --second_color: skyblue;
+    --color1: #ffffff;
+    --color2: #020235;
+    --color3: #0324a1;
+    --font-main: monospace;
+    --font-second: Arial, Helvetica, sans-serif;
+    --espaço: 25px;
+    --radius: 35px;
+}
+
 main > section{
     height: 450px;
     margin-bottom: 30px;
-    background-color: red;
 }
+
 /*IMAGEM*/
 main > section.sobre div{   
     width: 55%;
     height: 100%;
 }
 main > section.sobre div.img_left{
-    background-color: blue;
     float: left;
+    border-radius: var(--radius) 0px 0px var(--radius);
+    background-color: blue;
+    background-image: url(../../image/banner-2.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
 }
 main > section.sobre div.img_rigth{
+    border-radius:0px var(--radius) var(--radius) 0px;
+    background-image: url(../../image/banner-2.jpg);
     background-color: rgb(40, 87, 105);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
     float: right;
 }
+
 /*TITULO E DESCRIÇÃO*/
 main > section.sobre article{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    text-align: center;
     width: 45%;
     height: 100%;
 }
+main > section.sobre article > h2{
+    font-family: var(--font-main);
+    font-size: 30px;
+    color: var(--second_color);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+main > section.sobre article > p{
+    line-height: 23px;
+    margin: 0px 20px;
+    text-align: justify;
+}
 main > section.sobre article.content_rigth{
-    background-color: green;
+    border-radius:0px var(--radius) var(--radius) 0px;
+    background-color: var(--main_color);
     float: right;
 }
 main > section.sobre article.content_left{
-    background-color: rgb(73, 151, 73);
+    border-radius: var(--radius) 0px 0px var(--radius);
+    background-color: var(--main_color);
     float: left;
 }
