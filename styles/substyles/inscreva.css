@@ -32,7 +32,7 @@ main > section >form {
     padding: 20px 0px;
 }
 span#iconc{
-    color: var(--second_color);
+    color: var(--color2);
     margin: 0px 5px;
 }
 /*CAIXA ENBUTIDA*/
@@ -42,8 +42,11 @@ main > section > form > article{
     border-radius: 15px;
     max-width: 280px;
     min-width: 100px;
-    background-color: var(--color2);
-    box-shadow: 2px 3px 1px #00000061;
+    background-color: var(--main_color);
+    box-shadow: 2px 3px 13px 4px #0000097c;
+}
+main > section > form  input#iemail,input#iname_main{
+    color: white;
 }
 main > section > form  input#iemail,input#iname_main,select#icurso{
     max-width: 100%;
@@ -51,8 +54,7 @@ main > section > form  input#iemail,input#iname_main,select#icurso{
 }
 main > section > form  input#iemail,input#iname_main,select#icurso,select#iturma,select#iclasse,select#itipo{
     border-radius: 8px;
-    outline: 3px solid var(--second_color);
-    color: white;
+    outline: 3px solid var(--color2);
     border: transparent;
     font-weight: bolder;
     background-color: transparent;
@@ -63,12 +65,18 @@ main > section > form  input#iemail,input#iname_main,select#icurso{
 main > section > form select#iturma,select#iclasse,select#itipo{
     padding: 5px;
 }
+/*HOVER*/
+main > section > form  input#iemail:hover,input#iname_main:hover,select#icurso:hover,select#iturma:hover,select#iclasse:hover,select#itipo:hover{
+    transform: translate(3.5%);
+    transition: .3s;
+}
 section#iturma {
     text-transform: uppercase;
 }
 main > section > form   option{
     font-family: var(--font-main);
     background-color: var(--color2);
+    color: var(--second_color);
 }
 /*PROJECTO*/
 main article#add{
@@ -96,7 +104,7 @@ article.other > fieldset{
     padding: 5px 5px;
 }
 .apenas{
-    color: var(--second_color);
+    color: var(--color2);
     font-family: var(--font-main);
     font-weight: bold;
     text-align: center;
@@ -107,9 +115,9 @@ main > section > form > input#ienviar{
     margin: auto;
     border-radius: 10px;
     padding: 12px 22px;
-    background-color: var(--color2);
-    color: #b4e4f7;
-    font-weight: bold;
+    background-color: var(--main_color);
+    color: var(--color2);
+    font-weight: bolder;
     text-transform: capitalize;
 }
 @media screen  and (max-width: 487px) {

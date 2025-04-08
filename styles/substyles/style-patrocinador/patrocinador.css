@@ -19,7 +19,7 @@ header > a {
     width: 50px;
 }
 header > a > span{
-    color: var(--color2);
+    color: var(--second_color);
     font-size: 3em;
     margin-top: 13.5px;
 }

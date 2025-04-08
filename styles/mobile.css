@@ -145,6 +145,10 @@ main.increva_main{
 main > section.sobre article > h2{
     font-size: 14px;
 }
+main > section > form  input#iemail:hover,input#iname_main:hover,select#icurso:hover,select#iturma:hover,select#iclasse:hover,select#itipo:hover{
+    transform: none;
+    transition: none;
+}
 
 /*ORADORES*/
 main > section#ora > article {
