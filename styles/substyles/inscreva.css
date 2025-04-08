@@ -31,10 +31,6 @@ main > section >form {
     border-radius: var(--radius);
     padding: 20px 0px;
 }
-span#iconc{
-    color: var(--color2);
-    margin: 0px 5px;
-}
 /*CAIXA ENBUTIDA*/
 main > section > form > article{
     padding: 15px;
@@ -74,7 +70,6 @@ section#iturma {
     text-transform: uppercase;
 }
 main > section > form   option{
-    font-family: var(--font-main);
     background-color: var(--color2);
     color: var(--second_color);
 }
@@ -105,7 +100,6 @@ article.other > fieldset{
 }
 .apenas{
     color: var(--color2);
-    font-family: var(--font-main);
     font-weight: bold;
     text-align: center;
     text-transform: capitalize;
