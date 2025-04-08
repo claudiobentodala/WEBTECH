@@ -10,6 +10,7 @@
     --font-second: Arial, Helvetica, sans-serif;
     --espaço: 25px;
     --radius: 35px;
+    --indent: 35px;
 }
 
 main > section{
@@ -37,6 +38,7 @@ main > section.sobre article > h2{
 main > section.sobre article > p{
     line-height: 23px;
     margin: 0px 20px;
+    text-indent: var(--indent);
     text-align: justify;
 }
 main > section.sobre article.content_rigth{

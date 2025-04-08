@@ -94,6 +94,7 @@ main > section.sobre article > h2{
 main > section.sobre article > p{
     font-size: 12px;
     font-weight: bold;
+    text-indent: 0px;
 }
 main > section.sobre div#img-1{
     background-position: right center;

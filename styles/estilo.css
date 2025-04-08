@@ -15,15 +15,8 @@
     --font-second: Arial, Helvetica, sans-serif;
     --espaço: 25px;
     --radius: 35px;
+    --indent: 35px;
 }
-/*
-header > a{ AREA do logo depis apagar quandometer background-image 
-    font-size: 20px;
-    color: white;
-    border: 2.5px dotted black;
-    background-color: #020235;
-}
-*/
 
 body{
     background-color: #b1d9ff;
@@ -146,7 +139,7 @@ main > section#intro p{
     font-size: 18px;
     font-family: var(--font-second);
     text-align: left;
-    text-indent: 30px;
+    text-indent: var(--indent);
 }
 main > section#intro article#text a{
     align-self: center;
@@ -262,9 +255,10 @@ main > section#get p{
     padding: 10px 5px;
     width: 90%;
     color: var(--color2);
+    text-indent: var(--indent);
+    text-align: left;
     font-family: var(--font-second);
     font-size: 18px;
-    text-align: left;
 }
 main > section#get a{
     align-self: center;
