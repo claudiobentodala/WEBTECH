@@ -13,9 +13,6 @@
 }
 
 /*HEADER*/
-header > a > div{
-    display: none;
-}
 header, header > menu > nav{
     flex-flow: column nowrap;
 }

@@ -35,8 +35,10 @@ header{
     padding: 5px;
     width: 100%;
 }
-header > a > div{
+header > a{
     align-self: flex-start;
+}
+header > a > div{
     height: 100%;
     width: 75px;
     height: 60px;
@@ -57,6 +59,7 @@ header > span#imenu{
     height: 30px;
     width: 50vw;
     color: var(--second_color);
+    font-size: 2em;
 }
 header > menu > nav  li{
     display: inline-flex;

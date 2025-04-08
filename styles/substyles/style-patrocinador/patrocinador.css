@@ -20,7 +20,7 @@ header > a {
 }
 header > a > span{
     color: var(--second_color);
-    font-size: 3em;
+    font-size: 7em;
     margin-top: 13.5px;
 }
 main > section.patrocinador_content > img{
