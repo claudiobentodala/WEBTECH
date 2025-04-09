@@ -97,6 +97,24 @@ main > section.sobre div#img-6{
 main > section.sobre div#img-1{
     background-position: center bottom;
 }
+/*IMAGEM*/
+main > section.sobre article.content_rigth{
+    border-radius: 0px 0px var(--radius) var(--radius);
+    float: bottom;
+}
+main > section.sobre article.content_left{
+    border-radius: 0px 0px var(--radius) var(--radius);
+    float: bottom;
+}
+main > section.sobre div.img_left{
+    border-radius: var(--radius) var(--radius) 0px 0px;
+    float: top;
+}
+main > section.sobre div.img_rigth{
+    border-radius: var(--radius) var(--radius) 0px 0px;
+    float: top;
+}
+
 
 /*INSCREVA-SE*/
 body#ins{
@@ -184,7 +202,7 @@ main > section.patrocinador_content > article > h2{
     font-size: 18px;
 }
 main > section.patrocinador_content > article > p{
-    font-size: 5px
+    font-size: 8px;
 }
 main > section#patrocinador > article > a{
     font-size: 10px;
