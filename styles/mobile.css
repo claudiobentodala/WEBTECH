@@ -186,6 +186,9 @@ main > section.patrocinador_content > article > h2{
 main > section.patrocinador_content > article > p{
     font-size: 5px
 }
+main > section#patrocinador > article > a{
+    font-size: 10px;
+}
 
 /*FOOTER*/
 footer > p{
