@@ -39,6 +39,7 @@ main > section.patrocinador_content > article > h2,span{
 main > section.patrocinador_content > article > p{
     font-family: var(--font-second);
     line-height: 25px;
+    font-size: 18px;
     text-indent: 45px;
 }
 main > section.patrocinador_content > article{
