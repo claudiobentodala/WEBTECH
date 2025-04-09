@@ -66,9 +66,6 @@ main > section > form  input#iemail:hover,input#iname_main:hover,select#icurso:h
     transform: translate(3.5%);
     transition: .3s;
 }
-section#iturma {
-    text-transform: uppercase;
-}
 main > section > form   option{
     background-color: var(--color2);
     color: var(--second_color);

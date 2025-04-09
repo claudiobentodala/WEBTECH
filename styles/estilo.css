@@ -75,6 +75,12 @@ header > menu > nav  a{
     text-decoration: none;
     text-transform: capitalize;
 }
+header > menu > nav  a:hover{
+    transition: .4s ;
+    transform:  translate(3%);
+    color: var(--color1);
+    background-color: var(--color2);
+}
 header > menu > nav  a#activo{
     background-color: var(--main_color);
     color: var(--color2);
@@ -83,12 +89,6 @@ header > menu > nav  a#activo{
 header > menu > nav  a#inscreva{
     background-color: var(--second_color);
     color: var(--color2);
-}
-header > menu > nav  a:hover{
-    transition: .4s ;
-    transform:  translate(3%);
-    color: var(--color1);
-    background-color: var(--color2);
 }
 
 /*CONTEUDO*/
@@ -142,6 +142,7 @@ main > section#intro p{
     font-family: var(--font-second);
     text-align: left;
     text-indent: var(--indent);
+    text-transform: capitalize;
 }
 main > section#intro article#text a{
     align-self: center;
@@ -157,6 +158,7 @@ main > section#intro article#text a{
     color: var(--color2);
     background-color: var(--second_color);
 }
+
 main > section#intro article#text a:hover{
     transform: translate(4%);
     transition: .3s;
@@ -340,6 +342,7 @@ main > section#patro > article{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    align-content: center;
     justify-content: space-evenly;
     gap: 15px 0px;
 }

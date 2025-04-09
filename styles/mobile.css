@@ -49,19 +49,15 @@ main > section#intro article#text{
 main > section#intro article#text h1{
     padding: 0px 5px;
     margin-bottom: 5px;
-    font-size: 22px;
+    font-size: 16px;
 }
 main > section#intro p{
-    font-size: 16px;
+    font-size: 12px;
     text-indent: 0px;
 }
-header > menu > nav  a:hover{
-    background-color: none;
-    color: none;
-    transform:  none;
-    transition: none ;
+main > section#intro article#text a{
+    font-size: 11px;
 }
-
 /*SOBRE O EVENTO*/
 main > section.sobre div{   
     width: 100%;
@@ -72,18 +68,6 @@ main > section.sobre article{
     width: 100%;
     height: 38%;
     float: bottom;
-}
-main > section.sobre article.content_rigth,article.content_left{
-    border-radius:0px 0px var(--radius) var(--radius);
-}
-main > section.sobre article.content_left{
-    border-radius:0px 0px var(--radius) var(--radius);
-}
-main > section.sobre div.img_left{
-    border-radius: var(--radius) var(--radius) 0px 0px;
-}
-main > section.sobre div.img_rigth{
-    border-radius: var(--radius) var(--radius) 0px 0px;
 }
 main > section.sobre article > h2{
     font-size: 19px;
@@ -121,11 +105,15 @@ body#ins{
 }
 
 main > section#get > h2 {
-    font-size: 20px;
+    font-size: 16px;
 }
 main > section#get > p{
-    font-size: 16px;
+    font-size: 12px;
     text-indent: 0px;
+}
+main > section#get a{
+    text-align: center;
+    font-size: 10px;
 }
 main > section#get a:hover{
     transform: none;
@@ -163,8 +151,11 @@ main > section#ora div {
 main > section#ora img {
     width: 100%;
 }
+main > section#ora h2{
+    font-size: 20px;
+}
 main > section#ora p {
-    font-size: 13px;
+    font-size: 10px;
 }
 main > section#patro > a:hover{
     transform: none;
@@ -175,12 +166,25 @@ main > section#patro > a:hover{
 main > section#patro > article{
     gap: 30px;
 }
+main > section#patro > h2{
+    font-size: 20px;
+}
+main > section#patro > a{
+    font-size: 11px;
+}
 main > h1#patrocinador{ /*PAGINA*/
     font-size: 17px;
 }
 main > section#patrocinador > article > a:hover{
     transform: none;
     transition: none;
+}
+/*SUBPAGE*/
+main > section.patrocinador_content > article > h2{
+    font-size: 18px;
+}
+main > section.patrocinador_content > article > p{
+    font-size: 5px
 }
 
 /*FOOTER*/
