@@ -11,6 +11,11 @@
     --espaço: 25px;
     --radius: 35px;
     --indent: 35px;
+    --margin_fixed: 98px;
+}
+
+main#sobre{
+    margin-top: var(--margin_fixed);
 }
 
 main > section{

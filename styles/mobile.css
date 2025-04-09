@@ -10,6 +10,7 @@
     --font-second: Arial, Helvetica, sans-serif;
     --espaço: 25px;
     --radius: 35px;
+    --margin_fixed: 108px;
 }
 
 /*HEADER*/
@@ -32,6 +33,9 @@ header > menu > nav  a:hover{
     background-color: none;
 }
 /*INTRODUÇÃO*/
+main > section#intro{
+    margin-top: var(--margin_fixed);
+}
 main > section#intro div#img{
     float: top;
     width: 100%;

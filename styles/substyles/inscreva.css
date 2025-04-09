@@ -10,6 +10,7 @@
     --font-second: Arial, Helvetica, sans-serif;
     --espaço: 25px;
     --radius: 35px;
+    --margin_fixed: 97px;
 }
 
 body{
@@ -20,6 +21,7 @@ body{
     background-attachment: fixed;
 }
 main.increva_main{
+    margin-top: var(--margin_fixed);
     padding: 20px 0px;
     height: 100vh;
 }
@@ -41,6 +43,9 @@ main > section > form > article{
     background-color: var(--main_color);
     box-shadow: 2px 3px 13px 4px #0000097c;
 }
+main > section > form label{
+    margin: 0px 7px;
+}
 main > section > form  input#iemail,input#iname_main{
     color: white;
 }
@@ -49,11 +54,11 @@ main > section > form  input#iemail,input#iname_main,select#icurso{
     min-width: 40%;
 }
 main > section > form  input#iemail,input#iname_main,select#icurso,select#iturma,select#iclasse,select#itipo{
-    border-radius: 8px;
     outline: 3px solid var(--color2);
     border: transparent;
     font-weight: bolder;
     background-color: transparent;
+    border: 1px;
 }
 main > section > form  input#iemail,input#iname_main,select#icurso{
     padding: 10px;
@@ -72,7 +77,7 @@ main > section > form   option{
 }
 /*PROJECTO*/
 main article#add{
-    display: block;/*Quando o tipo é expositor*/
+    display: block;
     padding: 20px;
     margin-top: 10px
 }
@@ -84,7 +89,7 @@ main  textarea#idesc{
     display: block;
     margin: 10px auto;
     font-size: 15px;
-    padding: 0px 3px;
+    padding: 3.5px;
     background-color: var(--color1);
 }
 
