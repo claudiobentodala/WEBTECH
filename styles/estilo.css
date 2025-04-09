@@ -42,7 +42,6 @@ header > a > div{
     height: 100%;
     width: 75px;
     height: 60px;
-    border-radius: 45%;
     background-image: url(../image/logo.jpg);
 }
 
