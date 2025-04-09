@@ -113,6 +113,10 @@ main > section > form > input#ienviar{
     font-weight: bolder;
     text-transform: capitalize;
 }
+/*ICONES*/
+.icon{
+    transform: translate(0%,8px);
+}
 @media screen  and (max-width: 487px) {
     main > section >form {
         width: 95vw;

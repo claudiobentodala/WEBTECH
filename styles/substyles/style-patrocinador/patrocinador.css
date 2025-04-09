@@ -10,6 +10,7 @@
     --font-second: Arial, Helvetica, sans-serif;
     --espaço: 25px;
     --radius: 35px;
+    --margin_fixed: 100px;
 }
 
 header > a {
@@ -46,4 +47,7 @@ main > section.patrocinador_content > article{
     background-color: var(--main_color);
     padding: 30px;
     border-radius: 30px;
+}
+#patro{
+    margin: var(--margin_fixed);
 }
