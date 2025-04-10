@@ -29,7 +29,7 @@ main > section >form {
     display: block;
     margin: auto;
     width: 450px;
-    background-color: #80808088;
+    background-color: #f7d8d854;
     border-radius: var(--radius);
     padding: 20px 0px;
 }
@@ -93,7 +93,6 @@ main  textarea#idesc{
     margin: 10px auto;
     font-size: 15px;
     padding: 3.5px;
-    background-color: var(--color1);
 }
 
 article.other  legend,label{
