@@ -179,10 +179,6 @@ main > section#ora h2{
 main > section#ora p {
     font-size: 10px;
 }
-main > section#patro > a:hover{
-    transform: none;
-    transition: none;
-}
 
 /*PATROCINADORES*/
 main > section#patro > article{
@@ -192,7 +188,11 @@ main > section#patro > h2{
     font-size: 20px;
 }
 main > section#patro > a{
-    font-size: 11px;
+    font-size: 13px;
+}
+main > section#patro > a:hover{
+    transform: none;
+    transition: none;
 }
 main > h1#patrocinador{ /*PAGINA*/
     font-size: 17px;

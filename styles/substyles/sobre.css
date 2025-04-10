@@ -43,6 +43,7 @@ main > section.sobre article > h2{
 main > section.sobre article > p{
     line-height: 23px;
     margin: 0px 20px;
+    font-size: 18px;
     text-indent: var(--indent);
     text-align: justify;
 }
