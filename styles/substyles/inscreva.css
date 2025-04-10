@@ -66,6 +66,9 @@ main > section > form  input#iemail,input#iname_main,select#icurso{
 main > section > form select#iturma,select#iclasse,select#itipo{
     padding: 5px;
 }
+select#itipo{
+    width: 183px;
+}
 /*HOVER*/
 main > section > form  input#iemail:hover,input#iname_main:hover,select#icurso:hover,select#iturma:hover,select#iclasse:hover,select#itipo:hover{
     transform: translate(3.5%);
