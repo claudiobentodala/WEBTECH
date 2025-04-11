@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+:root{
+    --main_color: #3e3edd;
+    --second_color: skyblue;
+    --color1: #ffffff;
+    --color2: #020235;
+    --color3: #0324a1;
+    --font-main: monospace;
+    --font-second: Arial, Helvetica, sans-serif;
+    --espaço: 25px;
+    --radius: 35px;
+    --margin_fixed: 97px;
+}
+
+/*ORADORES*/
+main > section#ora{
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: var(--radius);
+    background-color: var(--main_color);
+    margin-top: 100px;
+}
+main > section#ora h2{
+    font-family: var(--font-main);
+    color: var(--second_color);
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 27px;
+    text-transform: capitalize;
+}
+main > section#ora article{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px 0px;
+}
+main > section#ora div {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: var(--espaço);
+    border-radius: var(--radius);
+    background-color: var(--second_color);
+}
+main > section#ora img {
+    width: 250px;
+    border-radius: 50%;
+}
+main > section#ora p {
+    font-family: var(--font-main);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+main > section#ora > article  a{
+    align-self: center;
+    padding: 8px;
+    border-radius: 10px;
+    width: 120px;
+    margin: 15px 0px 25px 0px;
+    font-weight: bold;
+    font-family: var(--font-main);
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--second_color);
+    background-color: var(--main_color);
+}
+main > section#ora > article  a:hover{
+    transform: translate(4%);
+    transition: .3s;
+}

@@ -179,6 +179,21 @@ main > section#ora h2{
 main > section#ora p {
     font-size: 10px;
 }
+main > section#ora > a{
+    font-size: 10px;
+}
+/*ORADOR*/
+
+main > section#ora{
+    margin-top: 120px;
+}
+main > section#ora > article  a{
+    width: 100px;
+    font-size: 10px;
+}
+main > section.orador_content > article{
+    width: 120vw;
+}
 
 /*PATROCINADORES*/
 main > section#patro > article{
@@ -188,7 +203,7 @@ main > section#patro > h2{
     font-size: 20px;
 }
 main > section#patro > a{
-    font-size: 13px;
+    font-size: 10px;
 }
 main > section#patro > a:hover{
     transform: none;

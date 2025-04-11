@@ -324,6 +324,26 @@ main > section#ora p {
     text-transform: capitalize;
     text-align: center;
 }
+main > section#ora > a{
+    align-self: center;
+    padding: 8px;
+    border-radius: 10px;
+    width: 120px;
+    margin: 15px 0px 25px 0px;
+    font-weight: bold;
+    font-family: var(--font-main);
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--color2);
+    background-color: var(--second_color);
+}
+main > section#ora > a:hover{
+    transform: translate(4%);
+    transition: .3s;
+}
+
 /*PATROCINADORES*/
 main > section#patro{
     display: flex;

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+:root{
+    --main_color: #3e3edd;
+    --second_color: skyblue;
+    --color1: #ffffff;
+    --color2: #020235;
+    --color3: #0324a1;
+    --font-main: monospace;
+    --font-second: Arial, Helvetica, sans-serif;
+    --espaço: 25px;
+    --radius: 35px;
+    --margin_fixed: 120px;
+}
+
+header > a {
+    height: 100%;
+    margin-left: 20px;
+    background-image: transparent;
+    width: 50px;
+}
+main > section.orador_content > article{
+    margin: auto;
+    background-color: var(--main_color);
+    padding: 30px;
+    border-radius: 30px;
+    width: 90vw;
+    margin-bottom: 30px;
+}
+header > a > span{
+    color: var(--second_color);
+    font-size: 7em;
+    margin-top: 13.5px;
+}
+main > section.orador_content > img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    padding: 30px 0px;
+}
+main > section.orador_content > article > h2,span{
+    text-align: center;
+    font-family: var(--font-main);
+    color: var(--second_color);
+    margin-bottom: 15px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+main > section.orador_content > article > p{
+    font-family: var(--font-second);
+    line-height: 25px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+main#ora{
+    margin: var(--margin_fixed) 0px;
+}
