@@ -1,9 +1,12 @@
 const dataDestino = new Date();
-dataDestino.setDate(dataDestino.getDate() + 15); 
+dataDestino.setDate(dataDestino.getDate() + 35); 
 
 function atualizarContagem() {
+    /*var data = new Date()    
+   var hora = data.getHours()
+   var minuto = data.getMinutes()*/
+   //continuando
     const agora = new Date();
-    
     const distancia = dataDestino - agora;
     
     const dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
