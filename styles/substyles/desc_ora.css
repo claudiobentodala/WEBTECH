@@ -48,5 +48,4 @@ main > section.orador_content > article > p{
     font-family: var(--font-second);
     line-height: 25px;
     font-size: 18px;
-    text-transform: capitalize;
 }
