@@ -13,6 +13,10 @@
     --margin_fixed: 120px;
 }
 
+header{
+    position: relative;
+}
+
 header > a {
     height: 100%;
     margin-left: 20px;
@@ -25,18 +29,12 @@ main > section.orador_content > article{
     padding: 30px;
     border-radius: 30px;
     width: 90vw;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 header > a > span{
     color: var(--second_color);
     font-size: 7em;
     margin-top: 13.5px;
-}
-main > section.orador_content > img{
-    display: block;
-    margin: auto;
-    border-radius: 50%;
-    padding: 30px 0px;
 }
 main > section.orador_content > article > h2,span{
     text-align: center;
@@ -51,7 +49,4 @@ main > section.orador_content > article > p{
     line-height: 25px;
     font-size: 18px;
     text-transform: capitalize;
-}
-main#ora{
-    margin: var(--margin_fixed) 0px;
 }

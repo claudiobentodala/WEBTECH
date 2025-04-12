@@ -50,8 +50,10 @@ main > section > form  input#iemail,input#iname_main{
     color: white;
 }
 main > section > form  input#iemail,input#iname_main,select#icurso{
+    width: 70%;
     max-width: 100%;
     min-width: 40%;
+    padding: 10px;
 }
 main > section > form  input#iemail,input#iname_main,select#icurso,select#iturma,select#iclasse,select#itipo{
     outline: 3px solid var(--color2);
@@ -60,14 +62,14 @@ main > section > form  input#iemail,input#iname_main,select#icurso,select#iturma
     background-color: transparent;
     border: 1px;
 }
-main > section > form  input#iemail,input#iname_main,select#icurso{
-    padding: 10px;
+main > section > form select#iturma,select#iclasse{
+    width: 28%;
 }
 main > section > form select#iturma,select#iclasse,select#itipo{
     padding: 5px;
 }
 select#itipo{
-    width: 183px;
+    width: 50%;
 }
 /*HOVER*/
 main > section > form  input#iemail:hover,input#iname_main:hover,select#icurso:hover,select#iturma:hover,select#iclasse:hover,select#itipo:hover{

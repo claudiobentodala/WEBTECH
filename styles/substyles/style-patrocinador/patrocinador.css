@@ -13,6 +13,9 @@
     --margin_fixed: 120px;
 }
 
+header{
+    position: relative;
+}
 header > a {
     height: 100%;
     margin-left: 20px;
@@ -48,7 +51,4 @@ main > section.patrocinador_content > article{
     background-color: var(--main_color);
     padding: 30px;
     border-radius: 30px;
-}
-#patro{
-    margin: var(--margin_fixed);
 }

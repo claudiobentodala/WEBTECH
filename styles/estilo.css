@@ -245,7 +245,7 @@ main > section#get {
     flex-flow: column nowrap;
     align-items: center;
     padding: 35px 25px;
-    margin: var(--espaço) 0px;
+    margin-bottom: var(--espaço);
     border-radius: var(--radius);
     background-color: var(--main_color);
 }
@@ -388,14 +388,8 @@ main > section#patro > a:hover{
     transition: .3s;
 }
 
+main > h1{
+    font-size: 20px;
+}
+
 /*FOOTER*/
-footer{
-    padding: 10px;
-    background-color: var(--main_color);
-}
-footer > p{
-    font-size: 18px;
-    font-family: var(--font-main);
-    text-transform: uppercase;
-    text-align: center;
-}

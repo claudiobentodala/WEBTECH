@@ -157,7 +157,16 @@ main > section > form  input#iemail:hover,input#iname_main:hover,select#icurso:h
     transform: none;
     transition: none;
 }
-
+main  textarea#idesc{
+    max-width: 140px;
+    min-width: 140px;
+    max-height: 148px;
+    min-height: 148px;
+    display: block;
+    margin: 10px auto;
+    font-size: 12px;
+    padding: 2.5px;
+}
 /*ORADORES*/
 main > section#ora > article {
     display: flex;
@@ -182,17 +191,23 @@ main > section#ora p {
 main > section#ora > a{
     font-size: 10px;
 }
-/*ORADOR*/
+/*ORADOR PAGINA*/
 
 main > section#ora{
     margin-top: 120px;
 }
 main > section#ora > article  a{
     width: 100px;
-    font-size: 10px;
+    font-size: 12px;
 }
 main > section.orador_content > article{
-    width: 120vw;
+    width: 90vw;
+}
+main > section.orador_content > article > h2{
+    font-size: 23px;
+}
+main > section.orador_content > article > p{
+    font-size: 17px;
 }
 
 /*PATROCINADORES*/
@@ -226,8 +241,7 @@ main > section.patrocinador_content > article > p{
 main > section#patrocinador > article > a{
     font-size: 10px;
 }
-
-/*FOOTER*/
-footer > p{
-    font-size: 10.5px;
+main > section.orador_content > img{
+    width: 85%;
 }
+/*FOOTER*/
