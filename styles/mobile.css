@@ -158,8 +158,8 @@ main > section > form  input#iemail:hover,input#iname_main:hover,select#icurso:h
     transition: none;
 }
 main  textarea#idesc{
-    max-width: 140px;
-    min-width: 140px;
+    max-width: 170px;
+    min-width: 170px;
     max-height: 148px;
     min-height: 148px;
     display: block;
