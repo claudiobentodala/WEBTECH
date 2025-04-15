@@ -45,7 +45,10 @@ main > section.orador_content > article > h2,span{
     text-transform: capitalize;
 }
 main > section.orador_content > article > p{
+    text-indent: 40px;
+    line-height: 30px;
     font-family: var(--font-second);
-    line-height: 25px;
     font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 30px;
 }

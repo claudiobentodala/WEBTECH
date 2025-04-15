@@ -242,4 +242,9 @@ main > section#patrocinador > article > a{
 main > section.orador_content > img{
     width: 85%;
 }
-/*FOOTER*/
+main > section.orador_content > article > p{
+    text-indent: 0px;
+    line-height: 35px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
