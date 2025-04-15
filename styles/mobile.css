@@ -158,14 +158,15 @@ main > section > form  input#iemail:hover,input#iname_main:hover,select#icurso:h
     transition: none;
 }
 main  textarea#idesc{
-    max-width: 170px;
-    min-width: 170px;
+    max-width: 200px;
+    min-width: 200px;
     max-height: 148px;
     min-height: 148px;
     display: block;
     margin: 10px auto;
     font-size: 12px;
     padding: 2.5px;
+    background-color: white;
 }
 /*ORADORES*/
 main > section#ora > article {
@@ -193,9 +194,6 @@ main > section#ora > a{
 }
 /*ORADOR PAGINA*/
 
-main > section#ora{
-    margin-top: 120px;
-}
 main > section#ora > article  a{
     width: 100px;
     font-size: 12px;
@@ -225,7 +223,7 @@ main > section#patro > a:hover{
     transition: none;
 }
 main > h1#patrocinador{ /*PAGINA*/
-    font-size: 17px;
+    font-size: 12px;
 }
 main > section#patrocinador > article > a:hover{
     transform: none;

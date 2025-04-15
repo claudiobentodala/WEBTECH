@@ -19,7 +19,7 @@ main > section#ora{
     flex-flow: column nowrap;
     border-radius: var(--radius);
     background-color: var(--main_color);
-    margin-top: 100px;
+    margin-top: 110px;
 }
 main > section#ora h2{
     font-family: var(--font-main);

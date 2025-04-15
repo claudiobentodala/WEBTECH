@@ -20,8 +20,10 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+header#ins{
+    position: relative;
+}
 main.increva_main{
-    margin-top: var(--margin_fixed);
     padding: 20px 0px;
     height: 100vh;
 }
