@@ -248,3 +248,12 @@ main > section.orador_content > article > p{
     font-size: 18px;
     margin-bottom: 30px;
 }
+/*MODO ESCURO E CLARO*/
+div#modo{
+    top: 90vh;
+    left: 80vw;
+    border: 3.5px solid var(--color2);
+}
+div#modo > img{
+    transform: translate(70%,70%);
+}

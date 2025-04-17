@@ -392,16 +392,22 @@ main > h1{
     font-size: 20px;
 }
 /*MODO ESCURO E CLARO*/
-/*FALTA COLOCAR IMAGEM ESCURO(NONE) E CLARO E SCRIPT*/
 div#modo{
     position: fixed;
-    top: 85%;
-    left: 92%;
+    top: 81.5vh;
+    left: 90vw;
     width: 65px;
     height: 65px;
     border-radius: 15px;
+    border: 2px solid var(--color2);
     background-color: var(--main_color);
 }
 div#modo > img{
-    transform: translate(82.5%,82.5%);
+    transform: translate(70%,70%);
+}
+div#modo > img#dark{
+    display: block;
+}
+div#modo > img#ligth{
+    display: none;
 }
