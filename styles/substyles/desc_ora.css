@@ -28,7 +28,7 @@ main > section.orador_content > article{
     background-color: var(--main_color);
     padding: 30px;
     border-radius: 30px;
-    width: 90vw;
+    width: 78vw;
     margin-top: 30px;
 }
 header > a > span{

@@ -391,3 +391,17 @@ main > section#patro > a:hover{
 main > h1{
     font-size: 20px;
 }
+/*MODO ESCURO E CLARO*/
+/*FALTA COLOCAR IMAGEM ESCURO(NONE) E CLARO E SCRIPT*/
+div#modo{
+    position: fixed;
+    top: 85%;
+    left: 92%;
+    width: 65px;
+    height: 65px;
+    border-radius: 15px;
+    background-color: var(--main_color);
+}
+div#modo > img{
+    transform: translate(82.5%,82.5%);
+}
