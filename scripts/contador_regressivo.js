@@ -1,7 +1,6 @@
 const keyDataDestino = 'dataDestinoContador';
 let dataDestino;
 
-// Verifica se a data já está salva no localStorage
 const dataSalva = localStorage.getItem(keyDataDestino);
 
 if (dataSalva) {
@@ -11,7 +10,6 @@ if (dataSalva) {
     const anoAtual = agora.getFullYear();
     let alvo = new Date(anoAtual, 4, 16, 0, 0, 0); // 4 = maio (mês é 0-indexado)
 
-    // Se já passou de 16 de maio este ano, define para o ano seguinte
     if (agora > alvo) {
         alvo.setFullYear(anoAtual + 1);
     }
