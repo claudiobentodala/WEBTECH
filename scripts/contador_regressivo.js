@@ -8,7 +8,7 @@ if (dataSalva) {
 } else {
     const agora = new Date();
     const anoAtual = agora.getFullYear();
-    let alvo = new Date(anoAtual, 4, 16, 0, 0, 0); // 4 = maio (mês é 0-indexado)
+    let alvo = new Date(anoAtual, 4, 16, 0, 0, 0);
 
     if (agora > alvo) {
         alvo.setFullYear(anoAtual + 1);
