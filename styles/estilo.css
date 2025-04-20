@@ -28,14 +28,17 @@ body{
 /*HEADER*/
 header{
     display: flex;
-    position: fixed;
-    top: 0px;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--main_color);
+    position: fixed;
+    top: 0px;
     padding: 5px;
     width: 100%;
+    background-color: var(--main_color);
+}
+header > menu {
+    display: flex;
 }
 header > a{
     align-self: flex-start;
@@ -53,14 +56,17 @@ header > menu > nav{
     flex-flow: row wrap ;
     align-items: center;
 }
-header > span#imenu{
+header > .menu{
     display: none;
     justify-content: center;
     align-content: center; 
     height: 30px;
-    width: 50vw;
     color: var(--second_color);
     font-size: 2em;
+    width: 150px;
+}
+header > .menu > img#fechar{
+    display: none;
 }
 header > menu > nav  li{
     display: inline-flex;
@@ -343,7 +349,12 @@ main > section#ora > a:hover{
     transform: translate(4%);
     transition: .3s;
 }
-
+header#orador{
+    height: 70px;
+}
+header#orador > a{
+    transform: translate(0,17px);
+}
 /*PATROCINADORES*/
 main > section#patro{
     display: flex;
@@ -387,9 +398,14 @@ main > section#patro > a:hover{
     transform: translate(4%);
     transition: .3s;
 }
-
 main > h1{
     font-size: 20px;
+}
+header#patrocinador{
+    height: 70px;
+}
+header#patrocinador > a{
+    transform: translate(0,17px);
 }
 /*MODO ESCURO E CLARO*/
 div#modo{

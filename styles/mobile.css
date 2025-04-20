@@ -17,7 +17,7 @@
 header, header > menu > nav{
     flex-flow: column nowrap;
 }
-header >  span#imenu{
+header >  .menu{
     display: flex;
 }
 header > menu {
