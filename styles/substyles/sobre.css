@@ -24,6 +24,9 @@ main > section{
 }
 
 /*TITULO E DESCRIÇÃO*/
+main > section.sobre{
+    border-radius: var(--radius);
+}
 main > section.sobre article{
     display: flex;
     flex-flow: column nowrap;

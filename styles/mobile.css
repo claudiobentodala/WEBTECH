@@ -5,7 +5,7 @@
     --second_color: skyblue;
     --color1: #ffffff;
     --color2: #020235;
-    --color3: #0324a1;
+    --color3: red;
     --font-main: monospace;
     --font-second: Arial, Helvetica, sans-serif;
     --espaço: 25px;
@@ -251,9 +251,5 @@ main > section.orador_content > article > p{
 /*MODO ESCURO E CLARO*/
 div#modo{
     top: 90vh;
-    left: 80vw;
-    border: 3.5px solid var(--color2);
-}
-div#modo > img{
-    transform: translate(70%,70%);
+    left: 77vw;
 }

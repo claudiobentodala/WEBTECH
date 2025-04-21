@@ -1,4 +1,5 @@
 let fundo = window.document.querySelector('body')
+let modo_icone = window.document.querySelector('div#modo')
 
 let link_home = {
     text: window.document.querySelector('a#texta'),
@@ -30,7 +31,7 @@ function modo() {
 
         link_home.ora.style.background = '#020235'
         link_home.ora.style.color = 'skyblue'
-        
+
     } else {
 
         ligth.style.display = 'none'
@@ -49,5 +50,7 @@ function modo() {
 
         link_home.ora.style.background = 'skyblue'
         link_home.ora.style.color = '#020235'
+
+        
     }
 }

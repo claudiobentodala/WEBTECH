@@ -6,6 +6,7 @@
 }
 
 :root{
+    --fundo:#020235;
     --main_color: #3e3edd;
     --second_color: skyblue;
     --color1: #ffffff;
@@ -20,7 +21,7 @@
 }
 
 body{
-    background-color: #b1d9ff;
+    background-color: var(--fundo);
     height: 100vh;
     width: 98.9vw;
 }
@@ -35,6 +36,7 @@ header{
     top: 0px;
     padding: 5px;
     width: 100%;
+    box-shadow: 0px 6px 13px 1px darkblue;
     background-color: var(--main_color);
 }
 header > menu {
@@ -108,11 +110,11 @@ main.principal{
     margin-top: 25px;
     margin-bottom: var(--espaço);
 }
-
 /*INTRODUCION*/
 main > section#intro{
     height: 450px;
     margin: var(--margin_fixed) 0px var(--espaço) 0px;
+    border-radius: var(--radius);
 }
 
 main > section#intro div#img{
@@ -414,16 +416,20 @@ div#modo{
     left: 90vw;
     width: 65px;
     height: 65px;
+    box-shadow: 1px 1px 20px 5px darkblue;
     border-radius: 15px;
-    border: 2px solid var(--color2);
     background-color: var(--main_color);
 }
 div#modo > img{
-    transform: translate(70%,70%);
+    transform: translate(82%,82%);
 }
 div#modo > img#dark{
-    display: block;
+    display: none;
 }
 div#modo > img#ligth{
-    display: none;
+    display: block;
+}
+/*SOMBRA*/
+main > section#intro,section#time,section#status,section#get,section#ora,section#patro,section.sobre,section.orador_content > article,main#patrocinador,section.patrocinador_content > article {
+    box-shadow: 7px 7px 20px 15px darkblue;
 }
