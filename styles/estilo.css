@@ -88,7 +88,7 @@ header > menu > nav  a{
 header > menu > nav  a:hover{
     transition: .4s ;
     transform:  translate(3%);
-    color: var(--color1);
+    color: var(--second_color);
     background-color: var(--color2);
 }
 header > menu > nav  a#activo{
@@ -147,7 +147,6 @@ main > section#intro article#text h1{
 }
 main > section#intro p{
     margin: 0px 20px;
-    color: var(--color2);
     font-size: 18px;
     font-family: var(--font-second);
     text-align: left;
@@ -165,8 +164,8 @@ main > section#intro article#text a{
     font-size: 17px;
     text-decoration: none;
     text-transform: capitalize;
-    color: var(--color2);
-    background-color: var(--second_color);
+    color: var(--second_color);
+    background-color: var(--color2);
 }
 
 main > section#intro article#text a:hover{
@@ -201,7 +200,6 @@ main > section#time > article > div{
     text-align: center;
     font-family: var(--font-main);
     font-size: 21px;
-    background-color: #3e3edd;
 }
 main > section#time > article > div > p{
     font-family: var(--font-second);
@@ -268,7 +266,6 @@ main > section#get p{
     margin: auto;
     padding: 10px 5px;
     width: 90%;
-    color: var(--color2);
     text-indent: var(--indent);
     text-align: left;
     font-family: var(--font-second);
@@ -276,17 +273,17 @@ main > section#get p{
 }
 main > section#get a{
     align-self: center;
-    padding: 8px;
+    padding: 12px;
     border-radius: 10px;
     margin-top: 15px;
-    width: 120px;
+    width: 128px;
     font-weight: bold;
     font-family: var(--font-main);
     font-size: 17px;
     text-decoration: none;
     text-transform: capitalize;
-    color: var(--color2);
-    background-color: var(--second_color);
+    color: var(--second_color);
+    background-color: var(--color2);
 }
 main > section#get a:hover{
     transform: translate(4%);
@@ -334,7 +331,7 @@ main > section#ora p {
 }
 main > section#ora > a{
     align-self: center;
-    padding: 8px;
+    padding: 12px;
     border-radius: 10px;
     width: 120px;
     margin: 15px 0px 25px 0px;
@@ -344,18 +341,12 @@ main > section#ora > a{
     text-align: center;
     text-decoration: none;
     text-transform: capitalize;
-    color: var(--color2);
-    background-color: var(--second_color);
+    color: var(--second_color);
+    background-color: var(--color2);
 }
 main > section#ora > a:hover{
     transform: translate(4%);
     transition: .3s;
-}
-header#orador{
-    height: 70px;
-}
-header#orador > a{
-    transform: translate(0,17px);
 }
 /*PATROCINADORES*/
 main > section#patro{
@@ -383,7 +374,7 @@ main > section#patro > article{
 }
 main > section#patro > a{
     align-self: center;
-    padding: 8px;
+    padding: 12px;
     border-radius: 10px;
     width: 120px;
     margin-top: 15px;
@@ -393,8 +384,8 @@ main > section#patro > a{
     text-align: center;
     text-decoration: none;
     text-transform: capitalize;
-    color: var(--color2);
-    background-color: var(--second_color);
+    color: var(--second_color);
+    background-color: var(--color2);
 }
 main > section#patro > a:hover{
     transform: translate(4%);

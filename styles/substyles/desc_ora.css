@@ -16,6 +16,12 @@
 header{
     position: relative;
 }
+header#orador{
+    height: 70px;
+}
+header#orador > a{
+    transform: translate(0,17px);
+}
 
 header > a {
     height: 100%;
