@@ -16,7 +16,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url(../../image/banner-3.jpg);
+   background-image: url(../../image/banner-3.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -31,9 +31,10 @@ main > section >form {
     display: block;
     margin: auto;
     width: 450px;
-    background-color: #f7d8d854;
+    background-color: #f7d8d825;
     border-radius: var(--radius);
     padding: 20px 0px;
+    box-shadow: 7px 7px 20px 15px darkblue;
 }
 /*CAIXA ENBUTIDA*/
 main > section > form > article{
@@ -89,13 +90,13 @@ main article#add{
     margin-top: 10px
 }
 main  textarea#idesc{
+    font-size: 17px;
     max-width: 210px;
     min-width: 210px;
     max-height: 148px;
     min-height: 148px;
     display: block;
     margin: 10px auto;
-    font-size: 15px;
     padding: 3.5px;
 }
 
@@ -113,6 +114,7 @@ main > section > form > input#ienviar{
     display: block;
     margin: auto;
     border-radius: 10px;
+    font-size: 15px;
     padding: 12px 22px;
     background-color: var(--main_color);
     color: var(--color2);
