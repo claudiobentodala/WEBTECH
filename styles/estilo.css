@@ -422,5 +422,5 @@ div#modo > img#ligth{
 }
 /*SOMBRA*/
 main > section#intro,section#time,section#status,section#get,section#ora,section#patro,section.sobre,section.orador_content > article,main#patrocinador,section.patrocinador_content > article {
-    box-shadow: 7px 7px 20px 15px darkblue;
+    box-shadow: 0px 0px 30px 22px darkblue;
 }
