@@ -24,6 +24,7 @@ let link_home = {
     patro: window.document.querySelector('a#patroa'),
     ora: window.document.querySelector('a#ora'),
 }
+
 function modo() {
     if (ligth.style.display == 'none') {
         
@@ -50,7 +51,7 @@ function modo() {
         section_home.patrocinadores.style.boxShadow = '0px 0px 30px 22px darkblue'
         link_home.patro.style.background = '#020235'
         link_home.patro.style.color = 'skyblue'
-        
+
     } else {
         
         ligth.style.display = 'none'

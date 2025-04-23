@@ -316,6 +316,7 @@ main > section#ora div {
     padding: 20px;
     margin-bottom: var(--espaço);
     border-radius: var(--radius);
+    box-shadow: 2px 4px 10px 0px #0000008e;
     background-color: var(--second_color);
 }
 main > section#ora img {

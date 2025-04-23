@@ -35,7 +35,12 @@ main > section.patrocinador_content > img{
     margin: auto;
     padding: 30px 0px;
 }
-main > section.patrocinador_content > article > h2,span{
+main > section.patrocinador_content > article{
+    padding: 30px 0px;
+    border-radius: 30px;
+    background-color: var(--main_color);
+}
+main > section.patrocinador_content > article > h2{
     text-align: center;
     font-family: var(--font-main);
     color: var(--second_color);
@@ -44,14 +49,12 @@ main > section.patrocinador_content > article > h2,span{
     text-transform: capitalize;
 }
 main > section.patrocinador_content > article > p{
-    font-family: var(--font-second);
-    line-height: 25px;
-    font-size: 18px;
+    margin: auto;
+    width: 95%;
+    margin-bottom: 10px;
+    line-height: 30px;
     text-transform: capitalize;
     text-indent: 45px;
-}
-main > section.patrocinador_content > article{
-    background-color: var(--main_color);
-    padding: 30px;
-    border-radius: 30px;
+    font-size: 18px;
+    font-family: var(--font-second);
 }

@@ -43,6 +43,7 @@ main > section#patrocinador > article {
     padding: 30px 0px;
     border-radius: 20px;
     margin: 25px 0px;
+    box-shadow: 2px 4px 10px 0px #0000008e;
     background-color: var(--second_color);
 }
 main > section#patrocinador > article > a{
