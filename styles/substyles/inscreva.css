@@ -45,19 +45,10 @@ main > section > form > article{
     max-width: 280px;
     min-width: 100px;
     background-color: var(--main_color);
-    box-shadow: 2px 3px 13px 4px #0000097c;
+    box-shadow: 2px 3px 13px 4px #00000900;
 }
 main > section > form label{
     margin: 0px 7px;
-}
-main > section > form  input#iemail,input#iname_main{
-    color: white;
-}
-main > section > form  input#iemail,input#iname_main,select#icurso{
-    width: 70%;
-    max-width: 100%;
-    min-width: 40%;
-    padding: 10px;
 }
 main > section > form  input#iemail,input#iname_main,select#icurso,select#iturma,select#iclasse,select#itipo{
     outline: 3px solid var(--color2);
@@ -66,13 +57,26 @@ main > section > form  input#iemail,input#iname_main,select#icurso,select#iturma
     background-color: transparent;
     border: 1px;
 }
+main > section > form  input#iemail,input#iname_main,select#icurso{
+    width: 70%;
+    max-width: 100%;
+    min-width: 40%;
+}
+main > section > form input#iname_main,input#iemail{
+    font-size: 17px;
+    color: white;
+    padding: 10px;
+}
 main > section > form select#iturma,select#iclasse{
     width: 28%;
+}
+main > section > form  select#icurso{
+    padding: 10px;
 }
 main > section > form select#iturma,select#iclasse,select#itipo{
     padding: 5px;
 }
-select#itipo{
+main > section > form #itipo{
     width: 50%;
 }
 /*HOVER*/
@@ -97,19 +101,19 @@ main  textarea#idesc{
     max-height: 148px;
     min-height: 148px;
     display: block;
-    margin: 10px auto;
     padding: 3.5px;
+    margin: 10px auto;
+    font-family: var(--font-second);
+    font-size: 15px;
+    font-weight: bold;
+    border: 3px solid var(--color2);
+    color: white;
+    background: transparent;
 }
 
 article.other  legend,label{
     font-size: 16px;
     padding-bottom: 10px;
-}
-.apenas{
-    color: var(--color2);
-    font-weight: bold;
-    text-align: center;
-    text-transform: capitalize;
 }
 main > section > form > input#ienviar{
     display: block;
@@ -121,7 +125,14 @@ main > section > form > input#ienviar{
     color: var(--color2);
     font-weight: bolder;
     text-transform: capitalize;
+    border: transparent;
+    box-shadow: 2px 2px 7px 1px #00000067;
 }
+main > section > form > input#ienviar:hover{
+    transform: translate(2.5px);
+    transition: .3s;
+}
+
 /*ICONES*/
 .icon{
     transform: translate(0%,8px);
