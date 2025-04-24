@@ -55,6 +55,7 @@ main > section#ora p {
 }
 main > section#ora > article  a{
     align-self: center;
+    box-shadow: 2px 5px 9px 0px #00000054;
     padding: 12px;
     border-radius: 10px;
     width: 120px;

@@ -78,12 +78,13 @@ header > menu > nav  a{
     margin: 5px;
     border-radius: 8px;
     color: var(--main_color);
-    background-color: var(--color2);
     font-size: 16px;
     font-family: var(--font-second);
     text-align: center;
     text-decoration: none;
     text-transform: capitalize;
+    background-color: var(--color2);
+    box-shadow: 2px 5px 9px 0px #00000054;
 }
 header > menu > nav  a:hover{
     transition: .4s ;
@@ -92,9 +93,9 @@ header > menu > nav  a:hover{
     background-color: var(--color2);
 }
 header > menu > nav  a#activo{
-    background-color: var(--main_color);
     color: var(--color2);
     border: 2.5px solid var(--color2);
+    background-color: var(--main_color);
 }
 header > menu > nav  a#inscreva{
     background-color: var(--second_color);
@@ -139,6 +140,7 @@ main > section#intro article#text{
 }
 main > section#intro article#text h1{
     margin-bottom: 5px;
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
     font-size: 33px;
     font-weight: bolder;
     font-family: var(--font-main);
@@ -165,6 +167,7 @@ main > section#intro article#text a{
     text-decoration: none;
     text-transform: capitalize;
     color: var(--second_color);
+    box-shadow: 2px 5px 9px 0px #00000054;
     background-color: var(--color2);
 }
 
@@ -180,6 +183,7 @@ main > section#intro {
 /*TIME*/
 main > section#time > h2{
     padding: 15px 0px;
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
     font-family: var(--font-main);
     font-size: 27px;
     text-align: center;
@@ -215,6 +219,7 @@ main > section#status,section#time {
 /*STATUS*/
 main > section#status > h2{
     padding: 15px 0px;
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
     font-size: 26px;
     font-family: var(--font-main);
     text-transform: capitalize;
@@ -256,6 +261,7 @@ main > section#get {
     background-color: var(--main_color);
 }
 main > section#get h2 {
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
     margin-bottom: 10px;
     font-family: var(--font-main);
     font-size: 2em;
@@ -283,13 +289,13 @@ main > section#get a{
     text-decoration: none;
     text-transform: capitalize;
     color: var(--second_color);
+    box-shadow: 2px 5px 9px 0px #00000054;
     background-color: var(--color2);
 }
 main > section#get a:hover{
     transform: translate(4%);
     transition: .3s;
 }
-
 /*ORADORES*/
 main > section#ora{
     display: flex;
@@ -298,6 +304,7 @@ main > section#ora{
     background-color: var(--main_color);
 }
 main > section#ora h2{
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
     font-family: var(--font-main);
     color: var(--second_color);
     padding: 10px 5px;
@@ -343,6 +350,7 @@ main > section#ora > a{
     text-decoration: none;
     text-transform: capitalize;
     color: var(--second_color);
+    box-shadow: 2px 5px 9px 0px #00000054;
     background-color: var(--color2);
 }
 main > section#ora > a:hover{
@@ -359,6 +367,7 @@ main > section#patro{
     background-color: var(--main_color);
 }
 main > section#patro > h2{
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
     font-family: var(--font-main);
     font-size: 27px;
     text-align: center;
@@ -386,6 +395,7 @@ main > section#patro > a{
     text-decoration: none;
     text-transform: capitalize;
     color: var(--second_color);
+    box-shadow: 2px 5px 9px 0px #00000054;
     background-color: var(--color2);
 }
 main > section#patro > a:hover{

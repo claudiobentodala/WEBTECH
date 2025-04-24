@@ -22,12 +22,13 @@ main#patrocinador{
     background-color: var(--main_color);
 }
 main > h1{
-    font-family: var(--font-main);
-    text-transform: uppercase;
-    color: var(--second_color);
-    font-size: 28px;
     padding: 10px 20px 0px 20px;
     margin-bottom: 20px;
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
+    text-transform: uppercase;
+    font-family: var(--font-main);
+    font-size: 28px;
+    color: var(--second_color);
 }
 main > section#patrocinador {
     display: flex;
@@ -48,6 +49,7 @@ main > section#patrocinador > article {
 }
 main > section#patrocinador > article > a{
     align-self: center;
+    box-shadow: 2px 5px 9px 0px #00000054;
     padding: 12px;
     border-radius: 10px;
     margin-top: 15px;

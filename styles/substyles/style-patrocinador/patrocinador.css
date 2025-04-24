@@ -47,6 +47,7 @@ main > section.patrocinador_content > article > h2{
     margin-bottom: 15px;
     font-size: 25px;
     text-transform: capitalize;
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
 }
 main > section.patrocinador_content > article > p{
     margin: auto;
