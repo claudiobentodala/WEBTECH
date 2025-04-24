@@ -34,7 +34,8 @@ main > section.orador_content > article{
     width: 78vw;
     border-radius: 30px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: var(--espaço);
+    margin-bottom: var(--espaço);
     background-color: var(--main_color);
 }
 main > section.orador_content > article > h2{

@@ -435,3 +435,12 @@ div#modo > img#ligth{
 main > section#intro,section#time,section#status,section#get,section#ora,section#patro,section.sobre,section.orador_content > article,main#patrocinador,section.patrocinador_content > article {
     box-shadow: 0px 0px 30px 22px darkblue;
 }
+footer{
+    padding: 8px 0px;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: var(--main_color);
+}
+footer > span{
+    font-weight: bolder;
+}
