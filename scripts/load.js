@@ -2,7 +2,6 @@ var bod = window.document.querySelector('div#body')
 var head = window.document.querySelector('header')
 var main = window.document.querySelector('main')
 var foot = window.document.querySelector('footer')
-function parar() {}//QUANDO PAGINA INICIAL É CARREGADA POR NAVEGAÇÃO
 function carregar() {
     head.style.display = 'none'
     main.style.display = 'none'
