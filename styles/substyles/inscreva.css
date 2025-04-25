@@ -34,7 +34,7 @@ main > section >form {
     background-color: #f7d8d825;
     padding: 20px 0px;
     border-radius: var(--radius);
-    box-shadow: 7px 7px 20px 15px #420080 ;
+    box-shadow: 7px 7px 20px 15px #5c1076;
 }
 /*CAIXA ENBUTIDA*/
 main > section > form > article{
