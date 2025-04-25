@@ -113,6 +113,7 @@ header > menu > nav  a{
     text-transform: capitalize;
     background-color: var(--color2);
     box-shadow: 2px 5px 9px 0px #00000054;
+    transition: .4s ;
 }
 header > menu > nav  a:hover{
     transition: .4s ;
@@ -197,6 +198,7 @@ main > section#intro article#text a{
     color: var(--second_color);
     box-shadow: 2px 5px 9px 0px #00000054;
     background-color: var(--color2);
+    transition: .3s;
 }
 
 main > section#intro article#text a:hover{
@@ -319,6 +321,7 @@ main > section#get a{
     color: var(--second_color);
     box-shadow: 2px 5px 9px 0px #00000054;
     background-color: var(--color2);
+    transition: .3s;
 }
 main > section#get a:hover{
     transform: translate(4%);
@@ -380,6 +383,7 @@ main > section#ora > a{
     color: var(--second_color);
     box-shadow: 2px 5px 9px 0px #00000054;
     background-color: var(--color2);
+    transition: .3s;
 }
 main > section#ora > a:hover{
     transform: translate(4%);
@@ -425,6 +429,7 @@ main > section#patro > a{
     color: var(--second_color);
     box-shadow: 2px 5px 9px 0px #00000054;
     background-color: var(--color2);
+    transition: .3s;
 }
 main > section#patro > a:hover{
     transform: translate(4%);
