@@ -121,12 +121,6 @@ main > section.sobre div.img_rigth{
 
 
 /*INSCREVA-SE*/
-/* SUBSTITUINDO A IMAGEM
-body#ins{
-    background-position: left bottom;
-    background-image: url(../image/banner-3.jpg);
-}
-*/
 main > section#get > h2 {
     font-size: 16px;
 }
@@ -149,9 +143,6 @@ main.increva_main{
 main.increva_main{
     height: 100vh;
     padding-top: 20px;
-    /* SUBSTITUINDO A IMAGEM
-    background-image: url(../../image/banner-1.jpg);
-    */
 }
 main > section.sobre article > h2{
     font-size: 14px;

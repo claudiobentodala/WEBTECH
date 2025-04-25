@@ -12,15 +12,14 @@
     --radius: 35px;
     --margin_fixed: 97px;
 }
-/*
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url(../../image/banner-3.jpg); SUBSTITUINDO A IMAGEM
+    background-image: url(../../image/banner-18.png);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
 }
-*/
 header#ins{
     position: relative;
 }
