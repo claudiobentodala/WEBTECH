@@ -29,7 +29,7 @@ body{
 /*CARREGAMENTO*/
 div#body{
     display: none;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     width: 100vw;
@@ -39,12 +39,19 @@ div#body{
     background-position: center center;
     background-size: cover;
 }
-div#body > div{
+div#body > div#show{
     width: 170px;
     height: 170px;
     background-image: url(../image/2-removebg-preview.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+div#body > div#group{
+    transform: translate(0px,25vh);
+    color: white;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.397);
+    text-transform: uppercase;
+    font-size: 2.7em;
 }
 
 /*HEADER*/
