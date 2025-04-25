@@ -32,9 +32,9 @@ main > section >form {
     margin: auto;
     width: 450px;
     background-color: #f7d8d825;
-    border-radius: var(--radius);
     padding: 20px 0px;
-    box-shadow: 7px 7px 20px 15px darkblue;
+    border-radius: var(--radius);
+    box-shadow: 7px 7px 20px 15px #420080 ;
 }
 /*CAIXA ENBUTIDA*/
 main > section > form > article{
@@ -102,11 +102,12 @@ main  textarea#idesc{
     display: block;
     padding: 3.5px;
     margin: 10px auto;
+    color: white;
+    border: 3px solid var(--color2);
+    text-align: justify;
     font-family: var(--font-second);
     font-size: 15px;
     font-weight: bold;
-    border: 3px solid var(--color2);
-    color: white;
     background: transparent;
 }
 
