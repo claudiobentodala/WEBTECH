@@ -9,7 +9,14 @@
     <link rel="stylesheet" href="../styles/mobile.css" media="screen and (max-width: 709px)">
     <link rel="shortcut icon" href="../image/favicon.ico" type="image/x-icon">
 </head>
-<body id="ins">
+<style>
+    footer{
+        width: 0px;
+        height: 0px;
+        background: transparent;
+    }
+</style>
+<body id="ins" onload="carregar(true, 1700)">
     <header id="ins">
         <a href="../index.html"><div id="logo"></div></a>
         <div onclick="clickMenu()" class="menu"><img src="../image/icons/menu.png" id="menu"><img src="../image/icons/fechar.png" id="fechar"></div>
@@ -25,6 +32,10 @@
             </nav>
         </menu>
     </header>
+    <div id="body">
+        <div id="show"></div>
+        <div id="group">ssd</div>
+    </div>
     <main class="increva_main">
         <section>
             <form action="#" method="post">
@@ -86,6 +97,8 @@
                 </form>
             </section>
         </main>
+        <footer></footer>
     <script src="../scripts/script.js"></script>
+    <script src="../scripts/load.js"></script>
 </body>
 </html>
