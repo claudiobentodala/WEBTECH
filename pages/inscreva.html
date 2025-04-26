@@ -38,10 +38,10 @@
     </div>
     <main class="increva_main">
         <section>
-            <form action="#" method="post">
+            <form action="#" method="post" id="inscricao">
                     <article class="box">
                         <label for="iname_main"><img src="../image/icons/nome.png" alt="nome do projecto" class="icon"></label>
-                        <input type="text" name="name_main" id="iname_main" placeholder="nome do grupo" required>
+                        <input type="text" name="nome" id="iname_main" placeholder="nome do grupo" required>
                     </article>
                     <article class="box">
                         <label for="iemail"><img src="../image/icons/mail.png" alt="email" class="icon"></label>
@@ -75,7 +75,7 @@
                     <article class="other" id="add">
                         <article class="box" >
                             <label for="itipo"><img src="../image/icons/tipo.png" alt="tipo de projecto" class="icon"></label>
-                            <select name="tipo" id="itipo">
+                            <select name="tipo_projecto" id="itipo">
                                 <option value="ti">Tecnologia da Informação</option>
                                 <option value="robotica">Robótica e Automação</option>
                                 <option value="saude">Saúde e Bem-Estar</option>
@@ -90,7 +90,7 @@
                                 <option value="marketing">Marketing e Publicidade</option>
                                 <option value="construcaocivil">Construção Civil</option>
                             </select>
-                            <textarea name="desc" id="idesc" placeholder="descreve seu projecto" cols="30" rows="10" minlength="50" maxlength="220" required></textarea>
+                            <textarea name="descricao" id="idesc" placeholder="descreve seu projecto" cols="30" rows="10" minlength="50" maxlength="220" required></textarea>
                         </article>
                 </article>
                 <input type="submit" value="enviar" id="ienviar">
@@ -100,5 +100,7 @@
         <footer></footer>
     <script src="../scripts/script.js"></script>
     <script src="../scripts/load.js"></script>
+    <script src="../scripts/banco.js"></script>
+    <script src="../scripts/logic.js"></script>
 </body>
 </html>
