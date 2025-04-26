@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
 :root{
     --fundo:#020235;
     --main_color: #3e3edd;
