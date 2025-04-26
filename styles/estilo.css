@@ -42,9 +42,18 @@ div#body{
 div#body > div#show{
     width: 170px;
     height: 170px;
-    background-image: url(../image/logo-back.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: url(../image/logo-back.png);
+    animation: dor 1.8s infinite;
+}
+@keyframes dor {
+    from, to{
+        scale: 100%;
+    }
+    50%{
+        scale: 110%;
+    }
 }
 div#body > div#group{
     transform: translate(0px,25vh);
@@ -466,7 +475,27 @@ div#modo > img#ligth{
 }
 /*SOMBRA*/
 main > section#intro,section#time,section#status,section#get,section#ora,section#patro,section.sobre,section.orador_content > article,main#patrocinador,section.patrocinador_content > article {
-    box-shadow: 0px 0px 30px 22px darkblue;
+    animation: luz 1s infinite;
+}
+@keyframes luz {
+    0%{
+        box-shadow: 0px 0px 30px 22px darkblue;
+    }
+    25%{
+        box-shadow: 0px 0px 30px 20px darkblue;
+    }
+    50%{
+        box-shadow: 0px 0px 30px 18px darkblue;
+    }
+    75%{
+        box-shadow: 0px 0px 30px 16px darkblue;
+    }
+    90%{
+        box-shadow: 0px 0px 30px 17px darkblue;
+    }
+    100%{
+        box-shadow: 0px 0px 30px 21px darkblue;
+    }
 }
 footer{
     padding: 8px 0px;
