@@ -34,7 +34,21 @@ main > section >form {
     background-color: #f7d8d825;
     padding: 20px 0px;
     border-radius: var(--radius);
-    box-shadow: 7px 7px 20px 15px #5c1076;
+    animation: luzins 1.7s infinite;
+}
+@keyframes luzins {
+    0%{
+        box-shadow: 7px 7px 20px 15px #5c1076;
+    }
+    50%, 90%{
+        box-shadow: 7px 7px 20px 12px #5c1076;
+        }
+    75%{
+        box-shadow: 7px 7px 20px 10px #5c1076;
+        }
+    100%{
+        box-shadow: 7px 7px 20px 14px #5c1076;
+    }
 }
 /*CAIXA ENBUTIDA*/
 main > section > form > article{
