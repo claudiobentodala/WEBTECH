@@ -8,6 +8,14 @@ var corpo = {
 
 function print() {
 
+    if (window.document.querySelector('input#iname_main').value == '' || window.document.querySelector('input#iemail').value == '' || window.document.querySelector('textarea#idesc').value=='') {
+        window.alert('Preencha os campos Fazio!');
+        window.document.querySelector('input#iname_main').focus();
+        window.document.querySelector('input#iemail').focus();
+        return false;
+        
+    } 
+    
     window.alert('Aguarde, gerando o seu comprovante de inscrição...');
 
     corpo.bod.style.display = 'none';
