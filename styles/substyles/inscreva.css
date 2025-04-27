@@ -123,6 +123,11 @@ main  textarea#idesc{
     font-weight: bold;
     background: transparent;
 }
+main  p#base{
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
 
 article.other  legend,label{
     font-size: 16px;

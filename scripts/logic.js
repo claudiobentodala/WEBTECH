@@ -1,10 +1,18 @@
 var corpo = {
-    bod: window.document.querySelector('div#body'),
     head: window.document.querySelector('header#ins'),
     main: window.document.querySelector('main.increva_main'),
     foot: window.document.querySelector('footer'),
     impremir: window.document.querySelector('main#print')
 };
+
+/*
+function len() {
+    var area = window.document.querySelector('textarea#idesc')
+    setInterval(function(){
+        window.document.querySelector('span#length').innerHTML = area.length()
+    },100)
+}
+*/
 
 function print() {
 
@@ -18,7 +26,6 @@ function print() {
     
     window.alert('Aguarde, gerando o seu comprovante de inscrição...');
 
-    corpo.bod.style.display = 'none';
     corpo.main.style.display = 'none';
     corpo.head.style.display = 'none';
     corpo.foot.style.display = 'none';

@@ -39,7 +39,7 @@
     </div>
     <main class="increva_main">
         <section>
-            <form action="#" method="get" id="inscricao">
+            <form action="#" method="get" id="inscricao" >
                     <article class="box">
                         <label for="iname_main"><img src="../image/icons/nome.png" alt="nome do projecto" class="icon"></label>
                         <input type="text" name="nome" id="iname_main" placeholder="nome do grupo" required>
@@ -96,7 +96,8 @@
                                 <option value="turismo e hotelaria">Turismo e Hotelaria</option>
                                 <option value="vazio " selected></option>
                             </select>
-                            <textarea name="descricao" id="idesc" placeholder="descreve seu projecto" cols="30" rows="10" minlength="50" required></textarea>
+                            <textarea name="descricao" id="idesc" placeholder="descreve seu projecto" cols="30" rows="10" maxlength="500" required onfocus="len()"></textarea>
+                            <p id="base"><span id="length">0</span>-500</p>
                         </article>
                 </article>
                 <input type="button" value="Cadastrar" id="ienviar" onclick="print()">
