@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+    padding: 5px 0px;
+}
+main#print{
+    display: none;
+    text-align: left;
+    padding: 0px 60px;
+    margin: auto;
+    width: 60vw;
+    height: 1050px;
+    text-transform: uppercase;
+    background-color: white;
+}
+main#print > img{
+    width: 100px;
+}
+main#print > #header{
+    font-size: 16px;
+    text-align: right;
+}
+main#print > #header > p{
+    font-weight: bold;
+}
+main#print > #header > p > span{
+    font-weight: lighter;
+}
+main#print > #data{
+    font-size: 16px;
+    margin: 10px 0px;
+    font-weight: bolder;
+    text-align: center;
+}
+main#print > #data > span{
+    font-weight: lighter;
+}
+main#print > hr{
+    margin: 5px 0px;
+    border: 1px solid black;
+}
+main#print > #descricao{
+    margin: 10px 0px;
+}
+main#print > #descricao > h2{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+main#print > #descricao > p{
+    margin: 10px 0px;
+    text-indent: 50px;
+    text-transform: uppercase;
+}
+main#print > #assinatura{
+    text-align: center;
+    margin-top: 380px;
+}
+main#print > #assinatura > p{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+main#print > #assinatura > hr{
+    margin: auto;
+    width: 250px;
+    margin-top: 40px;
+    border: 1px solid black;
+}
+main#print #rodape{
+    text-align: right;
+}
+main#print #rodape > img{
+    transform: translate(45px);
+    margin-top: 15px;
+    width: 170px;
+    height: 150px;
+}
+@media print{
+    main#print{
+        width: 90vw;
+        padding: 0;
+    }
+}

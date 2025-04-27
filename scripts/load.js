@@ -1,3 +1,4 @@
+/*
 var corpo = {
     bod: window.document.querySelector('div#body'),
     head: window.document.querySelector('header'),
@@ -14,3 +15,4 @@ function carregar(completo,tempo) {
         corpo.bod.style.display = 'none'
     }, tempo)
 }
+    */

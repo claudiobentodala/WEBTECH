@@ -6,6 +6,7 @@
     <title>INSCREVA-SE</title>
     <link rel="stylesheet" href="../styles/substyles/inscreva.css">
     <link rel="stylesheet" href="../styles/estilo.css">
+    <link rel="stylesheet" href="../styles/substyles/print.css">
     <link rel="stylesheet" href="../styles/mobile.css" media="screen and (max-width: 709px)">
     <link rel="shortcut icon" href="../image/favicon.ico" type="image/x-icon">
 </head>
@@ -16,7 +17,7 @@
         background: transparent;
     }
 </style>
-<body id="ins" onload="carregar(true, 2300)">
+<body id="ins">
     <header id="ins">
         <a href="../index.html"><div id="logo"></div></a>
         <div onclick="clickMenu()" class="menu"><img src="../image/icons/menu.png" id="menu"><img src="../image/icons/fechar.png" id="fechar"></div>
@@ -41,19 +42,20 @@
             <form action="#" method="get" id="inscricao">
                     <article class="box">
                         <label for="iname_main"><img src="../image/icons/nome.png" alt="nome do projecto" class="icon"></label>
-                        <input type="text" name="nome" id="iname_main" placeholder="nome do grupo" required>
+                        <input type="text" name="nome" id="iname_main" placeholder="nome do grupo" value="vazio" required>
                     </article>
                     <article class="box">
                         <label for="iemail"><img src="../image/icons/mail.png" alt="email" class="icon"></label>
-                        <input type="email" name="email" id="iemail" placeholder="email" required>
+                        <input type="email" name="email" id="iemail" placeholder="email" value="vazio" required>
                     </article>
                         <article class="box">
                             <label for="iclasse"><img src="../image/icons/classe.png" alt="classe" class="icon"></label>
                             <select name="classe" id="iclasse" required>
-                                <option value="10" selected>10ª</option>
+                                <option value="10">10ª</option>
                                 <option value="11">11ª</option>
                                 <option value="12">12ª</option>
                                 <option value="13">13ª</option>
+                                <option value="vazio " selected></option>
                             </select>
                             <label for="iturma"><img src="../image/icons/turma.png" alt="turma" class="icon"></label>
                             <select name="turma" id="iturma" required>
@@ -62,6 +64,8 @@
                                 <option value="c">C</option>
                                 <option value="d">D</option>
                                 <option value="e">E</option>
+                                <option value="e">F</option>
+                                <option value="vazio " selected></option>
                             </select>
                         </article>
                     <article class="box">
@@ -70,6 +74,7 @@
                             <option value="cons">Construção Civil</option>
                             <option value="contgest">Contabílidade e Gestão</option>
                             <option value="inf">Informática</option>
+                            <option value="vazio " selected></option>
                         </select>
                     </article>
                     <article class="other" id="add">
@@ -89,18 +94,50 @@
                                 <option value="turismo">Turismo e Hotelaria</option>
                                 <option value="marketing">Marketing e Publicidade</option>
                                 <option value="construcaocivil">Construção Civil</option>
+                                <option value="vazio " selected></option>
                             </select>
-                            <textarea name="descricao" id="idesc" placeholder="descreve seu projecto" cols="30" rows="10" minlength="50" maxlength="220" required></textarea>
+                            <textarea name="descricao" id="idesc" placeholder="descreve seu projecto" cols="30" rows="10" minlength="50" required></textarea>
                         </article>
                 </article>
-                <input type="submit" value="enviar" id="ienviar">
+                <input type="button" value="Cadastrar" id="ienviar" onclick="print()">
                 </form>
             </section>
         </main>
         <footer></footer>
+        <!--PRINT-->
+        <main id="print">
+            <img src="../image/ssd1.png" alt="ssd">
+            <section id="header">
+                <p>Nome: <span id="nome">grupo</span></p>
+                <p>Classe: <span id="classe">0</span>ª</p>
+                <p>Turma: <span id="turma">A</span></p>
+                <p>Curso: <span id="curso">nome_curso</span></p>
+                <p>Email: <span id="email">exemple@gmail.com</span></p>
+                <p>Tipo de projecto: <span id="tipo">tipo_projecto</span></p>
+            </section>
+            <section id="data">Inscrito em:
+                <span id="ano">2000</span> -
+                <span id="mes">1</span> -
+                <span id="dia">1</span> -
+                <span id="hora">1</span>
+            </section>
+            <hr>
+            <section id="descricao">
+                <h2>descrição:</h2>
+                <p id="descricao">sem descrição!</p>
+            </section>
+            <section id="assinatura">
+                <p>assinatura do coordenador</p>
+                <hr>
+            </section>
+            <section id="rodape">
+                <p>Impresso por:</p>
+                <img src="../image/carmun.png" alt="ssd">
+            </section>
+        </main>
+
     <script src="../scripts/script.js"></script>
     <script src="../scripts/load.js"></script>
-    <script src="../scripts/banco.js"></script>
     <script src="../scripts/logic.js"></script>
 </body>
 </html>

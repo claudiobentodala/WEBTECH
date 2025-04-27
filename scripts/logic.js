@@ -1,17 +1,31 @@
 var corpo = {
     bod: window.document.querySelector('div#body'),
-    head: window.document.querySelector('header'),
-    main: window.document.querySelector('main'),
-    foot: window.document.querySelector('footer')
-}
-
-
-const dados = {
-    nome: window.document.querySelector('input#iname_main').value,
-    email: window.document.querySelector('input#iemail').value,
-    classe: window.document.querySelector('select#iclasse').value,
-    turma: window.document.querySelector('select#iturma').value,
-    curso: window.document.querySelector('select#icurso').value,
-    tipo: window.document.querySelector('select#itipo').value,
-    descricao: window.document.querySelector('textarea#idesc').value
+    head: window.document.querySelector('header#ins'),
+    main: window.document.querySelector('main.increva_main'),
+    foot: window.document.querySelector('footer'),
+    impremir: window.document.querySelector('main#print')
 };
+
+function print() {
+
+    window.alert('Aguarde, gerando o seu comprovante de inscrição...');
+
+    corpo.bod.style.display = 'none';
+    corpo.main.style.display = 'none';
+    corpo.head.style.display = 'none';
+    corpo.foot.style.display = 'none';
+    corpo.impremir.style.display = 'block';
+
+    window.document.querySelector('span#nome').innerHTML = window.document.querySelector('input#iname_main').value;
+    window.document.querySelector('span#email').innerHTML = window.document.querySelector('input#iemail').value;
+    window.document.querySelector('span#classe').innerHTML = window.document.querySelector('select#iclasse').value;
+    window.document.querySelector('span#turma').innerHTML = window.document.querySelector('select#iturma').value;
+    window.document.querySelector('span#curso').innerHTML =  window.document.querySelector('select#icurso').value;
+    window.document.querySelector('span#tipo').innerHTML = window.document.querySelector('select#itipo').value;
+    window.document.querySelector('span#ano').innerHTML = new Date().getFullYear();
+    window.document.querySelector('span#mes').innerHTML = new Date().getMonth() + 1;
+    window.document.querySelector('span#dia').innerHTML = new Date().getDate();
+    window.document.querySelector('span#hora').innerHTML = new Date().getHours() + ':' + new Date().getMinutes() + ':' + new Date().getSeconds();
+    window.document.querySelector('p#descricao').innerHTML = window.document.querySelector('textarea#idesc').value;
+
+}
