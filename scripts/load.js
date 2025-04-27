@@ -4,11 +4,18 @@ var corpo = {
     main: window.document.querySelector('main'),
     foot: window.document.querySelector('footer')
 }
+
 function carregar(completo,tempo) {
-    if (completo) {} 
-    else {corpo.head.style.display = 'flex'}
+    if (completo) {
+        corpo.head.style.display = 'none'
+    }
+    corpo.main.style.display = 'none'
+    corpo.foot.style.display = 'none'
+    corpo.bod.style.display = 'flex'
     setTimeout(function(){
-        if (completo) {corpo.head.style.display = 'flex'} 
+        if (completo) {
+            corpo.head.style.display = 'flex'
+        }
         corpo.main.style.display = 'block'
         corpo.foot.style.display = 'block'
         corpo.bod.style.display = 'none'
