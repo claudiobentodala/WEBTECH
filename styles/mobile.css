@@ -160,6 +160,7 @@ main  textarea#idesc{
     margin: 10px auto;
     font-size: 13.5px;
     padding: 2.5px;
+    color: var(--color2);
     background-color: white;
 }
 main > section > form > input#ienviar:hover{
