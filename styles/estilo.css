@@ -32,7 +32,7 @@ body{
 
 /*CARREGAMENTO*/
 div#body{
-    display: flex;
+    display: none;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
@@ -66,16 +66,13 @@ div#body > div#group{
     text-transform: uppercase;
     font-size: 2.7em;
 }
-main{
-    display: none;
-}
-footer{
-    display: none;
+main,footer{
+    display: block;
 }
 
 /*HEADER*/
 header{
-    display: none; /*DELIGADO POR CAUSA DOCARREAGADO*/
+    display: flex; /*DELIGADO POR CAUSA DOCARREAGADO*/
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
