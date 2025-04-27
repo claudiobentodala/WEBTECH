@@ -25,12 +25,10 @@ form.addEventListener('submit', function(event) {
     event.preventDefault(); // Impede o envio padrão do formulário
 
     // Mostra o indicador de carregamento e oculta mensagens anteriores
-    /*
     loadingIndicator.style.display = 'block';
     statusMessage.style.display = 'none';
     statusMessage.textContent = '';
     statusMessage.className = ''; // Limpa classes CSS (success/error)
-    */
 
     // Desabilita o botão de envio para evitar múltiplos cliques
     const submitButton = form.querySelector('ienviar');
