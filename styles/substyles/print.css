@@ -73,11 +73,12 @@ main#print > #assinatura > hr{
 main#print #rodape{
     text-align: right;
 }
-main#print #rodape > img{
-    transform: translate(45px);
-    margin-top: 15px;
+main#print #rodape > #carmun{
     width: 170px;
     height: 150px;
+}
+main#print #rodape > #qr{
+    transform: translate(100px);
 }
 @media print{
     main#print{
