@@ -6,18 +6,15 @@ var corpo = {
 }
 
 function carregar(completo,tempo) {
-    if (completo) {
-        corpo.head.style.display = 'none'
+    if (completo) {}
+    else{
+        corpo.head.style.display = 'flex'
     }
-    corpo.main.style.display = 'none'
-    corpo.foot.style.display = 'none'
-    corpo.bod.style.display = 'flex'
     setTimeout(function(){
-        if (completo) {
-            corpo.head.style.display = 'flex'
-        }
+        corpo.bod.style.display = 'none'
+        corpo.head.style.display = 'flex'
         corpo.main.style.display = 'block'
         corpo.foot.style.display = 'block'
-        corpo.bod.style.display = 'none'
     }, tempo)
+    
 }
