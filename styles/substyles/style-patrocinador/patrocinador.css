@@ -12,6 +12,8 @@
     --radius: 35px;
     --margin_fixed: 120px;
 }
+header{display: flex;}
+main,footer{display: block;}
 
 header{
     position: relative;
