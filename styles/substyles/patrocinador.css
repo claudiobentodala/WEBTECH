@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 :root{
+    --fundo:#020235;
     --main_color: #3e3edd;
     --second_color: skyblue;
     --color1: #ffffff;
