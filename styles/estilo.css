@@ -506,9 +506,11 @@ main > section#intro,section#time,section#status,section#get,section#ora,section
     }
 }
 footer{
+    font-family: var(--font-main);
     padding: 8px 0px;
     text-transform: capitalize;
     text-align: center;
+    font-size: 15px;
     background-color: var(--main_color);
 }
 footer > span{
