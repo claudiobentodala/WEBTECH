@@ -269,11 +269,11 @@ footer{
     margin-right: -3.0313px;
 }
 /*PRINT*/
-body{
-    background-color: white;
-}
 main#print{
-    width: 140%;
+    margin-right: -100px;
+    background-color: white;
+    width: 240vw;
+    height: 170vh;
 }
 main#print > #header{
     font-size: 12px;
@@ -301,7 +301,4 @@ main#print > #assinatura > hr{
 }
 main#print #rodape{
     margin-top: 15px;
-}
-main#print #rodape > #carmun{
-    display: none;
 }

@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    font-family: monospace;
     padding: 5px 0px;
 }
 main#print{
+    margin-right: -100px;
+    font-family: monospace;
     display: none;
     text-align: left;
     padding: 0px 60px;
