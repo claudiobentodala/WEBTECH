@@ -14,10 +14,6 @@
     --margin_fixed: 108px;
 }
 
-body{
-    background-color: var(--fundo);
-}
-
 /*HEADER*/
 header, header > menu > nav{
     flex-flow: column nowrap;

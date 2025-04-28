@@ -60,11 +60,12 @@ div#body > div#show{
     }
 }
 div#body > div#group{
+    font-family: monospace;
     transform: translate(0px,25vh);
     color: white;
     text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.397);
     text-transform: uppercase;
-    font-size: 2.7em;
+    font-size: 2.4em;
 }
 main,footer{
     display: none;
