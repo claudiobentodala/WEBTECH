@@ -199,7 +199,6 @@ main > section#intro p{
     font-family: var(--font-second);
     text-align: left;
     text-indent: var(--indent);
-    text-transform: capitalize;
 }
 main > section#intro article#text a{
     align-self: center;
