@@ -274,6 +274,7 @@ main#print{
     background-color: white;
     width: 240vw;
     height: 170vh;
+    transform: translate(22.5px);
 }
 main#print > #header{
     font-size: 12px;
@@ -301,4 +302,7 @@ main#print > #assinatura > hr{
 }
 main#print #rodape{
     margin-top: 15px;
+}
+main#print #rodape > #carmun{
+    transform: translate(-127%,-37px);
 }
