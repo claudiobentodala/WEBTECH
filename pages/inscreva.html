@@ -96,7 +96,7 @@
                                 <option value="turismo e hotelaria">Turismo e Hotelaria</option>
                                 <option value="vazio " selected></option>
                             </select>
-                            <textarea name="descricao" id="idesc" placeholder="descreve seu projecto" cols="30" rows="10" maxlength="500" required onfocus="len()"></textarea>
+                            <textarea name="descricao" id="idesc" placeholder="descreve seu projecto" cols="30" rows="10" maxlength="500" required onkeypress="len()" onblur="len()"></textarea>
                             <p id="base"><span id="length">0</span>-500</p>
                         </article>
                 </article>
@@ -117,8 +117,8 @@
                 <p>Tipo de projecto: <span id="tipo">tipo_projecto</span></p>
             </section>
             <section id="data">Inscrito em:
-                <span id="ano">2000</span> -
-                <span id="mes">1</span> -
+                <span id="ano">2000</span> /
+                <span id="mes">1</span> /
                 <span id="dia">1</span> -
                 <span id="hora">1</span>
             </section>

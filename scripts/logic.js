@@ -5,14 +5,10 @@ var corpo = {
     impremir: window.document.querySelector('main#print')
 };
 
-/*
 function len() {
-    var area = window.document.querySelector('textarea#idesc')
-    setInterval(function(){
-        window.document.querySelector('span#length').innerHTML = area.length()
-    },100)
+    var area = window.document.querySelector('textarea#idesc').value
+    window.document.querySelector('span#length').innerHTML = area.length
 }
-*/
 
 function print() {
 
@@ -42,5 +38,4 @@ function print() {
     window.document.querySelector('span#dia').innerHTML = new Date().getDate();
     window.document.querySelector('span#hora').innerHTML = new Date().getHours() + ':' + new Date().getMinutes() + ':' + new Date().getSeconds();
     window.document.querySelector('p#descricao').innerHTML = window.document.querySelector('textarea#idesc').value;
-
 }
