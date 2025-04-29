@@ -299,6 +299,3 @@ main#print > #assinatura > hr{
 main#print #rodape{
     margin-top: 15px;
 }
-main#print #rodape > #carmun{
-    transform: translate(-127%,-37px);
-}

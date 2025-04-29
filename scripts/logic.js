@@ -46,5 +46,6 @@ function print() {
     window.document.querySelector('span#mes').innerHTML = new Date().getMonth() + 1;
     window.document.querySelector('span#dia').innerHTML = new Date().getDate();
     window.document.querySelector('span#hora').innerHTML = new Date().getHours() + ':' + new Date().getMinutes() + ':' + new Date().getSeconds();
+    window.document.querySelector('span#valor').innerHTML = window.document.querySelector('input#iorca').value
     window.document.querySelector('p#descricao').innerHTML = window.document.querySelector('textarea#idesc').value;
 }

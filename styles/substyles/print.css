@@ -7,7 +7,7 @@ body{
     padding: 5px 0px 10px 0px;
 }
 main#print{
-    display: block;
+    display: none;
     margin-right: -100px;
     font-family: monospace;
     text-align: left;
@@ -18,11 +18,17 @@ main#print{
     text-transform: uppercase;
     background-color: white;
 }
-main#print > img{
+main#print section#top{
+    display: flex;
+    padding-top: 10px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+main#print section#top > img{
     width: 100px;
 }
-main#print > h1{
-    transform: translate(0,68.5px);
+main#print section#top > h1{
+    align-self: center;
     font-size: 2em;
     text-align: right;
 }
@@ -49,21 +55,49 @@ main#print > hr{
     margin: 5px 0px;
     border: 1px solid black;
 }
-main#print > section
+main#print > section#orcamento{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 20px 15px;
+    background-color: #f1f1f1;
+    border-top: 3px solid darkgray;
+}
+main#print > section#orcamento > span{
+    display: block;
+    font-size: 18px;
+}
+main#print > section#orcamento > span#titulo{}
+main#print > section#orcamento > span#money{
+    font-weight: bold;
+    text-align: right;
+}
 main#print > #descricao{
     margin: 10px 0px;
 }
 main#print > #descricao > h2{
     text-align: left;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 23px;
 }
 main#print > #descricao > p{
     margin: 10px 0px;
     text-indent: 50px;
     text-transform: uppercase;
 }
+main#print > #passo{}
+main#print > #passo > h2{
+    font-size: 20px;
+}
+main#print > #passo > article{
+    margin-left: 40px;
+    font-size: 13px;
+}
+main#print > #passo > article > div{
+    margin: 10px 0px;
+}
 main#print > #assinatura{
+    margin-top: 20px;
     text-align: center;
 }
 main#print > #assinatura > p{
@@ -77,11 +111,22 @@ main#print > #assinatura > hr{
     border: 1px solid black;
 }
 main#print #rodape{
-    text-align: right;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
-main#print #rodape > #carmun{
+main#print #rodape img{
     width: 170px;
     height: 150px;
+}
+main#print div#inst{
+    display: flex;
+    flex-flow: column wrap-reverse;
+}
+main#print div#inst > p{
+    align-self: center;
+}
+main#print #rodape > div#inst > #carmun{
 }
 main#print #rodape > #qr{
     transform: translate(100px);
