@@ -259,6 +259,10 @@ main > section.patrocinador_content > article > p{
 footer{
     margin-right: -3.0313px;
 }
+footer > section{
+    justify-content: space-evenly;
+    padding: 0;
+}
 /*PRINT*/
 main#print{
     transform: translate(0,20%);

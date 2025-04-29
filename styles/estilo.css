@@ -512,6 +512,18 @@ footer{
     font-size: 15px;
     background-color: var(--main_color);
 }
-footer > span{
+footer > section{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+    padding: 0px 14%;
+}
+footer > section > aside{
+    background-color: red;
+}
+footer > section > nav{
+    background-color: gray;
+}
+footer > p > span{
     font-weight: bolder;
 }
