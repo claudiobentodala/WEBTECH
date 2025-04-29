@@ -269,6 +269,13 @@ footer > section > aside{
 footer > p{
     font-size: 12.5px;
 }
+footer > section > nav > ul > li:hover{
+    transform: none;
+    color: var(--second_color);
+}
+footer > section > nav > ul > li >a:hover{
+    color: var(--second_color);
+}
 /*PRINT*/
 main#print{
     transform: translate(0,20%);

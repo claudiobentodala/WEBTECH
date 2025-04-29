@@ -534,12 +534,21 @@ footer > section > nav > ul{
 }
 footer > section > nav > ul > li{
     margin-top: 15px;
+    transition: .3s;
 }
 footer > section > nav > ul > li >a{
     color: var(--second_color);
     font-size: 17px;
     font-weight: bold;
     text-decoration: none;
+    transition: .2s;
+}
+footer > section > nav > ul > li:hover{
+    transform: translate(8px);
+    color: var(--color2);
+}
+footer > section > nav > ul > li >a:hover{
+    color: var(--color2);
 }
 footer > p > span{
     font-weight: bolder;
