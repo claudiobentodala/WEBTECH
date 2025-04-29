@@ -263,6 +263,12 @@ footer > section{
     justify-content: space-evenly;
     padding: 0;
 }
+footer > section > aside{
+    margin-top: 10px;
+}
+footer > p{
+    font-size: 12.5px;
+}
 /*PRINT*/
 main#print{
     transform: translate(0,20%);

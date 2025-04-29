@@ -518,11 +518,28 @@ footer > section{
     justify-content: space-between;
     padding: 0px 14%;
 }
-footer > section > aside{
-    background-color: red;
+footer > section > aside > p{
+    font-weight: bolder;
+    color: var(--color2);
+    font-size: 18px;
 }
 footer > section > nav{
-    background-color: gray;
+    align-self: center;
+}
+footer > section > nav > h3{
+    color: var(--color2);
+}
+footer > section > nav > ul{
+    list-style: none;
+}
+footer > section > nav > ul > li{
+    margin-top: 15px;
+}
+footer > section > nav > ul > li >a{
+    color: var(--second_color);
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
 }
 footer > p > span{
     font-weight: bolder;

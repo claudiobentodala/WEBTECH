@@ -161,6 +161,7 @@ main > section > form > input#ienviar{
     text-transform: capitalize;
     border: transparent;
     box-shadow: 2px 2px 7px 1px #00000067;
+    cursor: pointer;
 }
 main > section > form > input#ienviar:hover{
     transform: translate(2.5px);
