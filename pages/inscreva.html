@@ -97,6 +97,11 @@
                                 <option value="turismo e hotelaria">Turismo e Hotelaria</option>
                                 <option value="vazio " selected></option>
                             </select>
+                            <div id="pay">
+                                <label for="iorca"><img src="../image/icons/pagamento.png" class="icon"></label>
+                                <input type="number" name="oradores" id="iorca" max="1500000" placeholder="orçamento" onkeyup="money()" onkeydown="money()" >
+                                <span>kz</span>
+                            </div>
                             <textarea name="descricao" id="idesc" placeholder="descreve seu projecto" cols="30" rows="10" maxlength="500" required onkeyup="len()" onkeydown="len()" ></textarea>
                             <p id="base"><span id="length">0</span>-500</p>
                         </article>

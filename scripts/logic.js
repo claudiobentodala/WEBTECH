@@ -5,6 +5,15 @@ var corpo = {
     impremir: window.document.querySelector('main#print')
 };
 
+function money() {
+    var pay = window.document.querySelector('input#iorca').value
+    var maximo = 1500000
+    if (pay > maximo) {
+        window.document.querySelector('input#iorca').value = 
+        window.alert(`O orçamento não deve ser maior que ${maximo} KZ (UM MILHÃO E QUINHENTOS KWANZAS)`)
+    }
+}
+
 function len() {
     var area = window.document.querySelector('textarea#idesc').value
     window.document.querySelector('span#length').innerHTML = area.length
@@ -12,12 +21,12 @@ function len() {
 
 function print() {
 
-    if (window.document.querySelector('input#iname_main').value == '' || window.document.querySelector('input#iemail').value == '' || window.document.querySelector('textarea#idesc').value=='') {
+    if (window.document.querySelector('input#iname_main').value == '' || window.document.querySelector('input#iemail').value == '' || window.document.querySelector('textarea#idesc').value =='' || window.document.querySelector('input#iorca').value =='') {
         window.alert('Preencha os campos Fazio!');
         window.document.querySelector('input#iname_main').focus();
         window.document.querySelector('input#iemail').focus();
-        return false;
         
+        return false;
     } 
     
     window.alert('Aguarde, gerando o seu comprovante de inscrição...');

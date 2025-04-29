@@ -64,22 +64,22 @@ main > section > form > article{
 main > section > form label{
     margin: 0px 7px;
 }
-main > section > form  input#iemail,input#iname_main,select#icurso,select#iturma,select#iclasse,select#itipo{
+main > section > form input#iname_main,input#iemail{
+    font-size: 17px;
+    color: white;
+    padding: 10px;
+}
+main > section > form  input#iemail,input#iname_main,select#icurso,select#iturma,select#iclasse,select#itipo,input#iorca{
     outline: 3px solid var(--color2);
     border: transparent;
     font-weight: bolder;
     background-color: transparent;
     border: 1px;
 }
-main > section > form  input#iemail,input#iname_main,select#icurso{
+main > section > form  input#iemail,input#iname_main,select#icurso,input#iorca{
     width: 70%;
     max-width: 100%;
     min-width: 40%;
-}
-main > section > form input#iname_main,input#iemail{
-    font-size: 17px;
-    color: white;
-    padding: 10px;
 }
 main > section > form select#iturma,select#iclasse{
     width: 28%;
@@ -87,14 +87,14 @@ main > section > form select#iturma,select#iclasse{
 main > section > form  select#icurso{
     padding: 10px;
 }
-main > section > form select#iturma,select#iclasse,select#itipo{
+main > section > form select#iturma,select#iclasse,select#itipo,input#iorca{
     padding: 5px;
 }
 main > section > form #itipo{
     width: 50%;
 }
 /*HOVER*/
-main > section > form  input#iemail:hover,input#iname_main:hover,select#icurso:hover,select#iturma:hover,select#iclasse:hover,select#itipo:hover{
+main > section > form  input#iemail:hover,input#iname_main:hover,select#icurso:hover,select#iturma:hover,select#iclasse:hover,select#itipo:hover,input#iorca:hover{
     transform: translate(3.5%);
     transition: .3s;
 }
@@ -124,6 +124,21 @@ main  textarea#idesc{
     font-weight: bold;
     background: transparent;
 }
+main div#pay{
+    margin-top: 12px;
+}
+main div#pay > input#iorca{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 8px;
+}
+main div#pay > span{
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
 main  p#base{
     text-align: center;
     font-weight: bold;
