@@ -9,7 +9,7 @@ function money() {
     var pay = window.document.querySelector('input#iorca').value
     var maximo = 1500000
     if (pay > maximo) {
-        window.document.querySelector('input#iorca').value = 
+        window.document.querySelector('input#iorca').value = 0
         window.alert(`O orçamento não deve ser maior que ${maximo} KZ (UM MILHÃO E QUINHENTOS KWANZAS)`)
     }
 }

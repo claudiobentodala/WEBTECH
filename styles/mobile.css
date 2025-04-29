@@ -256,21 +256,16 @@ main > section.patrocinador_content > article > p{
     font-weight: bold;
     text-indent: 5px;
 }
-/*MODO ESCURO E CLARO*/
-div#modo{
-    top: 90vh;
-    left: 77vw;
-}
 footer{
     margin-right: -3.0313px;
 }
 /*PRINT*/
 main#print{
-    margin-right: -100px;
+    transform: translate(0,20%);
+    margin-left: -24px;
     background-color: white;
-    width: 240vw;
+    width: 250vw;
     height: 170vh;
-    transform: translate(22.5px);
 }
 main#print > #header{
     font-size: 12px;
