@@ -1,3 +1,17 @@
+:root{
+    --fundo:#020235;
+    --main_color: #3e3edd;
+    --second_color: skyblue;
+    --color1: #ffffff;
+    --color2: #020235;
+    --color3: #0324a1;
+    --font-main: monospace;
+    --font-second: Arial, Helvetica, sans-serif;
+    --espaço: 25px;
+    --radius: 35px;
+    --indent: 35px;
+    --margin_fixed: 97px;
+}
 *{
     padding: 0;
     margin: 0;
@@ -8,7 +22,7 @@ body{
 }
 main#print{
     display: none;
-    font-family: monospace;
+    font-family: var(--font-main);
     text-align: left;
     padding: 0px 60px;
     margin: auto;
@@ -36,6 +50,7 @@ main#print > #header{
     text-align: right;
 }
 main#print > #header > p{
+    line-height: 20px;
     font-weight: bold;
 }
 main#print > #header > p > span{
@@ -84,7 +99,6 @@ main#print > #descricao > p{
     text-indent: 50px;
     text-transform: uppercase;
 }
-main#print > #passo{}
 main#print > #passo > h2{
     font-size: 20px;
 }
@@ -98,6 +112,7 @@ main#print > #passo > article > ol > li{
 }
 main#print > #passo  div {
     margin-left: 10px;
+    line-height: 17px;
 }
 main#print > #passo  div > ul{
     list-style-type: square;
@@ -122,8 +137,8 @@ main#print #rodape{
     justify-content: space-between;
 }
 main#print #rodape img{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }
 main#print div#inst{
     display: flex;
@@ -131,8 +146,6 @@ main#print div#inst{
 }
 main#print div#inst > p{
     align-self: center;
-}
-main#print #rodape > div#inst > #carmun{
 }
 main#print #rodape > #qr{
     transform: translate(100px);
