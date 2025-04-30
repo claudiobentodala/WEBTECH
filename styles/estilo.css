@@ -523,6 +523,19 @@ footer > section > aside > p{
     color: var(--color2);
     font-size: 18px;
 }
+footer > section > aside > div#social{
+    margin: 8px;
+}
+footer > section > aside > div#social > a > img{
+    transition: .7s;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+footer > section > aside > div#social > a > img:hover{
+    border: 2px solid var(--second_color);
+    transform: translate(3px);
+}
 footer > section > nav{
     align-self: center;
 }
@@ -541,10 +554,10 @@ footer > section > nav > ul > li >a{
     font-size: 17px;
     font-weight: bold;
     text-decoration: none;
-    transition: .2s;
+    transition: .7s;
 }
 footer > section > nav > ul > li:hover{
-    transform: translate(8px);
+    transform: translate(4px);
     color: var(--color2);
 }
 footer > section > nav > ul > li >a:hover{
