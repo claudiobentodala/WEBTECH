@@ -144,6 +144,32 @@ main#evento > section#localizacao > iframe{
     width: 100%;
     height: 250px;
 }
+/*TIME*/
+main > section#time > h2{
+    font-size: 20px;
+}
+main > section#time > article > div{
+    font-size: 20px;
+    height: 100px;
+}
+main > section#time > article > div > p{
+    font-size: 4em;
+}
+
+/*STATUS*/
+main > section#status > h2{
+    font-size: 20px;
+}
+main > section#status > article > div{
+    padding-top: 10px;
+    flex-basis: 150px;
+    height: 150px;
+    border: 5px solid var(--color2);
+    font-size: 18px;
+}
+main > section#status > article > div > p{
+    font-size: 4em;
+}
 
 /*INSCREVA-SE*/
 main > section#get > h2 {

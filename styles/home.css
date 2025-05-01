@@ -118,8 +118,9 @@ main > section#status,section#time {
     padding-bottom: 40px;
     margin: var(--espaço) 0px;
     border-radius: var(--radius);
-    background-color: #3e3edd;
+    background-color: var(--main_color);
 }
+
 /*STATUS*/
 main > section#status > h2{
     padding: 15px 0px;
@@ -327,7 +328,6 @@ main > section#ora > a:hover{
     transform: translate(4%);
     transition: .3s;
 }
-
 
 /*PATROCINADORES*/
 main > section#patro{
