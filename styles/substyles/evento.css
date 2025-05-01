@@ -60,8 +60,11 @@ main > section > article#descricao > h3{
 }
 main > section > article#descricao > p{
     text-indent: 30px;
+    line-height: 23px;
+    font-size: 18px;
     font-family: var(--font-second);
     text-align: justify;
+    font-weight: lighter;
 }
 main > section#data > p#titulo{
     font-size: 25px;
