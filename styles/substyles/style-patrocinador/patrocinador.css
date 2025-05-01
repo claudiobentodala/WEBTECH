@@ -15,6 +15,13 @@
 header{display: flex;}
 main,footer{display: block;}
 
+header#patrocinador{
+    height: 70px;
+}
+header#patrocinador > a{
+    transform: translate(0,17px);
+}
+
 header{
     position: relative;
 }

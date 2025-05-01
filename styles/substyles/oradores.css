@@ -19,8 +19,10 @@ main > section#ora{
     flex-flow: column nowrap;
     border-radius: var(--radius);
     margin-top: 110px;
+    background-color: var(--main_color);
 }
 main > section#ora h2{
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
     font-family: var(--font-main);
     color: var(--second_color);
     padding: 10px 5px;
@@ -36,10 +38,10 @@ main > section#ora article{
     gap: 15px 0px;
 }
 main > section#ora div {
-    display: flex;
-    flex-flow: column wrap;
+    padding: 20px;
     margin-bottom: var(--espaço);
     border-radius: var(--radius);
+    box-shadow: 2px 4px 10px 0px #0000008e;
     background-color: var(--second_color);
 }
 main > section#ora img {
@@ -52,6 +54,13 @@ main > section#ora p {
     font-weight: bold;
     text-transform: capitalize;
     text-align: center;
+}
+main > section#ora div {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: var(--espaço);
+    border-radius: var(--radius);
+    background-color: var(--second_color);
 }
 main > section#ora > article  a{
     align-self: center;
@@ -68,8 +77,8 @@ main > section#ora > article  a{
     text-transform: capitalize;
     color: var(--second_color);
     background-color: var(--color2);
+    transition: .3s;
 }
 main > section#ora > article  a:hover{
     transform: translate(4%);
-    transition: .3s;
 }

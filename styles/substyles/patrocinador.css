@@ -28,7 +28,7 @@ main > h1{
     text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
     text-transform: uppercase;
     font-family: var(--font-main);
-    font-size: 28px;
+    font-size: 22px;
     color: var(--second_color);
 }
 main > section#patrocinador {
@@ -63,8 +63,8 @@ main > section#patrocinador > article > a{
     text-transform: capitalize;
     color: var(--second_color);
     background-color: var(--color2);
+    transition: .3s;
 }
 main > section#patrocinador > article > a:hover{
     transform: translate(3%);
-    transition: .3s;
 }

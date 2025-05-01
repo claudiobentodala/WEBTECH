@@ -1,0 +1,377 @@
+@charset "UTF-8";
+
+:root{
+    --fundo:#020235;
+    --main_color: #3e3edd;
+    --second_color: skyblue;
+    --color1: #ffffff;
+    --color2: #020235;
+    --color3: #0324a1;
+    --font-main: monospace;
+    --font-second: Arial, Helvetica, sans-serif;
+    --espaço: 25px;
+    --radius: 35px;
+    --indent: 35px;
+    --margin_fixed: 97px;
+}
+
+/*INTRODUCION*/
+main > section#intro{
+    height: 450px;
+    margin: var(--margin_fixed) 0px var(--espaço) 0px;
+    border-radius: var(--radius);
+}
+
+main > section#intro div#img{
+    float: left;
+    width: 55%;
+    height: 100%;
+    border-radius: var(--radius) 0px 0px var(--radius);
+    background-image: url(../image/back.jpg);
+    background-color: var(--color2);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+}
+main > section#intro article#text{
+    display: flex;
+    height: 100%;
+    flex-flow: column nowrap;
+    justify-content: center;
+    border-radius: 0px var(--radius) var(--radius) 0px;
+    background-color: var(--main_color);
+}
+main > section#intro article#text h1{
+    margin-bottom: 5px;
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
+    font-size: 33px;
+    font-weight: bolder;
+    font-family: var(--font-main);
+    text-transform: uppercase;
+    color: var(--second_color);
+}
+main > section#intro p{
+    margin: 0px 20px;
+    font-size: 18px;
+    font-family: var(--font-second);
+    text-align: left;
+    text-indent: var(--indent);
+}
+main > section#intro article#text a{
+    align-self: center;
+    padding: 12px;
+    border-radius: 10px;
+    width: 120px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: var(--font-main);
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--second_color);
+    box-shadow: 2px 5px 9px 0px #00000054;
+    background-color: var(--color2);
+    transition: .3s;
+}
+
+main > section#intro article#text a:hover{
+    transform: translate(4%);
+    transition: .3s;
+}
+
+main > section#intro {
+    text-align: center;
+}
+
+/*TIME*/
+main > section#time > h2{
+    padding: 15px 0px;
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
+    font-family: var(--font-main);
+    font-size: 27px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--second_color);
+}
+main > section#time > article{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px 0px; 
+}
+main > section#time > article > div{
+    flex-basis: 200px;
+    height: 200px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: var(--font-main);
+    font-size: 21px;
+}
+main > section#time > article > div > p{
+    font-family: var(--font-second);
+    font-size: 6.5em;
+}
+/*TIME E STATUS*/
+main > section#status,section#time {
+    padding-bottom: 40px;
+    margin: var(--espaço) 0px;
+    border-radius: var(--radius);
+    background-color: #3e3edd;
+}
+/*STATUS*/
+main > section#status > h2{
+    padding: 15px 0px;
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
+    font-size: 26px;
+    font-family: var(--font-main);
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--second_color);
+}
+main > section#status > article{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px 0px;
+}
+main > section#status > article > div{
+    flex-basis: 200px;
+    padding-top: 13px;
+    height: 200px;
+    border: 6px solid var(--color2);
+    border-radius: var(--radius);
+    font-family: var(--font-main);
+    font-weight: bolder;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+}
+main > section#status > article > div > p{
+    font-family: var(--font-second);
+    font-size: 6.5em;
+}
+
+/*SE INSCREVA*/
+main > section#get {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 35px 25px;
+    margin-bottom: var(--espaço);
+    border-radius: var(--radius);
+    background-color: var(--main_color);
+}
+main > section#get h2 {
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
+    margin-bottom: 10px;
+    font-family: var(--font-main);
+    font-size: 2em;
+    text-transform: uppercase;
+    color: var(--second_color);
+}
+main > section#get p{
+    margin: auto;
+    padding: 10px 5px;
+    width: 90%;
+    text-indent: var(--indent);
+    text-align: left;
+    font-family: var(--font-second);
+    font-size: 18px;
+}
+main > section#get a{
+    align-self: center;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 128px;
+    font-weight: bold;
+    font-family: var(--font-main);
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--second_color);
+    box-shadow: 2px 5px 9px 0px #00000054;
+    background-color: var(--color2);
+    transition: .3s;
+}
+main > section#get a:hover{
+    transform: translate(4%);
+    transition: .3s;
+}
+
+/*ORADORES*/
+main > section#ora{
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: var(--radius);
+    background-color: var(--main_color);
+}
+main > section#ora h2{
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
+    font-family: var(--font-main);
+    color: var(--second_color);
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 27px;
+    text-transform: capitalize;
+}
+main > section#ora article{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px 0px;
+}
+main > section#ora div {
+    padding: 20px;
+    margin-bottom: var(--espaço);
+    border-radius: var(--radius);
+    box-shadow: 2px 4px 10px 0px #0000008e;
+    background-color: var(--second_color);
+}
+main > section#ora img {
+    width: 250px;
+    border-radius: 50%;
+}
+main > section#ora p {
+    font-family: var(--font-main);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+main > section#ora > a{
+    align-self: center;
+    padding: 12px;
+    border-radius: 10px;
+    width: 120px;
+    margin: 15px 0px 25px 0px;
+    font-weight: bold;
+    font-family: var(--font-main);
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--second_color);
+    box-shadow: 2px 5px 9px 0px #00000054;
+    background-color: var(--color2);
+    transition: .3s;
+}
+main > section#ora > a:hover{
+    transform: translate(4%);
+    transition: .3s;
+}
+
+/*ORADORES*/
+main > section#ora{
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: var(--radius);
+    background-color: var(--main_color);
+}
+main > section#ora h2{
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
+    font-family: var(--font-main);
+    color: var(--second_color);
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 27px;
+    text-transform: capitalize;
+}
+main > section#ora article{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px 0px;
+}
+main > section#ora div {
+    padding: 20px;
+    margin-bottom: var(--espaço);
+    border-radius: var(--radius);
+    box-shadow: 2px 4px 10px 0px #0000008e;
+    background-color: var(--second_color);
+}
+main > section#ora img {
+    width: 250px;
+    border-radius: 50%;
+}
+main > section#ora p {
+    font-family: var(--font-main);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+main > section#ora > a{
+    align-self: center;
+    padding: 12px;
+    border-radius: 10px;
+    width: 120px;
+    margin: 15px 0px 25px 0px;
+    font-weight: bold;
+    font-family: var(--font-main);
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--second_color);
+    box-shadow: 2px 5px 9px 0px #00000054;
+    background-color: var(--color2);
+    transition: .3s;
+}
+main > section#ora > a:hover{
+    transform: translate(4%);
+    transition: .3s;
+}
+
+
+/*PATROCINADORES*/
+main > section#patro{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 15px 30px 30px 30px;
+    margin-top: var(--espaço);
+    border-radius: var(--radius);
+    background-color: var(--main_color);
+}
+main > section#patro > h2{
+    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
+    font-family: var(--font-main);
+    font-size: 27px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--second_color);
+}
+main > section#patro > article{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 15px 0px;
+}
+main > section#patro > a{
+    align-self: center;
+    padding: 12px;
+    border-radius: 10px;
+    width: 120px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: var(--font-main);
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--second_color);
+    box-shadow: 2px 5px 9px 0px #00000054;
+    background-color: var(--color2);
+    transition: .3s;
+}
+main > section#patro > a:hover{
+    transform: translate(4%);
+    transition: .3s;
+}
