@@ -277,6 +277,15 @@ main > section.patrocinador_content > article > p{
     font-weight: bold;
     text-indent: 5px;
 }
+/*TERMO DE USO E POLITICA DE PRIVACIDADE*/
+main#term{
+    width: 90vw;
+}
+main > section.content > article > h2{
+    font-size: 17px;
+}
+
+/*RODAPÉ*/
 footer{
     margin-right: -3.0313px;
 }
