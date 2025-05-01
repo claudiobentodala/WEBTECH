@@ -15,6 +15,9 @@
 }
 
 /*HEADER*/
+header{
+    box-shadow: 1px 1px 1px transparent;
+}
 header, header > menu > nav{
     flex-flow: column nowrap;
 }
