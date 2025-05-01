@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOBRE O EVENTO</title>
+    <link rel="stylesheet" href="../styles/substyles/evento.css">
+    <link rel="stylesheet" href="../styles/estilo.css">
+    <link rel="stylesheet" href="../styles/mobile.css" media="screen and (max-width: 709px)">
+    <link rel="shortcut icon" href="../image/favicon.ico" type="image/x-icon">
+</head>
+<body onload="carregar(false, 3200)">
+    <div id="body">
+        <div id="show"></div>
+        <div id="group">web tech</div>
+    </div>
+    <header>
+        <a href="../index.html"><div id="logo"></div></a>
+        <div onclick="clickMenu()" class="menu"><img src="../image/icons/menu.png" id="menu"><img src="../image/icons/fechar.png" id="fechar"></div>
+        <menu id="itens">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">pagina inicial</a>
+                    <li><a href="evento.html" id="activo">sobre o evento</a>
+                    <li><a href="feq.html">FEQ</a>
+                    <li><a href="oradores.html">oradores</a>
+                    <li><a href="patrocinadores.html">patrocinadores</a>
+                    <li><a href="inscreva.html" id="inscreva">inscreva-se</a>
+                </ul>
+            </nav>
+        </menu>
+    </header>
+    <main id="sobre">
+        <section id="organizador">
+            <h2>organizador</h2>
+            <img src="../image/carmun.png" alt="instituto politecnico carmun">
+            <article>
+                <div><span id="titulo">Nome: </span><span>grupo</span></div>
+                <div><span id="titulo">Fundação: </span><span>0000</span></div>
+            </article>
+            <article id="descricao">
+                <h3>descrição:</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odio in doloremque et? Ullam reiciendis illum voluptatibus sed! Hic quas error sequi, nulla blanditiis earum quo sint? Numquam, fugit iusto!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut recusandae saepe optio eum quae architecto? Illo, voluptatibus blanditiis! Odio a quasi omnis repudiandae voluptatum consequatur reiciendis ex placeat mollitia qui.
+                </p>
+            </article>
+        </section>
+        <section id="data">
+            <h2>data do evento</h2>
+            <p id="titulo">16 / 05 / <span id="ano">0000</span></p>
+            <p id="duracao">inicio: <span>0</span> h</p>
+            <p id="duracao">terminio: <span>23</span> h</p>
+        </section>
+        <section id="localizacao">
+            <h2>localização</h2>
+            <div><span id="titulo">endereço: </span><span>localizacao-lacalizacao</span></div>
+            <article id="descricao">
+                <h3>descrição:</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, consequuntur dicta. A est alias voluptates illum adipisci facere quidem doloribus eum! Dignissimos possimus modi, optio vel facilis deserunt non voluptatibus.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis dicta esse reiciendis quo architecto consequatur at ut sint inventore commodi voluptatem id, animi, error nam totam deserunt aperiam necessitatibus!
+                </p>
+            </article>
+            <iframe src="https://www.google.com/" frameborder="0"></iframe>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <aside>
+                <p>organizado por:</p>
+                <img src="../image/carmun.png" alt="instituto politecnico carmun ex Madrugada">
+                <div id="social">
+                    <a href="https://www.facebook.com/colegiomadrugada/" target="_blank"><img src="../image/logo-facebook.jpg" alt="logo-facebook"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="../image/logo-instagram.jpg" alt="logo-instagram"></a>
+                    <a href="https://www.linkedin.com" target="_blank"><img src="../image/logo-linkedin.jpg" alt="logo-linkedin"></a>
+                    <a href="https://www.x.com" target="_blank"><img src="../image/logo-x.jpg" alt="logo-x"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="../image/logo-youtube.jpg" alt="logo-youtube"></a>
+                </div>    
+            </aside>
+            <nav>
+                <h3>links inportantes:</h3>
+                <ul>
+                    <li><a href="evento.html">sobre o evento</a></li>
+                    <li><a href="politica.html">politica de privacidade</a></li>
+                    <li><a href="termos.html">termos de uso</a></li>
+                </ul>
+            </nav>
+        </section>
+        <p><span translate="no">WEB TECH</span> direitos reservados &copy; 2025</p>
+    </footer>
+    <script src="../scripts/menu.js"></script>
+    <script src="../scripts/load.js"></script>
+</body>
+</html>

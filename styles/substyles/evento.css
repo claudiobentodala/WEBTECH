@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+:root{
+    --fundo:#020235;
+    --main_color: #3e3edd;
+    --second_color: skyblue;
+    --color1: #ffffff;
+    --color2: #020235;
+    --color3: #0324a1;
+    --font-main: monospace;
+    --font-second: Arial, Helvetica, sans-serif;
+    --espaço: 25px;
+    --radius: 35px;
+    --indent: 35px;
+    --margin_fixed: 97px;
+}
+main{
+    margin: auto;
+    width: 70vw;
+    padding: 25px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-radius: var(--radius);
+    background-color: var(--main_color);
+}
+main  h2{
+    color: var(--second_color);
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 4px 2px 1px #0000005d;
+    font-family: var(--font-main);
+    font-size: 25px;
+}
+main > section#organizador{
+    margin-bottom: 20px;
+}
+main > section#organizador > img{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 180px;
+    height: 180px;
+}
+main > section > article > div{
+    font-family: var(--font-second);
+    font-size: 18px;
+}
+main > section > article > div > span#titulo{
+    font-weight: bold;
+}
+main > section > article#descricao{
+    margin: 10px 0px;
+}
+main > section > article#descricao > h3{
+    text-transform: uppercase;
+    font-family: var(--font-main);
+    font-size: 20px;
+}
+main > section > article#descricao > p{
+    text-indent: 30px;
+    font-family: var(--font-second);
+    text-align: justify;
+}
+main > section#data > p#titulo{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: var(--font-second);
+}
+main > section#data > p#duracao{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: var(--font-second);
+}
+main > section#data > p#duracao > span{
+    font-weight: bold;
+}
+
+main > section#localizacao > div{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+main > section#localizacao > div > span#titulo{
+    font-weight: bold;
+}
+main > section#localizacao > div > span{
+    font-weight: lighter;
+}
+main > section#localizacao > iframe{
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 400px;
+    margin-top: 5px;
+    border-radius: var(--radius);
+    box-shadow: 2px 3px 8px 0px #0000007d;
+}

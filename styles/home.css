@@ -339,7 +339,7 @@ main > section#patro{
     background-color: var(--main_color);
 }
 main > section#patro > h2{
-    text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
+    text-shadow: 4px 2px 1px hsla(0, 0%, 0%, 0.363);
     font-family: var(--font-main);
     font-size: 27px;
     text-align: center;
