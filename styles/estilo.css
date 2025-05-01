@@ -230,16 +230,18 @@ footer > section > nav > ul > li{
     margin-top: 15px;
     transition: .3s;
 }
-footer > section > nav > ul > li >a{
-    color: var(--second_color);
-    font-size: 17px;
-    font-weight: bold;
-    text-decoration: none;
-    transition: .7s;
-}
 footer > section > nav > ul > li:hover{
     transform: translate(4px);
     color: var(--color2);
+}
+footer > section > nav > ul > li >a{
+    color: var(--second_color);
+    font-size: 17px;
+    font-family: var(--font-second);
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #00000063;
+    transition: .7s;
 }
 footer > section > nav > ul > li >a:hover{
     color: var(--color2);
