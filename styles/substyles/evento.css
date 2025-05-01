@@ -43,6 +43,7 @@ main > section#organizador > img{
     height: 180px;
 }
 main > section > article > div{
+    text-transform: capitalize;
     font-family: var(--font-second);
     font-size: 18px;
 }
@@ -90,7 +91,7 @@ main > section#localizacao > iframe{
     display: block;
     margin: auto;
     width: 70%;
-    height: 400px;
+    height: 450px;
     margin-top: 5px;
     border-radius: var(--radius);
     box-shadow: 2px 3px 8px 0px #0000007d;
