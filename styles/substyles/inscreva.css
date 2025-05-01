@@ -64,19 +64,22 @@ main > section > form > article{
 main > section > form label{
     margin: 0px 7px;
 }
-main > section > form input#iname_main,input#iemail{
+main > section > form input#iname_main,input#iemail,input#itel{
     font-size: 17px;
     color: white;
     padding: 10px;
 }
-main > section > form  input#iemail,input#iname_main,select#icurso,select#iturma,select#iclasse,select#itipo,input#iorca{
+main > section > form input#iemail{
+    margin-bottom: 15px;
+}
+main > section > form  input#iname_main,input#iemail,input#itel,select#icurso,select#iturma,select#iclasse,select#itipo,input#iorca{
     outline: 3px solid var(--color2);
     border: transparent;
     font-weight: bolder;
     background-color: transparent;
     border: 1px;
 }
-main > section > form  input#iemail,input#iname_main,select#icurso,input#iorca{
+main > section > form  input#iemail,input#iname_main,input#itel,select#icurso,input#iorca{
     width: 70%;
     max-width: 100%;
     min-width: 40%;

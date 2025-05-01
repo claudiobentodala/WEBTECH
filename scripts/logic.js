@@ -5,24 +5,10 @@ var corpo = {
     impremir: window.document.querySelector('main#print')
 };
 
-var impresso = {
-    nome: window.document.querySelector('span#nome'),
-    email: window.document.querySelector('span#email'),
-    classe: window.document.querySelector('span#classe'),
-    turma: window.document.querySelector('span#turma'),
-    curso: window.document.querySelector('span#curso'),
-    tipo: window.document.querySelector('span#tipo'),
-    ano: window.document.querySelector('span#ano'),
-    mes: window.document.querySelector('span#mes'),
-    dia: window.document.querySelector('span#dia'),
-    hora: window.document.querySelector('span#hora'),
-    orcamento: window.document.querySelector('span#valor'),
-    descricao: window.document.querySelector('p#descricao')
-};
-
 var valor = {
     name: window.document.querySelector('input#iname_main'),
     email: window.document.querySelector('input#iemail'),
+    tel: window.document.querySelector('input#itel'),
     classe: window.document.querySelector('select#iclasse'),
     turma: window.document.querySelector('select#iturma'),
     curso: window.document.querySelector('select#icurso'),
@@ -33,6 +19,22 @@ var valor = {
     mes: new Date().getMonth() + 1,
     dia: new Date().getDate(),
     hora: new Date().getHours() + ':' + new Date().getMinutes() + ':' + new Date().getSeconds()
+};
+
+var impresso = {
+    nome: window.document.querySelector('span#nome'),
+    email: window.document.querySelector('span#email'),
+    tel: window.document.querySelector('span#telefone'),
+    classe: window.document.querySelector('span#classe'),
+    turma: window.document.querySelector('span#turma'),
+    curso: window.document.querySelector('span#curso'),
+    tipo: window.document.querySelector('span#tipo'),
+    ano: window.document.querySelector('span#ano'),
+    mes: window.document.querySelector('span#mes'),
+    dia: window.document.querySelector('span#dia'),
+    hora: window.document.querySelector('span#hora'),
+    orcamento: window.document.querySelector('span#valor'),
+    descricao: window.document.querySelector('p#descricao')
 };
 
 function money() {
@@ -65,6 +67,7 @@ function print() {
 
     impresso.nome.innerHTML = valor.name.value;
     impresso.email.innerHTML = valor.email.value;
+    impresso.tel.innerHTML = valor.tel.value;
     impresso.classe.innerHTML = valor.classe.value;
     impresso.turma.innerHTML = valor.turma.value;
     impresso.curso.innerHTML =  valor.curso.value;
