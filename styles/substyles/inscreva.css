@@ -170,6 +170,11 @@ main > section > form > input#ienviar{
 main > section > form > input#ienviar:hover{
     transform: translate(2.5px);
 }
+footer{
+    width: 0px;
+    height: 0px;
+    background: transparent;
+}
 /*ICONES*/
 .icon{
     transform: translate(0%,8px);
