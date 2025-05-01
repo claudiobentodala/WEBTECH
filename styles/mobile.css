@@ -278,7 +278,7 @@ footer > section > nav > ul > li >a:hover{
 }
 /*PRINT*/
 main#print{
-    transform: translate(0,20%);
+    transform: translate(0,10%);
     margin-left: -24px;
     background-color: white;
     width: 250vw;

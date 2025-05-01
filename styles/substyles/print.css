@@ -27,7 +27,7 @@ main#print{
     padding: 0px 60px;
     margin: auto;
     width: 60vw;
-    height: 1050px;
+    height: 157vh;
     text-transform: uppercase;
     background-color: white;
 }
@@ -73,7 +73,7 @@ main#print > section#orcamento{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    padding: 15px 10px;
+    padding: 13px 8px;
     border-top: 3px solid #7c7c7c;
     box-shadow: 0px -52px 0px #e9e9e9 inset;
 }
@@ -81,10 +81,8 @@ main#print > section#orcamento > span{
     display: block;
     font-size: 18px;
 }
-main#print > section#orcamento > span#titulo{}
-main#print > section#orcamento > span#money{
+main#print > section#orcamento > span#titulo{
     font-weight: bold;
-    text-align: right;
 }
 main#print > #descricao{
     margin: 10px 0px;
@@ -137,8 +135,8 @@ main#print #rodape{
     justify-content: space-between;
 }
 main#print #rodape img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 main#print div#inst{
     display: flex;
@@ -147,12 +145,10 @@ main#print div#inst{
 main#print div#inst > p{
     align-self: center;
 }
-main#print #rodape > #qr{
-    transform: translate(100px);
-}
 @media print{
     main#print{
         width: 90vw;
         padding: 0;
+        height: 99vh;
     }
 }
