@@ -171,6 +171,7 @@ main > section > form > input#ienviar:hover{
     transform: translate(2.5px);
 }
 footer{
+    margin-top: 12%;
     width: 0px;
     height: 0px;
     background: transparent;
@@ -182,6 +183,9 @@ footer{
 @media screen  and (max-width: 487px) {
     main > section >form {
         width: 95vw;
+    }
+    footer{
+        margin-top: 47%;
     }
     
 }
