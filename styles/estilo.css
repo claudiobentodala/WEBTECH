@@ -246,6 +246,9 @@ footer > section > nav > ul > li >a{
 footer > section > nav > ul > li >a:hover{
     color: var(--color2);
 }
+footer > p{
+    font-size: 15px;
+}
 footer > p > span{
     font-weight: bolder;
 }
