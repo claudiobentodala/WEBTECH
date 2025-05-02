@@ -95,6 +95,7 @@ main > section#localizacao > iframe{
     width: 70%;
     height: 450px;
     margin-top: 5px;
+    border: 0px;
     border-radius: var(--radius);
     box-shadow: 2px 3px 8px 0px #0000007d;
 }
