@@ -159,7 +159,7 @@ main.principal{
 }
 
 /*SOMBRA*/
-main > section#intro,section#time,section#status,section#get,section#ora,section#patro,section.sobre,section.orador_content > article,main#patrocinador,section.patrocinador_content > article,main#evento{
+main > section#intro,section#time,section#status,section#get,section#ora,section#patro,section.sobre,section.orador_content > article,main#patrocinador,section.patrocinador_content > article,main#evento,main#term{
     animation: luz 1s infinite;
 }
 @keyframes luz {
