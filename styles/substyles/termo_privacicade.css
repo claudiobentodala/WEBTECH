@@ -35,7 +35,12 @@ main{
     padding: 20px 0px 3px 0px;
     margin-bottom: var(--espaço);
     margin-top: 120px;
+    font-family: var(--font-second);
     background-color: var(--main_color);
+}
+main > section.content{
+    margin: auto;
+    width: 80vw;
 }
 main > section.content > article > h2{
     text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.363);
@@ -52,7 +57,14 @@ main > section.content > article > p{
     line-height: 25px;
     text-align: left;
     font-size: 18px;
-    font-family: var(--font-second);
+}
+main > section.content > article > ol{
+    margin: 0px 0px 15px 80px;
+    font-size: 18px;
+}
+main h3,h4{
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 main h3,h4,p{
     padding: 0px 35px;
