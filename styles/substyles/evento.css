@@ -80,6 +80,7 @@ main > section#data > p#duracao > span{
 }
 
 main > section#localizacao > div{
+    margin: 15px 0px;
     font-size: 18px;
     text-transform: capitalize;
 }
