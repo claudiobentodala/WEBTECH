@@ -1,4 +1,4 @@
-var corpo = {
+const corpo = {
     head: window.document.querySelector('header#ins'),
     main: window.document.querySelector('main.increva_main'),
     foot: window.document.querySelector('footer'),
@@ -21,7 +21,7 @@ var valor = {
     hora: new Date().getHours() + ':' + new Date().getMinutes() + ':' + new Date().getSeconds()
 };
 
-var impresso = {
+const impresso = {
     nome: window.document.querySelector('span#nome'),
     email: window.document.querySelector('span#email'),
     tel: window.document.querySelector('span#telefone'),
@@ -39,7 +39,7 @@ var impresso = {
 
 function money() {
     var pay = valor.orcamento.value
-    var maximo = 1500000
+    const maximo = 1500000
     if (pay > maximo) {
         valor.orcamento.value = 0
         window.alert(`O orçamento não deve ser maior que ${maximo} KZ (UM MILHÃO E QUINHENTOS KWANZAS)`)
@@ -47,7 +47,7 @@ function money() {
 }
 
 function len() {
-    var area = valor.descricao.value
+    let area = valor.descricao.value
     window.document.querySelector('span#length').innerHTML = area.length
 }
 
@@ -72,10 +72,12 @@ function print() {
     impresso.turma.innerHTML = valor.turma.value;
     impresso.curso.innerHTML =  valor.curso.value;
     impresso.tipo.innerHTML = valor.tipo.value;
+    if(valor.mes >= 0 && valor.mes <= 9) {impresso.mes.innerHTML = `0${valor.mes}`} 
+    else {impresso.mes.innerHTML = valor.mes;}
+    if(valor.dia >= 0 && valor.dia <= 9) {impresso.dia.innerHTML = `0${valor.dia}`;} 
+    else {impresso.mes.innerHTML = valor.dia;}
     impresso.ano.innerHTML = valor.ano;
-    impresso.mes.innerHTML = valor.mes;
-    impresso.dia.innerHTML = valor.dia;
     impresso.hora.innerHTML = valor.hora;
     impresso.orcamento.innerHTML = valor.orcamento.value
     impresso.descricao.innerHTML = valor.descricao.value;
-}
+ }
