@@ -333,15 +333,25 @@ footer > section{
 footer > section > aside{
     margin-top: 10px;
 }
-footer > p{
-    font-size: 12.5px;
+footer > section > aside > p{
+    font-size: 15px;
+}
+footer > section > nav > h3{
+    font-size: 15px;
+    color: var(--color2);
 }
 footer > section > nav > ul > li:hover{
     transform: none;
     color: var(--second_color);
 }
+footer > section > nav > ul > li >a{
+    font-size: 14px;
+}
 footer > section > nav > ul > li >a:hover{
     color: var(--second_color);
+}
+footer > p{
+    font-size: 12.5px;
 }
 /*PRINT*/
 main#print{

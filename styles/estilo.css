@@ -247,6 +247,7 @@ footer > section > nav > ul > li >a:hover{
     color: var(--color2);
 }
 footer > p{
+    align-self: center;
     font-size: 15px;
 }
 footer > p > span{
