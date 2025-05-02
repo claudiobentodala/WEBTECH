@@ -75,7 +75,7 @@ main#print > section#orcamento{
     justify-content: space-between;
     padding: 13px 8px;
     border-top: 3px solid #7c7c7c;
-    box-shadow: 0px -52px 0px #e9e9e9 inset;
+    box-shadow: 0px -52px 0px #d8d8d8 inset;
 }
 main#print > section#orcamento > span{
     display: block;

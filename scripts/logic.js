@@ -75,7 +75,7 @@ function print() {
     impresso.ano.innerHTML = valor.ano;
     impresso.mes.innerHTML = valor.mes;
     impresso.dia.innerHTML = valor.dia;
-    impresso.hora.innerHTML = valor.dia;
+    impresso.hora.innerHTML = valor.hora;
     impresso.orcamento.innerHTML = valor.orcamento.value
     impresso.descricao.innerHTML = valor.descricao.value;
 }
