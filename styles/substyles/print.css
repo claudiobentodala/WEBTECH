@@ -26,8 +26,8 @@ main#print{
     text-align: left;
     padding: 0px 60px;
     margin: auto;
-    width: 60vw;
-    height: 157vh;
+    width: 850px;
+    height: 980px;
     text-transform: uppercase;
     background-color: white;
 }
