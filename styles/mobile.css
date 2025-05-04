@@ -358,7 +358,7 @@ main#print{
     transform: translate(0,10%);
     margin-left: -24px;
     background-color: white;
-    width: 250vw;
+    width: 900px;
     height: 1250px;
 }
 main#print > #header{
