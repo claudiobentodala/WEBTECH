@@ -388,3 +388,8 @@ main#print > #assinatura > hr{
 main#print #rodape{
     margin-top: 15px;
 }
+
+/*SOMBRA*/
+main > section#intro,section#time,section#status,section#get,section#ora,section#patro,section.sobre,section.orador_content > article,main#patrocinador,section.patrocinador_content > article,main#evento,main#term{
+    animation: none;
+}
