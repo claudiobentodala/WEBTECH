@@ -81,7 +81,6 @@ header{
     top: 0px;
     padding: 5px;
     width: 100%;
-    box-shadow: 0px 6px 13px 1px darkblue;
     background-color: var(--main_color);
 }
 header > menu {
