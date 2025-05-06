@@ -11,8 +11,7 @@ function clickMenu() {
         itens.style.display = 'flex'
         estado.menu.style.display = 'none'
         estado.fechar.style.display = 'block'
-    } 
-    else{
+    } else{
         itens.style.display = 'none'
         estado.fechar.style.display = 'none'
         estado.menu.style.display = 'block'
