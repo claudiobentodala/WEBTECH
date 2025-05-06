@@ -31,160 +31,160 @@
     <main class="increva_main" onclick="foraMenu()">
         <section>
             <form action="#" method="get" id="inscricao" >
-                    <article class="box">
-                        <label for="iname_main"><img src="../image/icons/nome.png" alt="nome do projecto" class="icon"></label>
-                        <input type="text" name="nome" id="iname_main" placeholder="nome do grupo" required>
-                    </article>
-                    <article class="box">
-                        <label for="iemail"><img src="../image/icons/mail.png" alt="email" class="icon"></label>
-                        <input type="email" name="email" id="iemail" placeholder="email" required>
-                        <label for="itel"><img src="../image/icons/phone.png" alt="telefone" class="icon"></label>
-                        <input type="tel" name="telefone" id="itel" placeholder="telefone" required>
-                    </article>
-                        <article class="box">
-                            <label for="iclasse"><img src="../image/icons/classe.png" alt="classe" class="icon"></label>
-                            <select name="classe" id="iclasse" required>
-                                <option value="10">10ª</option>
-                                <option value="11">11ª</option>
-                                <option value="12">12ª</option>
-                                <option value="13">13ª</option>
-                                <option value="vazio " selected></option>
-                            </select>
-                            <label for="iturma"><img src="../image/icons/turma.png" alt="turma" class="icon"></label>
-                            <select name="turma" id="iturma" required>
-                                <option value="a">A</option>
-                                <option value="b">B</option>
-                                <option value="c">C</option>
-                                <option value="d">D</option>
-                                <option value="e">E</option>
-                                <option value="e">F</option>
-                                <option value="vazio" selected></option>
-                            </select>
-                        </article>
-                    <article class="box">
-                        <label for="icurso"><img src="../image/icons/curso.png" alt="curso" class="icon"></label>
-                        <select name="curso" id="icurso">
+                <article class="box">
+                    <label for="iname_main"><img src="../image/icons/nome.png" alt="nome do projecto" class="icon"></label>
+                    <input type="text" name="nome" id="iname_main" placeholder="nome do grupo" required>
+                </article>
+                <article class="box">
+                    <label for="iemail"><img src="../image/icons/mail.png" alt="email" class="icon"></label>
+                    <input type="email" name="email" id="iemail" placeholder="email" required>
+                    <label for="itel"><img src="../image/icons/phone.png" alt="telefone" class="icon"></label>
+                    <input type="tel" name="telefone" id="itel" placeholder="telefone" required>
+                </article>
+                <article class="box">
+                    <label for="iclasse"><img src="../image/icons/classe.png" alt="classe" class="icon"></label>
+                    <select name="classe" id="iclasse" required>
+                        <option value="10">10ª</option>
+                        <option value="11">11ª</option>
+                        <option value="12">12ª</option>
+                        <option value="13">13ª</option>
+                        <option value="vazio " selected></option>
+                    </select>
+                    <label for="iturma"><img src="../image/icons/turma.png" alt="turma" class="icon"></label>
+                    <select name="turma" id="iturma" required>
+                        <option value="a">A</option>
+                        <option value="b">B</option>
+                        <option value="c">C</option>
+                        <option value="d">D</option>
+                        <option value="e">E</option>
+                        <option value="e">F</option>
+                        <option value="vazio" selected></option>
+                    </select>
+                </article>
+                <article class="box">
+                    <label for="icurso"><img src="../image/icons/curso.png" alt="curso" class="icon"></label>
+                    <select name="curso" id="icurso">
+                        <option value="construção civil">Construção Civil</option>
+                        <option value="contabilidade e gestão">Contabílidade e Gestão</option>
+                        <option value="informática">Informática</option>
+                        <option value="vazio " selected></option>
+                    </select>
+                </article>
+                <article class="other" id="add">
+                    <article class="box" >
+                        <label for="itipo"><img src="../image/icons/tipo.png" alt="tipo de projecto" class="icon"></label>
+                        <select name="tipo_projecto" id="itipo">
+                            <option value="tecnologia da informação">Tecnologia da Informação</option>
+                            <option value="robotica  e automação">Robótica e Automação</option>
                             <option value="construção civil">Construção Civil</option>
-                            <option value="contabilidade e gestão">Contabílidade e Gestão</option>
-                            <option value="informática">Informática</option>
+                            <option value="indústria / manufatura">Indústria / Manufatura</option>
+                            <option value="financas e investimentos">Finanças e Investimentos</option>
+                            <option value="marketing e Publicidade">Marketing e Publicidade</option>
+                            <option value="economia criativa / startups">Economia Criativa / Startups</option>
+                            <option value="saude e bem-estar">Saúde e Bem-Estar</option>
+                            <option value="educacao">Educação</option>
+                            <option value="agronegocio">Agronegócio</option>
+                            <option value="alimentos e bebidas">Alimentos e Bebidas</option>
+                            <option value="transporte e Logística">Transporte e Logística</option>
+                            <option value="turismo e hotelaria">Turismo e Hotelaria</option>
                             <option value="vazio " selected></option>
                         </select>
+                        <div id="pay">
+                            <label for="iorca"><img src="../image/icons/pagamento.png" class="icon"></label>
+                            <input type="number" name="oradores" id="iorca" max="1500000" placeholder="orçamento" onkeyup="money()" onkeydown="money()" onmouseup="money()" onblur="money()" >
+                            <span>kz</span>
+                        </div>
+                        <textarea name="descricao" id="idesc" placeholder="descreve seu projecto" cols="30" rows="10" maxlength="300" required onkeyup="len()" onkeydown="len()" ></textarea>
+                        <p id="base"><span id="length">0</span>-300</p>
                     </article>
-                    <article class="other" id="add">
-                        <article class="box" >
-                            <label for="itipo"><img src="../image/icons/tipo.png" alt="tipo de projecto" class="icon"></label>
-                            <select name="tipo_projecto" id="itipo">
-                                <option value="tecnologia da informação">Tecnologia da Informação</option>
-                                <option value="robotica  e automação">Robótica e Automação</option>
-                                <option value="construção civil">Construção Civil</option>
-                                <option value="indústria / manufatura">Indústria / Manufatura</option>
-                                <option value="financas e investimentos">Finanças e Investimentos</option>
-                                <option value="marketing e Publicidade">Marketing e Publicidade</option>
-                                <option value="economia criativa / startups">Economia Criativa / Startups</option>
-                                <option value="saude e bem-estar">Saúde e Bem-Estar</option>
-                                <option value="educacao">Educação</option>
-                                <option value="agronegocio">Agronegócio</option>
-                                <option value="alimentos e bebidas">Alimentos e Bebidas</option>
-                                <option value="transporte e Logística">Transporte e Logística</option>
-                                <option value="turismo e hotelaria">Turismo e Hotelaria</option>
-                                <option value="vazio " selected></option>
-                            </select>
-                            <div id="pay">
-                                <label for="iorca"><img src="../image/icons/pagamento.png" class="icon"></label>
-                                <input type="number" name="oradores" id="iorca" max="1500000" placeholder="orçamento" onkeyup="money()" onkeydown="money()" onmouseup="money()" onblur="money()" >
-                                <span>kz</span>
-                            </div>
-                            <textarea name="descricao" id="idesc" placeholder="descreve seu projecto" cols="30" rows="10" maxlength="300" required onkeyup="len()" onkeydown="len()" ></textarea>
-                            <p id="base"><span id="length">0</span>-300</p>
-                        </article>
                 </article>
                 <input type="button" value="Cadastrar" id="ienviar" onclick="print()">
-                </form>
-            </section>
-        </main>
-        <footer>_</footer>
+            </form>
+        </section>
+    </main>
+    <footer>_</footer>
         <!--PRINT-->
-        <main id="print">
-            <section id="top">
-                <img src="../image/ssd1.png" alt="web tech">
-                <h1>um sonho uma realidade</h1>
-            </section>
-            <section id="header">
-                <p>Nome: <span id="nome">grupo</span></p>
-                <p>Classe: <span id="classe">0</span>ª</p>
-                <p>Turma: <span id="turma">A</span></p>
-                <p>Curso: <span id="curso">nome_curso</span></p>
-                <p>Telefone: <span id="telefone">900000000</span></p>
-                <p>Email: <span id="email">exemple@gmail.com</span></p>
-                <p>Tipo de projecto: <span id="tipo">tipo_projecto</span></p>
-            </section>
-            <section id="data">Inscrito em:
-                <span id="dia">1</span> /
-                <span id="mes">1</span> /
-                <span id="ano">2000</span> -
-                <span id="hora">1</span>
-            </section>
+    <main id="print">
+        <section id="top">
+            <img src="../image/ssd1.png" alt="web tech">
+            <h1>um sonho uma realidade</h1>
+        </section>
+        <section id="header">
+            <p>Nome: <span id="nome">grupo</span></p>
+            <p>Classe: <span id="classe">0</span>ª</p>
+            <p>Turma: <span id="turma">A</span></p>
+            <p>Curso: <span id="curso">nome_curso</span></p>
+            <p>Telefone: <span id="telefone">900000000</span></p>
+            <p>Email: <span id="email">exemple@gmail.com</span></p>
+            <p>Tipo de projecto: <span id="tipo">tipo_projecto</span></p>
+        </section>
+        <section id="data">Inscrito em:
+            <span id="dia">1</span> /
+            <span id="mes">1</span> /
+            <span id="ano">2000</span> -
+            <span id="hora">1</span>
+        </section>
+        <hr>
+        <section id="orcamento">
+            <span id="titulo">orçamento</span>
+            <span id="money"><span id="valor">0</span> kz</span>
+        </section>
+        <section id="descricao">
+            <h2>descrição:</h2>
+            <p id="descricao">sem descrição!</p>
+        </section>
+        <section id="passo">
+            <h2>passos depois da inscrição:</h2>
+            <article>
+                <ol>
+                    <li>Entrega do comprovativo à direção</li>
+                    <div>
+                        <ul>
+                            <li>Leve ou envie o comprovativo (impresso ou digital) à direção da escola ou à secretaria responsável.</li>
+                            <li>Em alguns casos, pode ser entregue ao professor orientador ou ao responsável pelo evento.</li>
+                        </ul>
+                    </div>
+                    <li>Confirmação da inscrição</li>
+                    <div>
+                        <ul>
+                            <li>A direção ou equipe organizadora irá validar sua inscrição com base no comprovativo.</li>
+                            <li>Você pode receber um e-mail de confirmação, mensagem ou outro aviso confirmando que está oficialmente inscrito no evento.</li>
+                        </ul>
+                    </div>
+                    <li>Aguardar orientações</li>
+                    <div>
+                        <ul>
+                            <li>Após a confirmação, aguarde as instruções detalhadas sobre:</li>
+                            <li>Datas e horários do evento</li>
+                            <li>Local de realização</li>
+                            <li>Materiais necessários</li>
+                            <li>Regras ou orientações específicas</li>
+                        </ul>
+                    </div>
+                    <li>Participação no evento</li>
+                    <div>
+                        <ul>
+                            <li>Compareça no dia e horário informados</li>
+                            <li>Leve, se necessário, o comprovativo de inscrição ou qualquer outro documento exigido.</li>
+                            <li>Siga as orientações da equipe organizadora.</li>
+                        </ul>
+                    </div>
+                </ol>
+            </article>
+        </section>
+        <section id="assinatura">
+            <p>assinatura do coordenador</p>
             <hr>
-            <section id="orcamento">
-                <span id="titulo">orçamento</span>
-                <span id="money"><span id="valor">0</span> kz</span>
-            </section>
-            <section id="descricao">
-                <h2>descrição:</h2>
-                <p id="descricao">sem descrição!</p>
-            </section>
-            <section id="passo">
-                <h2>passos depois da inscrição:</h2>
-                <article>
-                    <ol>
-                        <li>Entrega do comprovativo à direção</li>
-                        <div>
-                            <ul>
-                                <li>Leve ou envie o comprovativo (impresso ou digital) à direção da escola ou à secretaria responsável.</li>
-                                <li>Em alguns casos, pode ser entregue ao professor orientador ou ao responsável pelo evento.</li>
-                            </ul>
-                        </div>
-                        <li>Confirmação da inscrição</li>
-                        <div>
-                            <ul>
-                                <li>A direção ou equipe organizadora irá validar sua inscrição com base no comprovativo.</li>
-                                <li>Você pode receber um e-mail de confirmação, mensagem ou outro aviso confirmando que está oficialmente inscrito no evento.</li>
-                            </ul>
-                        </div>
-                        <li>Aguardar orientações</li>
-                        <div>
-                            <ul>
-                                <li>Após a confirmação, aguarde as instruções detalhadas sobre:</li>
-                                <li>Datas e horários do evento</li>
-                                <li>Local de realização</li>
-                                <li>Materiais necessários</li>
-                                <li>Regras ou orientações específicas</li>
-                            </ul>
-                        </div>
-                        <li>Participação no evento</li>
-                        <div>
-                            <ul>
-                                <li>Compareça no dia e horário informados</li>
-                                <li>Leve, se necessário, o comprovativo de inscrição ou qualquer outro documento exigido.</li>
-                                <li>Siga as orientações da equipe organizadora.</li>
-                            </ul>
-                        </div>
-                    </ol>
-                </article>
-            </section>
-            <section id="assinatura">
-                <p>assinatura do coordenador</p>
-                <hr>
-            </section>
-            <section id="rodape">
-                <img src="../image/SSDQR.png" alt="qr code do web tech" id="carmun">
-                <div id="inst">
-                    <p>Impresso por:</p>
-                    <img src="../image/carmun.png" alt="complexo escolar privado carmun" id="qr">
-                </div>
-            </section>
-        </main>
-        <script src="../scripts/logic.js"></script>
-        <script src="../scripts/menu.js"></script>
+        </section>
+        <section id="rodape">
+            <img src="../image/SSDQR.png" alt="qr code do web tech" id="carmun">
+            <div id="inst">
+                <p>Impresso por:</p>
+                <img src="../image/carmun.png" alt="complexo escolar privado carmun" id="qr">
+            </div>
+        </section>
+    </main>
+    <script src="../scripts/logic.js"></script>
+    <script src="../scripts/menu.js"></script>
 </body>
 </html>
