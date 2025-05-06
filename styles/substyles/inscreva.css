@@ -20,6 +20,7 @@ body{
     background-attachment: fixed;
     background-position: center center;
     padding: 5px 0px 10px 0px;
+    background-color: var(--fundo);
 } 
 header#ins{
     position: relative;
