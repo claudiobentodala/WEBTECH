@@ -57,10 +57,11 @@ main > section.content > article > p{
     line-height: 25px;
     text-align: left;
     font-size: 18px;
+    margin: 0 -25px;
 }
 main > section.content > article > ol{
-    margin: 0px 0px 15px 80px;
     font-size: 18px;
+    font-weight: bold;
 }
 main h3,h4{
     text-transform: uppercase;
