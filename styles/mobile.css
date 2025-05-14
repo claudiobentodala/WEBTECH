@@ -154,7 +154,6 @@ main > section#time > article > div{
 }
 main > section#time > article > div > p{
     font-size: 4em;
-    text-indent: -22%;
 }
 
 /*STATUS*/
@@ -170,7 +169,6 @@ main > section#status > article > div{
 }
 main > section#status > article > div > p{
     font-size: 4em;
-    text-indent: -30%;
 }
 /*SOBRE O EVENTO*/
 main h3,h4,p{
