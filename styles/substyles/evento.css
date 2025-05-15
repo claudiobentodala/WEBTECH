@@ -63,6 +63,7 @@ main > section > article#descricao > p{
     line-height: 23px;
     font-size: 18px;
     font-family: var(--font-second);
+    font-weight: bold;
 }
 main > section#data > p#titulo{
     font-size: 25px;
