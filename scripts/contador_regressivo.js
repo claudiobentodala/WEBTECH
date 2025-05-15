@@ -1,14 +1,11 @@
-const keyDataDestino = 'dataDestinoContador';
+const keyDataDestino = 'dataDestinoContador'; 
 let dataDestino;
 
 const dataSalva = localStorage.getItem(keyDataDestino);
 
-if (dataSalva) {
-    dataDestino = new Date(dataSalva);
-} else {
     const agora = new Date();
     const anoAtual = agora.getFullYear();
-    let alvo = new Date(anoAtual, 4, 16, 0, 0, 0);
+    const alvo = new Date(anoAtual, 4, 16, 18, 0, 0); // 17 de maio às 17h
 
     if (agora > alvo) {
         alvo.setFullYear(anoAtual + 1);
@@ -16,7 +13,7 @@ if (dataSalva) {
 
     dataDestino = alvo;
     localStorage.setItem(keyDataDestino, dataDestino.toISOString());
-}
+
 
 function atualizarContagem() {
     const agora = new Date();
