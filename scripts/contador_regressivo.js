@@ -5,7 +5,7 @@ const dataSalva = localStorage.getItem(keyDataDestino);
 
     const agora = new Date();
     const anoAtual = agora.getFullYear();
-    const alvo = new Date(anoAtual, 4, 16, 18, 0, 0); // 17 de maio às 17h
+    const alvo = new Date(anoAtual, 4, 16, 0, 0, 0);
 
     if (agora > alvo) {
         alvo.setFullYear(anoAtual + 1);
