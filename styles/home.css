@@ -62,7 +62,6 @@ main > section#intro article#text a{
     align-self: center;
     padding: 12px;
     border-radius: 10px;
-    width: 120px;
     margin-top: 15px;
     font-weight: bold;
     font-family: var(--font-main);
@@ -187,7 +186,6 @@ main > section#get a{
     padding: 12px;
     border-radius: 10px;
     margin-top: 15px;
-    width: 128px;
     font-weight: bold;
     font-family: var(--font-main);
     font-size: 17px;
@@ -248,7 +246,6 @@ main > section#ora > a{
     align-self: center;
     padding: 12px;
     border-radius: 10px;
-    width: 120px;
     margin: 15px 0px 25px 0px;
     font-weight: bold;
     font-family: var(--font-main);
@@ -311,7 +308,6 @@ main > section#ora > a{
     align-self: center;
     padding: 12px;
     border-radius: 10px;
-    width: 120px;
     margin: 15px 0px 25px 0px;
     font-weight: bold;
     font-family: var(--font-main);
