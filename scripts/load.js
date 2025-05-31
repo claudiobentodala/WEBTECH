@@ -15,6 +15,5 @@ function carregar(completo,tempo) {
         corpo.head.style.display = 'flex'
         corpo.main.style.display = 'block'
         corpo.foot.style.display = 'block'
-    }, tempo)
-    
+    }, tempo) 
 }
