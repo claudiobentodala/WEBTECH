@@ -21,11 +21,9 @@ This project aims to deliver a simple, responsive, and modern platform for promo
 ## 🛠️ Technologies Used
 
 - HTML5 & CSS3  
-- JavaScript (or Vue.js if applicable)  
-- [Add any framework/library used — e.g., Bootstrap, Tailwind CSS]  
-- [Add backend tech if applicable — e.g., Node.js, PHP, Firebase, etc.]
+- JavaScript
 
 ## 🚀 How to Run the Project
 
 1. acess this project:
-   <a href="https://claudiobentodala.github.io/WEBTECH/" >click on me</a>
+   <a href="https://claudiobentodaladev.github.io/WEBTECH/" >click on me</a>
