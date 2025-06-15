@@ -23,6 +23,10 @@ This project aims to deliver a simple, responsive, and modern platform for promo
 - HTML5 & CSS3  
 - JavaScript
 
+## 📷 Screenshot
+
+![WEB TECH PROJECT Screenshot](image/Screenshot.png)
+
 ## 🚀 How to Run the Project
 
 1. acess this project:
