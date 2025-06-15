@@ -30,4 +30,5 @@ This project aims to deliver a simple, responsive, and modern platform for promo
 ## 🚀 How to Run the Project
 
 1. acess this project:
-   <a href="https://claudiobentodaladev.github.io/WEBTECH/" >click on me</a>
+   <a href="" >click on me</a>
+   - **Acess now** [claudiobentodaladev.github.io/WEBTECH/](https://claudiobentodaladev.github.io/WEBTECH/)
