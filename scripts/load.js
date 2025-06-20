@@ -6,8 +6,7 @@ var corpo = {
 }
 
 function carregar(completo,tempo) {
-    if (completo) {}
-    else{
+    if (!completo) {
         corpo.head.style.display = 'flex'
     }
     setTimeout(function(){
