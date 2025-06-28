@@ -43,8 +43,7 @@ function money() {
     if (pay < 0) {
         valor.orcamento.value = 0
         window.alert('O orçamento não pode ser um valor negativo')
-    }
-    else if (pay > maximo) {
+    } else if (pay > maximo) {
         valor.orcamento.value = 0
         window.alert(`O orçamento não deve ser maior que ${maximo} KZ (UM MILHÃO E QUINHENTOS KWANZAS)`)
     }
